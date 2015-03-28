@@ -1,16 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c280" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="15,59,163,149"/>
-<area shape="rect" id="node1" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="5,54,173,154"/>
-<area shape="rect" id="c281" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="207,11,369,197"/>
-<area shape="rect" id="node2" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="197,6,379,202"/>
-<area shape="rect" id="c286" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="230,257,346,346"/>
-<area shape="rect" id="node7" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="220,251,356,351"/>
-<area shape="rect" id="c282" href="./CreateExampleGraph.html" title="de.tud.plt.r43ples.client.CreateExampleGraph" alt="" coords="413,59,579,149"/>
-<area shape="rect" id="node3" href="./CreateExampleGraph.html" title="&lt;TABLE&gt;" alt="" coords="403,54,589,154"/>
-<area shape="rect" id="c283" href="./CreateExampleGraphIndividuals.html" title="de.tud.plt.r43ples.client.CreateExampleGraphIndividuals" alt="" coords="623,59,851,149"/>
-<area shape="rect" id="node4" href="./CreateExampleGraphIndividuals.html" title="&lt;TABLE&gt;" alt="" coords="613,54,861,154"/>
-<area shape="rect" id="c284" href="./CreateExampleGraphRenaming.html" title="de.tud.plt.r43ples.client.CreateExampleGraphRenaming" alt="" coords="895,59,1121,149"/>
-<area shape="rect" id="node5" href="./CreateExampleGraphRenaming.html" title="&lt;TABLE&gt;" alt="" coords="885,54,1131,154"/>
-<area shape="rect" id="c285" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="1165,59,1347,149"/>
-<area shape="rect" id="node6" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="1155,54,1357,154"/>
+<area shape="rect" id="c86" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="15,11,177,197"/>
+<area shape="rect" id="node1" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="5,6,187,202"/>
+<area shape="rect" id="c89" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="38,257,154,346"/>
+<area shape="rect" id="node4" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="28,251,164,351"/>
+<area shape="rect" id="c87" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="221,59,403,149"/>
+<area shape="rect" id="node2" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="211,54,413,154"/>
+<area shape="rect" id="c88" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="447,59,595,149"/>
+<area shape="rect" id="node3" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="437,54,605,154"/>
 </map>

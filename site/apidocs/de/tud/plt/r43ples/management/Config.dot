@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.management.Config
-	c501 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Config.html">
+	c477 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Config.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Config </td></tr>
 		</table></td></tr>
@@ -19,6 +19,9 @@ digraph G {
 <tr><td align="left" balign="left"> + virtuoso_url : String </td></tr>
 <tr><td align="left" balign="left"> + virtuoso_user : String </td></tr>
 <tr><td align="left" balign="left"> + virtuoso_password : String </td></tr>
+<tr><td align="left" balign="left"> + http_url : String </td></tr>
+<tr><td align="left" balign="left"> + http_user : String </td></tr>
+<tr><td align="left" balign="left"> + http_password : String </td></tr>
 <tr><td align="left" balign="left"> + service_host : String </td></tr>
 <tr><td align="left" balign="left"> + service_port : int </td></tr>
 <tr><td align="left" balign="left"> + service_path : String </td></tr>

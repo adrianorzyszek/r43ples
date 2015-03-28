@@ -42,7 +42,7 @@
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> createNewGraph(String graphName) <strong class="jxr_keyword">throws</strong> InternalErrorException {
 <a class="jxr_linenumber" name="L35" href="#L35">35</a>  		<em class="jxr_comment">// Purge silent example graph</em>
 <a class="jxr_linenumber" name="L36" href="#L36">36</a>  		String query = String.format(<span class="jxr_string">"DROP SILENT GRAPH &lt;%s&gt;"</span>, graphName);
-<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		ep.sparql(MediaType.TEXT_HTML, query);
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		ep.sparql(MediaType.TEXT_HTML, query, false);
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>  		
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  		<em class="jxr_comment">// Create new example graph</em>
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  		query = String.format(<span class="jxr_string">"CREATE SILENT GRAPH &lt;%s&gt;"</span>, graphName);
