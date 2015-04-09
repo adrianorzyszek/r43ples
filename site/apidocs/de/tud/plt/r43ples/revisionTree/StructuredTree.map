@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c1541" href="./Tag.html" title="de.tud.plt.r43ples.revisionTree.Tag" alt="" coords="15,336,305,425"/>
-<area shape="rect" id="node1" href="./Tag.html" title="&lt;TABLE&gt;" alt="" coords="5,331,315,431"/>
-<area shape="rect" id="c1542" href="./StructuredTree.html" title="de.tud.plt.r43ples.revisionTree.StructuredTree" alt="" coords="197,67,507,188"/>
-<area shape="rect" id="node2" href="./StructuredTree.html" title="&lt;TABLE&gt;" alt="" coords="187,61,517,193"/>
-<area shape="rect" id="c1544" href="./Branch.html" title="de.tud.plt.r43ples.revisionTree.Branch" alt="" coords="377,573,687,663"/>
-<area shape="rect" id="node3" href="./Branch.html" title="&lt;TABLE&gt;" alt="" coords="367,568,697,668"/>
-<area shape="rect" id="c1545" href="./Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="399,248,1025,513"/>
-<area shape="rect" id="node4" href="./Commit.html" title="&lt;TABLE&gt;" alt="" coords="389,243,1035,519"/>
+<area shape="rect" id="c1526" href="./Branch.html" title="de.tud.plt.r43ples.revisionTree.Branch" alt="" coords="55,573,364,663"/>
+<area shape="rect" id="node1" href="./Branch.html" title="&lt;TABLE&gt;" alt="" coords="44,568,375,668"/>
+<area shape="rect" id="c1527" href="./Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="77,248,702,513"/>
+<area shape="rect" id="node2" href="./Commit.html" title="&lt;TABLE&gt;" alt="" coords="67,243,712,519"/>
+<area shape="rect" id="c1530" href="./StructuredTree.html" title="de.tud.plt.r43ples.revisionTree.StructuredTree" alt="" coords="235,67,544,188"/>
+<area shape="rect" id="node3" href="./StructuredTree.html" title="&lt;TABLE&gt;" alt="" coords="224,61,555,193"/>
+<area shape="rect" id="c1531" href="./Tag.html" title="de.tud.plt.r43ples.revisionTree.Tag" alt="" coords="746,336,1035,425"/>
+<area shape="rect" id="node4" href="./Tag.html" title="&lt;TABLE&gt;" alt="" coords="736,331,1045,431"/>
 </map>
