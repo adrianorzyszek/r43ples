@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="c41" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="16,177,312,282"/>
-<area shape="rect" id="node1" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="5,171,323,287"/>
-<area shape="rect" id="c42" href="./MMSTVisualisation.html" title="de.tud.plt.r43ples.visualisation.MMSTVisualisation" alt="" coords="336,11,659,117"/>
-<area shape="rect" id="node2" href="./MMSTVisualisation.html" title="&lt;TABLE&gt;" alt="" coords="325,6,669,122"/>
-<area shape="rect" id="c43" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="357,177,638,282"/>
-<area shape="rect" id="node3" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="347,171,648,287"/>
-<area shape="rect" id="c44" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="683,185,957,274"/>
-<area shape="rect" id="node4" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="672,179,968,279"/>
-<area shape="rect" id="c45" href="./VisualisationD3.html" title="de.tud.plt.r43ples.visualisation.VisualisationD3" alt="" coords="704,19,989,109"/>
-<area shape="rect" id="node5" href="./VisualisationD3.html" title="&lt;TABLE&gt;" alt="" coords="693,14,1000,114"/>
+<area shape="rect" id="c170" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="15,177,297,282"/>
+<area shape="rect" id="node1" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="5,171,307,287"/>
+<area shape="rect" id="c171" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="322,11,635,117"/>
+<area shape="rect" id="node2" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="312,6,645,122"/>
+<area shape="rect" id="c173" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="341,185,616,274"/>
+<area shape="rect" id="node4" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="331,179,627,279"/>
+<area shape="rect" id="c174" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="661,177,957,282"/>
+<area shape="rect" id="node5" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="651,171,968,287"/>
+<area shape="rect" id="c172" href="./VisualisationD3.html" title="de.tud.plt.r43ples.visualisation.VisualisationD3" alt="" coords="680,19,965,109"/>
+<area shape="rect" id="node3" href="./VisualisationD3.html" title="&lt;TABLE&gt;" alt="" coords="669,14,976,114"/>
 </map>

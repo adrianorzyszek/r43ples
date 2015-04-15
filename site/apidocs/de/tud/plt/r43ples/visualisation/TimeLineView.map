@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c1593" href="./MMSTVisualisation.html" title="de.tud.plt.r43ples.visualisation.MMSTVisualisation" alt="" coords="332,11,655,117"/>
-<area shape="rect" id="node1" href="./MMSTVisualisation.html" title="&lt;TABLE&gt;" alt="" coords="321,6,665,122"/>
-<area shape="rect" id="c1595" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="264,177,539,266"/>
-<area shape="rect" id="node2" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="253,171,549,271"/>
-<area shape="rect" id="c1603" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,326,971,607"/>
-<area shape="rect" id="node3" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="5,321,981,613"/>
+<area shape="rect" id="c1558" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,326,971,607"/>
+<area shape="rect" id="node1" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="5,321,981,613"/>
+<area shape="rect" id="c1570" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="337,11,650,117"/>
+<area shape="rect" id="node2" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="327,6,660,122"/>
+<area shape="rect" id="c1572" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="449,177,724,266"/>
+<area shape="rect" id="node3" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="439,171,735,271"/>
 </map>

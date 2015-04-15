@@ -59,7 +59,7 @@
 <a class="jxr_linenumber" name="L51" href="#L51">51</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.management.SampleDataSet;
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.management.SparqlRewriter;
 <a class="jxr_linenumber" name="L53" href="#L53">53</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton;
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.visualisation.MMSTVisualisation;
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.visualisation.VisualisationBatik;
 <a class="jxr_linenumber" name="L55" href="#L55">55</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.visualisation.VisualisationD3;
 <a class="jxr_linenumber" name="L56" href="#L56">56</a>  
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>  <em class="jxr_javadoccomment">/**</em>
@@ -151,13 +151,13 @@
 <a class="jxr_linenumber" name="L143" href="#L143">143</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"merging"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
 <a class="jxr_linenumber" name="L144" href="#L144">144</a> 			graphs.add(SampleDataSet.createSampleDataSetMerging());
 <a class="jxr_linenumber" name="L145" href="#L145">145</a> 		}
-<a class="jxr_linenumber" name="L146" href="#L146">146</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"merging_classes"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
+<a class="jxr_linenumber" name="L146" href="#L146">146</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"merging-classes"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
 <a class="jxr_linenumber" name="L147" href="#L147">147</a> 			graphs.add(SampleDataSet.createSampleDataSetMergingClasses());
 <a class="jxr_linenumber" name="L148" href="#L148">148</a> 		}
 <a class="jxr_linenumber" name="L149" href="#L149">149</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"renaming"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
 <a class="jxr_linenumber" name="L150" href="#L150">150</a> 			graphs.add(SampleDataSet.createSampleDataSetRenaming());
 <a class="jxr_linenumber" name="L151" href="#L151">151</a> 		}
-<a class="jxr_linenumber" name="L152" href="#L152">152</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"complex_structure"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
+<a class="jxr_linenumber" name="L152" href="#L152">152</a> 		<strong class="jxr_keyword">if</strong> (graph.equals(<span class="jxr_string">"complex-structure"</span>) || graph.equals(<span class="jxr_string">"all"</span>)){
 <a class="jxr_linenumber" name="L153" href="#L153">153</a> 			graphs.add(SampleDataSet.createSampleDataSetComplexStructure());
 <a class="jxr_linenumber" name="L154" href="#L154">154</a> 		}
 <a class="jxr_linenumber" name="L155" href="#L155">155</a> 	    htmlMap.put(<span class="jxr_string">"graphs"</span>, graphs);
@@ -185,7 +185,7 @@
 <a class="jxr_linenumber" name="L177" href="#L177">177</a> 		ResponseBuilder response = Response.ok();
 <a class="jxr_linenumber" name="L178" href="#L178">178</a> 		<strong class="jxr_keyword">if</strong> (format.equals(<span class="jxr_string">"batik"</span>)) {
 <a class="jxr_linenumber" name="L179" href="#L179">179</a> 			response.type(MediaType.TEXT_HTML);
-<a class="jxr_linenumber" name="L180" href="#L180">180</a> 			response.entity(MMSTVisualisation.getHtmlOutput(graph));
+<a class="jxr_linenumber" name="L180" href="#L180">180</a> 			response.entity(VisualisationBatik.getHtmlOutput(graph));
 <a class="jxr_linenumber" name="L181" href="#L181">181</a> 		} <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (format.equals(<span class="jxr_string">"d3"</span>)) {
 <a class="jxr_linenumber" name="L182" href="#L182">182</a> 			response.entity(VisualisationD3.getHtmlOutput(graph));
 <a class="jxr_linenumber" name="L183" href="#L183">183</a> 		}
@@ -648,7 +648,7 @@
 <a class="jxr_linenumber" name="L640" href="#L640">640</a> 			} <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (action.equalsIgnoreCase(<span class="jxr_string">"DELETE"</span>)) {
 <a class="jxr_linenumber" name="L641" href="#L641">641</a> 				queryM = m.replaceFirst(String.format(<span class="jxr_string">"INSERT %s { GRAPH &lt;%s&gt;"</span>, data, removeSetGraphUri));
 <a class="jxr_linenumber" name="L642" href="#L642">642</a> 			} <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (action.equalsIgnoreCase(<span class="jxr_string">"WHERE"</span>)) {
-<a class="jxr_linenumber" name="L643" href="#L643">643</a> 				<em class="jxr_comment">// TODO ersetze mit SPARQL JOIN</em>
+<a class="jxr_linenumber" name="L643" href="#L643">643</a> 				<em class="jxr_comment">// TODO: replace generateFullGraphOfRevision with SPARQL JOIN</em>
 <a class="jxr_linenumber" name="L644" href="#L644">644</a> 				String tempGraphName = graphName + <span class="jxr_string">"-temp"</span>;
 <a class="jxr_linenumber" name="L645" href="#L645">645</a> 				RevisionManagement.generateFullGraphOfRevision(graphName, revisionName, tempGraphName);
 <a class="jxr_linenumber" name="L646" href="#L646">646</a> 				queryM = m.replaceFirst(String.format(<span class="jxr_string">"WHERE { GRAPH &lt;%s&gt;"</span>, tempGraphName));

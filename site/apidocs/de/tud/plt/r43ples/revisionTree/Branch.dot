@@ -9,21 +9,41 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.revisionTree.Branch
-	c317 [label=<<table title="de.tud.plt.r43ples.revisionTree.Branch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Branch.html">
+	// de.tud.plt.r43ples.revisionTree.Reference
+	c278 [label=<<table title="de.tud.plt.r43ples.revisionTree.Reference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Branch </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Reference </font></td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Branch(uri : String) </td></tr>
-<tr><td align="left" balign="left"> + Branch(uri : String, name : String, ref : Commit) </td></tr>
+<tr><td align="left" balign="left"> + Reference(uri : String) </td></tr>
+<tr><td align="left" balign="left"> + Reference(uri : String, name : String, ref : Commit) </td></tr>
+<tr><td align="left" balign="left"> + getUri() : String </td></tr>
+<tr><td align="left" balign="left"> + getName() : String </td></tr>
+<tr><td align="left" balign="left"> + getReference() : Commit </td></tr>
+<tr><td align="left" balign="left"> + equals(obj : Object) : boolean </td></tr>
+<tr><td align="left" balign="left"> + hashCode() : int </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Branch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Reference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.revisionTree.StructuredTree
+	c282 [label=<<table title="de.tud.plt.r43ples.revisionTree.StructuredTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuredTree.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> StructuredTree </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + getTreeOfGraph(graph : String) : StructuredTree </td></tr>
+<tr><td align="left" balign="left"> + getCommits() : List&lt;Commit&gt; </td></tr>
+<tr><td align="left" balign="left"> + getBranches() : List&lt;Branch&gt; </td></tr>
+<tr><td align="left" balign="left"> + getTags() : List&lt;Tag&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./StructuredTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.revisionTree.Commit
-	c320 [label=<<table title="de.tud.plt.r43ples.revisionTree.Commit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Commit.html">
+	c289 [label=<<table title="de.tud.plt.r43ples.revisionTree.Commit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Commit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Commit </td></tr>
 		</table></td></tr>
@@ -46,52 +66,32 @@ digraph G {
 <tr><td align="left" balign="left"> + hashCode() : int </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Commit.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.revisionTree.Reference
-	c321 [label=<<table title="de.tud.plt.r43ples.revisionTree.Reference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Reference.html">
+	// de.tud.plt.r43ples.revisionTree.Branch
+	c290 [label=<<table title="de.tud.plt.r43ples.revisionTree.Branch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Branch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Reference </font></td></tr>
+<tr><td align="center" balign="center"> Branch </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Reference(uri : String) </td></tr>
-<tr><td align="left" balign="left"> + Reference(uri : String, name : String, ref : Commit) </td></tr>
-<tr><td align="left" balign="left"> + getUri() : String </td></tr>
-<tr><td align="left" balign="left"> + getName() : String </td></tr>
-<tr><td align="left" balign="left"> + getReference() : Commit </td></tr>
-<tr><td align="left" balign="left"> + equals(obj : Object) : boolean </td></tr>
-<tr><td align="left" balign="left"> + hashCode() : int </td></tr>
+<tr><td align="left" balign="left"> + Branch(uri : String) </td></tr>
+<tr><td align="left" balign="left"> + Branch(uri : String, name : String, ref : Commit) </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Reference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.revisionTree.StructuredTree
-	c327 [label=<<table title="de.tud.plt.r43ples.revisionTree.StructuredTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuredTree.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> StructuredTree </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + getTreeOfGraph(graph : String) : StructuredTree </td></tr>
-<tr><td align="left" balign="left"> + getCommits() : List&lt;Commit&gt; </td></tr>
-<tr><td align="left" balign="left"> + getBranches() : List&lt;Branch&gt; </td></tr>
-<tr><td align="left" balign="left"> + getTags() : List&lt;Tag&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./StructuredTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Branch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.revisionTree.Branch extends de.tud.plt.r43ples.revisionTree.Reference
-	c321:p -> c317:p [dir=back,arrowtail=empty];
-	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
-	c320:p -> c317:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c320:p -> c320:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c320:p -> c320:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c278:p -> c290:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.revisionTree.Reference NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c321:p -> c320:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c278:p -> c289:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
-	c327:p -> c317:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c282:p -> c290:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c327:p -> c320:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c282:p -> c289:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
+	c289:p -> c290:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
+	c289:p -> c289:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
+	c289:p -> c289:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="c1770" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="202,342,1157,623"/>
+<area shape="rect" id="node1" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="191,337,1167,629"/>
+<area shape="rect" id="c1781" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="51,177,332,282"/>
+<area shape="rect" id="node2" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="41,171,342,287"/>
+<area shape="rect" id="c1782" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="196,11,509,117"/>
+<area shape="rect" id="node3" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="186,6,519,122"/>
+<area shape="rect" id="c1784" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="377,185,651,274"/>
+<area shape="rect" id="node4" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="366,179,662,279"/>
+<area shape="rect" id="c1785" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="697,177,993,282"/>
+<area shape="rect" id="node5" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="686,171,1003,287"/>
+</map>
