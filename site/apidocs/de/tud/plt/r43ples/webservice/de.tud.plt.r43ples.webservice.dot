@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.webservice.Endpoint
-	c129 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Endpoint.html">
+	c0 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Endpoint.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Endpoint </td></tr>
 		</table></td></tr>
@@ -22,32 +22,18 @@ digraph G {
 <tr><td align="left" balign="left"> + createSampleDataset(graph : String) : List&lt;String&gt; </td></tr>
 <tr><td align="left" balign="left"> + getRevisionGraph(format_header : String, format_query : String, graph : String) : Object </td></tr>
 <tr><td align="left" balign="left"> + getRevisedGraphs(format_header : String, format_query : String) : String </td></tr>
-<tr><td align="left" balign="left"> + sparqlPOST(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
+<tr><td align="left" balign="left"> + sparqlPOST(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparqlGET(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
 <tr><td align="left" balign="left"> + debug(sparqlQuery : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getLandingPage() : Map&lt;String, Object&gt; </td></tr>
 <tr><td align="left" balign="left"> + getMerging() : Map&lt;String, Object&gt; </td></tr>
+<tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String, join_option : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String) : Response </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Endpoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.webservice.Service
-	c130 [label=<<table title="de.tud.plt.r43ples.webservice.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Service.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Service </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + dataset : Dataset </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Service() </td></tr>
-<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
-<tr><td align="left" balign="left"> + start() </td></tr>
-<tr><td align="left" balign="left"> + stop() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.webservice.ExceptionMapper
-	c131 [label=<<table title="de.tud.plt.r43ples.webservice.ExceptionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExceptionMapper.html">
+	c1 [label=<<table title="de.tud.plt.r43ples.webservice.ExceptionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExceptionMapper.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExceptionMapper </td></tr>
 		</table></td></tr>
@@ -56,7 +42,7 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + ExceptionMapper() </td></tr>
-<tr><td align="left" balign="left"> + toResponse(e : Exception) : Response </td></tr>
+<tr><td align="left" balign="left"> + toResponse(e : Throwable) : Response </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ExceptionMapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }

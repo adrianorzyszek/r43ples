@@ -9,20 +9,20 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.webservice.Service
-	c1398 [label=<<table title="de.tud.plt.r43ples.webservice.Service" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Service.html">
+	// de.tud.plt.r43ples.R43plesService
+	c311 [label=<<table title="de.tud.plt.r43ples.R43plesService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./R43plesService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Service </td></tr>
+<tr><td align="center" balign="center"> R43plesService </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + dataset : Dataset </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Service() </td></tr>
+<tr><td align="left" balign="left"> + R43plesService() </td></tr>
 <tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
 <tr><td align="left" balign="left"> + start() </td></tr>
 <tr><td align="left" balign="left"> + stop() </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Service.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./R43plesService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.management.Config
-	c474 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Config.html">
+	c520 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Config.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Config </td></tr>
 		</table></td></tr>
@@ -30,7 +30,6 @@ digraph G {
 <tr><td align="left" balign="left"> + revision_graph : String </td></tr>
 <tr><td align="left" balign="left"> + sdd_graph : String </td></tr>
 <tr><td align="left" balign="left"> + sdd_graph_defaultContent : String </td></tr>
-<tr><td align="left" balign="left"> + visualisation_path : String </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Config() </td></tr>
