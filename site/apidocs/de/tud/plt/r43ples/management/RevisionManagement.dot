@@ -37,6 +37,7 @@ digraph G {
 <tr><td align="left" balign="left"> + getRevisionNumberForNewBranch(graphName : String, revisionNumber : String) : String </td></tr>
 <tr><td align="left" balign="left"> + executeINSERT(graphName : String, dataSetAsNTriples : String) </td></tr>
 <tr><td align="left" balign="left"> + executeDELETE(graphName : String, dataSetAsNTriples : String) </td></tr>
+<tr><td align="left" balign="left"> + splitAndExecuteBigQuery(graphName : String, dataSetAsNTriples : String, template : String) </td></tr>
 <tr><td align="left" balign="left"> + getRevisionInformation(graphName : String, format : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getRevisedGraphsSparql(format : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getRevisedGraphsSparql() : ResultSet </td></tr>

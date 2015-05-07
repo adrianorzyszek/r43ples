@@ -231,7 +231,7 @@
 <a class="jxr_linenumber" name="L223" href="#L223">223</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> Response sparqlPOST(@HeaderParam(<span class="jxr_string">"Accept"</span>) <strong class="jxr_keyword">final</strong> String formatHeader,
 <a class="jxr_linenumber" name="L224" href="#L224">224</a> 			@FormParam(<span class="jxr_string">"format"</span>) <strong class="jxr_keyword">final</strong> String formatQuery, 
 <a class="jxr_linenumber" name="L225" href="#L225">225</a> 			@FormParam(<span class="jxr_string">"query"</span>) @DefaultValue(<span class="jxr_string">""</span>) <strong class="jxr_keyword">final</strong> String sparqlQuery,
-<a class="jxr_linenumber" name="L226" href="#L226">226</a> 			@FormParam(<span class="jxr_string">"join_option"</span>) <strong class="jxr_keyword">final</strong> String join_option) <strong class="jxr_keyword">throws</strong> InternalErrorException {
+<a class="jxr_linenumber" name="L226" href="#L226">226</a> 			@FormParam(<span class="jxr_string">"join_option"</span>) @DefaultValue(<span class="jxr_string">""</span>) <strong class="jxr_keyword">final</strong> String join_option) <strong class="jxr_keyword">throws</strong> InternalErrorException {
 <a class="jxr_linenumber" name="L227" href="#L227">227</a> 		String format = (formatQuery != <strong class="jxr_keyword">null</strong>) ? formatQuery : formatHeader;
 <a class="jxr_linenumber" name="L228" href="#L228">228</a> 		<strong class="jxr_keyword">return</strong> sparql(format, sparqlQuery, join_option);
 <a class="jxr_linenumber" name="L229" href="#L229">229</a> 	}
@@ -258,7 +258,7 @@
 <a class="jxr_linenumber" name="L250" href="#L250">250</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> Response sparqlGET(@HeaderParam(<span class="jxr_string">"Accept"</span>) <strong class="jxr_keyword">final</strong> String formatHeader,
 <a class="jxr_linenumber" name="L251" href="#L251">251</a> 			@QueryParam(<span class="jxr_string">"format"</span>) <strong class="jxr_keyword">final</strong> String formatQuery, 
 <a class="jxr_linenumber" name="L252" href="#L252">252</a> 			@QueryParam(<span class="jxr_string">"query"</span>) @DefaultValue(<span class="jxr_string">""</span>) <strong class="jxr_keyword">final</strong> String sparqlQuery,
-<a class="jxr_linenumber" name="L253" href="#L253">253</a> 			@QueryParam(<span class="jxr_string">"join_option"</span>) <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">boolean</strong> join_option) <strong class="jxr_keyword">throws</strong> InternalErrorException {
+<a class="jxr_linenumber" name="L253" href="#L253">253</a> 			@QueryParam(<span class="jxr_string">"join_option"</span>) @DefaultValue(<span class="jxr_string">""</span>) <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">boolean</strong> join_option) <strong class="jxr_keyword">throws</strong> InternalErrorException {
 <a class="jxr_linenumber" name="L254" href="#L254">254</a> 		String format = (formatQuery != <strong class="jxr_keyword">null</strong>) ? formatQuery : formatHeader;
 <a class="jxr_linenumber" name="L255" href="#L255">255</a> 		
 <a class="jxr_linenumber" name="L256" href="#L256">256</a> 		String sparqlQueryDecoded;
@@ -410,7 +410,7 @@
 <a class="jxr_linenumber" name="L402" href="#L402">402</a> <em class="jxr_javadoccomment">	 * @throws InternalErrorException</em>
 <a class="jxr_linenumber" name="L403" href="#L403">403</a> <em class="jxr_javadoccomment">	 */</em>
 <a class="jxr_linenumber" name="L404" href="#L404">404</a> 	<strong class="jxr_keyword">private</strong> Response getSparqlResponse(<strong class="jxr_keyword">final</strong> String format, String sparqlQuery, <strong class="jxr_keyword">final</strong> String join_option) <strong class="jxr_keyword">throws</strong> InternalErrorException {
-<a class="jxr_linenumber" name="L405" href="#L405">405</a> 		logger.info(<span class="jxr_string">"SPARQL query was requested. Query: "</span> + sparqlQuery);
+<a class="jxr_linenumber" name="L405" href="#L405">405</a> 		logger.info(String.format(<span class="jxr_string">"SPARQL request (format=%s, join_option=%s) -&gt; %n %s"</span>, format, join_option, sparqlQuery));
 <a class="jxr_linenumber" name="L406" href="#L406">406</a> 		String user = <strong class="jxr_keyword">null</strong>;
 <a class="jxr_linenumber" name="L407" href="#L407">407</a> 		Matcher userMatcher = patternUser.matcher(sparqlQuery);
 <a class="jxr_linenumber" name="L408" href="#L408">408</a> 		<strong class="jxr_keyword">if</strong> (userMatcher.find()) {

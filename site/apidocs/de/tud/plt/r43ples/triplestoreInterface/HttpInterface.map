@@ -1,10 +1,10 @@
 <map id="G" name="G">
 <area shape="rect" id="c781" href="./HttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" alt="" coords="1165,353,1723,554"/>
 <area shape="rect" id="node1" href="./HttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="1155,347,1733,559"/>
-<area shape="rect" id="c824" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="15,614,1131,2127"/>
-<area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="5,609,1141,2133"/>
-<area shape="rect" id="c827" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html" title="org.apache.http.HttpResponse" alt="" coords="1175,1246,1713,1495"/>
-<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html" title="&lt;TABLE&gt;" alt="" coords="1165,1241,1723,1501"/>
+<area shape="rect" id="c815" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html" title="org.apache.http.HttpResponse" alt="" coords="1175,1246,1713,1495"/>
+<area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html" title="&lt;TABLE&gt;" alt="" coords="1165,1241,1723,1501"/>
+<area shape="rect" id="c827" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="15,614,1131,2127"/>
+<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="5,609,1141,2133"/>
 <area shape="rect" id="c829" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="com.hp.hpl.jena.query.ResultSet" alt="" coords="1757,1270,2142,1471"/>
 <area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="&lt;TABLE&gt;" alt="" coords="1747,1265,2152,1477"/>
 <area shape="rect" id="c783" href="./TripleStoreInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" alt="" coords="1198,11,1690,293"/>
