@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c1070" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="259,177,541,282"/>
-<area shape="rect" id="node1" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="249,171,551,287"/>
-<area shape="rect" id="c1080" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,342,971,623"/>
-<area shape="rect" id="node3" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="5,337,981,629"/>
-<area shape="rect" id="c1072" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="337,11,650,117"/>
+<area shape="rect" id="c1069" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,342,971,623"/>
+<area shape="rect" id="node1" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="5,337,981,629"/>
+<area shape="rect" id="c1085" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="337,11,650,117"/>
 <area shape="rect" id="node2" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="327,6,660,122"/>
+<area shape="rect" id="c1086" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="447,177,729,282"/>
+<area shape="rect" id="node3" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="437,171,739,287"/>
 </map>

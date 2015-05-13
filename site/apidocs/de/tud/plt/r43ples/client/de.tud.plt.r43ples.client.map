@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c268" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="15,59,163,149"/>
-<area shape="rect" id="node1" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="5,54,173,154"/>
-<area shape="rect" id="c269" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="207,11,369,197"/>
-<area shape="rect" id="node2" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="197,6,379,202"/>
-<area shape="rect" id="c271" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="230,257,346,346"/>
-<area shape="rect" id="node4" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="220,251,356,351"/>
-<area shape="rect" id="c270" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="413,59,595,149"/>
-<area shape="rect" id="node3" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="403,54,605,154"/>
+<area shape="rect" id="c257" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="15,59,198,149"/>
+<area shape="rect" id="node1" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="5,54,208,154"/>
+<area shape="rect" id="c258" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="265,257,381,346"/>
+<area shape="rect" id="node2" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="255,251,391,351"/>
+<area shape="rect" id="c259" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="447,59,595,149"/>
+<area shape="rect" id="node3" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="437,54,605,154"/>
+<area shape="rect" id="c260" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="242,11,403,197"/>
+<area shape="rect" id="node4" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="232,6,413,202"/>
 </map>

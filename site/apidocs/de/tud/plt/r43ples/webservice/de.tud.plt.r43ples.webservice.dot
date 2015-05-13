@@ -9,8 +9,21 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.webservice.ExceptionMapper
+	c130 [label=<<table title="de.tud.plt.r43ples.webservice.ExceptionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExceptionMapper.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ExceptionMapper </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ExceptionMapper() </td></tr>
+<tr><td align="left" balign="left"> + toResponse(e : Throwable) : Response </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ExceptionMapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.webservice.Endpoint
-	c0 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Endpoint.html">
+	c131 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Endpoint.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Endpoint </td></tr>
 		</table></td></tr>
@@ -32,18 +45,5 @@ digraph G {
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String) : Response </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Endpoint.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.webservice.ExceptionMapper
-	c1 [label=<<table title="de.tud.plt.r43ples.webservice.ExceptionMapper" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExceptionMapper.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ExceptionMapper </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ExceptionMapper() </td></tr>
-<tr><td align="left" balign="left"> + toResponse(e : Throwable) : Response </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ExceptionMapper.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 
