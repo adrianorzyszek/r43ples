@@ -9,25 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c1820 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterfaceSingleton.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TripleStoreInterfaceSingleton() </td></tr>
-<tr><td align="left" balign="left"> + get() : TripleStoreInterface </td></tr>
-<tr><td align="left" balign="left"> + createJenaTDBInterface(databaseDirectory : String) : TripleStoreInterface </td></tr>
-<tr><td align="left" balign="left"> + createVirtuosoInterface(virtuoso_url : String, virtuoso_user : String, virtuoso_password : String) : TripleStoreInterface </td></tr>
-<tr><td align="left" balign="left"> + createHttpInterface(http_url : String, http_user : String, http_password : String) : TripleStoreInterface </td></tr>
-<tr><td align="left" balign="left"> + close() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1821 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c1819 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -51,7 +34,24 @@ digraph G {
 <tr><td align="left" balign="left"><font face="Helvetica-Oblique" point-size="10.0"> + getGraphs() : Iterator&lt;String&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
+	c1820 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterfaceSingleton.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + TripleStoreInterfaceSingleton() </td></tr>
+<tr><td align="left" balign="left"> + get() : TripleStoreInterface </td></tr>
+<tr><td align="left" balign="left"> + createJenaTDBInterface(databaseDirectory : String) : TripleStoreInterface </td></tr>
+<tr><td align="left" balign="left"> + createVirtuosoInterface(virtuoso_url : String, virtuoso_user : String, virtuoso_password : String) : TripleStoreInterface </td></tr>
+<tr><td align="left" balign="left"> + createHttpInterface(http_url : String, http_user : String, http_password : String) : TripleStoreInterface </td></tr>
+<tr><td align="left" balign="left"> + close() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1820:p -> c1821:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1820:p -> c1819:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 
