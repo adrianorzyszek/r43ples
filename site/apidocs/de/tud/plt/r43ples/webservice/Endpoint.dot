@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.webservice.Endpoint
-	c657 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Endpoint.html">
+	c672 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Endpoint.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Endpoint </td></tr>
 		</table></td></tr>
@@ -26,6 +26,7 @@ digraph G {
 <tr><td align="left" balign="left"> + sparqlGET(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
 <tr><td align="left" balign="left"> + debug(sparqlQuery : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getLandingPage() : Map&lt;String, Object&gt; </td></tr>
+<tr><td align="left" balign="left"> + getConfiguration() : Map&lt;String, Object&gt; </td></tr>
 <tr><td align="left" balign="left"> + getMerging() : Map&lt;String, Object&gt; </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String, join_option : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
