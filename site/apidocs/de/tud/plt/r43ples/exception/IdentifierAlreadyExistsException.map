@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="c882" href="./IdentifierAlreadyExistsException.html" title="de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException" alt="" coords="15,145,345,218"/>
-<area shape="rect" id="node1" href="./IdentifierAlreadyExistsException.html" title="&lt;TABLE&gt;" alt="" coords="5,139,355,223"/>
-<area shape="rect" id="c883" href="./InternalErrorException.html" title="de.tud.plt.r43ples.exception.InternalErrorException" alt="" coords="45,11,315,85"/>
-<area shape="rect" id="node2" href="./InternalErrorException.html" title="&lt;TABLE&gt;" alt="" coords="35,6,325,90"/>
+<area shape="rect" id="c856" href="./InternalErrorException.html" title="de.tud.plt.r43ples.exception.InternalErrorException" alt="" coords="45,11,315,85"/>
+<area shape="rect" id="node1" href="./InternalErrorException.html" title="&lt;TABLE&gt;" alt="" coords="35,6,325,90"/>
+<area shape="rect" id="c857" href="./IdentifierAlreadyExistsException.html" title="de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException" alt="" coords="15,145,345,218"/>
+<area shape="rect" id="node2" href="./IdentifierAlreadyExistsException.html" title="&lt;TABLE&gt;" alt="" coords="5,139,355,223"/>
 </map>
