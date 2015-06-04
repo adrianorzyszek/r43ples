@@ -67,15 +67,15 @@
 <a class="jxr_linenumber" name="L59" href="#L59">59</a>  			  + <span class="jxr_string">"SELECT DISTINCT ?revision "</span>
 <a class="jxr_linenumber" name="L60" href="#L60">60</a>  			  + <span class="jxr_string">"WHERE { "</span>
 <a class="jxr_linenumber" name="L61" href="#L61">61</a>  			  + <span class="jxr_string">"    GRAPH &lt;%s&gt; {"</span>
-<a class="jxr_linenumber" name="L62" href="#L62">62</a>  			  + <span class="jxr_string">"        ?branch1 prov:wasDerivedFrom+ ?revision ."</span>
-<a class="jxr_linenumber" name="L63" href="#L63">63</a>  			  + <span class="jxr_string">"        ?branch2 prov:wasDerivedFrom+ ?revision ."</span>
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>  			  + <span class="jxr_string">"        FILTER NOT EXISTS {"</span>
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>  			  + <span class="jxr_string">"            ?next prov:wasDerivedFrom ?revision."</span>
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>  			  + <span class="jxr_string">"            ?branch1 prov:wasDerivedFrom+ ?next ."</span>
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>  			  + <span class="jxr_string">"            ?branch2 prov:wasDerivedFrom+ ?next ."</span>
-<a class="jxr_linenumber" name="L68" href="#L68">68</a>  			  + <span class="jxr_string">"        }"</span>
-<a class="jxr_linenumber" name="L69" href="#L69">69</a>  			  + <span class="jxr_string">"        FILTER ( ?branch1 = &lt;%s&gt; )"</span>
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  			  + <span class="jxr_string">"        FILTER ( ?branch2 = &lt;%s&gt; )"</span>
+<a class="jxr_linenumber" name="L62" href="#L62">62</a>  			  + <span class="jxr_string">"        BIND ( &lt;%s&gt; AS ?branch1)"</span>
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>  			  + <span class="jxr_string">"        BIND ( &lt;%s&gt; AS ?branch2)"</span>
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>  			  + <span class="jxr_string">"        ?branch1 prov:wasDerivedFrom+ ?revision ."</span>
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>  			  + <span class="jxr_string">"        ?branch2 prov:wasDerivedFrom+ ?revision ."</span>
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>  			  + <span class="jxr_string">"        FILTER NOT EXISTS {"</span>
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>  			  + <span class="jxr_string">"            ?next prov:wasDerivedFrom ?revision."</span>
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>  			  + <span class="jxr_string">"            ?branch1 prov:wasDerivedFrom+ ?next ."</span>
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>  			  + <span class="jxr_string">"            ?branch2 prov:wasDerivedFrom+ ?next ."</span>
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  			  + <span class="jxr_string">"        }"</span>
 <a class="jxr_linenumber" name="L71" href="#L71">71</a>  			  + <span class="jxr_string">"    }"</span>
 <a class="jxr_linenumber" name="L72" href="#L72">72</a>  			  + <span class="jxr_string">"}"</span>
 <a class="jxr_linenumber" name="L73" href="#L73">73</a>  			  + <span class="jxr_string">"LIMIT 1"</span>,

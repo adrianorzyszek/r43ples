@@ -1,18 +1,18 @@
 <map id="G" name="G">
-<area shape="rect" id="c1825" href="./TripleStoreInterfaceSingleton.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" alt="" coords="799,11,1509,181"/>
-<area shape="rect" id="node1" href="./TripleStoreInterfaceSingleton.html" title="&lt;TABLE&gt;" alt="" coords="789,6,1519,186"/>
-<area shape="rect" id="c1826" href="./TripleStoreInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" alt="" coords="908,241,1400,522"/>
-<area shape="rect" id="node2" href="./TripleStoreInterface.html" title="&lt;TABLE&gt;" alt="" coords="898,235,1410,527"/>
-<area shape="rect" id="c1827" href="./JenaTDBInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" alt="" coords="101,582,495,783"/>
-<area shape="rect" id="node3" href="./JenaTDBInterface.html" title="&lt;TABLE&gt;" alt="" coords="90,577,506,789"/>
-<area shape="rect" id="c1828" href="./VirtuosoHttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" alt="" coords="540,582,1147,783"/>
-<area shape="rect" id="node4" href="./VirtuosoHttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="530,577,1157,789"/>
-<area shape="rect" id="c1829" href="./VirtuosoInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" alt="" coords="1191,582,1739,783"/>
-<area shape="rect" id="node5" href="./VirtuosoInterface.html" title="&lt;TABLE&gt;" alt="" coords="1181,577,1749,789"/>
-<area shape="rect" id="c1830" href="./HttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" alt="" coords="1783,582,2341,783"/>
-<area shape="rect" id="node6" href="./HttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="1773,577,2351,789"/>
-<area shape="rect" id="c1852" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="199,843,1315,2357"/>
-<area shape="rect" id="node13" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="189,838,1325,2362"/>
-<area shape="rect" id="c1853" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="com.hp.hpl.jena.query.ResultSet" alt="" coords="1359,1499,1744,1701"/>
-<area shape="rect" id="node15" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="&lt;TABLE&gt;" alt="" coords="1349,1494,1754,1706"/>
+<area shape="rect" id="c1802" href="./HttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" alt="" coords="100,582,659,783"/>
+<area shape="rect" id="node1" href="./HttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="90,577,669,789"/>
+<area shape="rect" id="c1852" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="com.hp.hpl.jena.query.ResultSet" alt="" coords="583,1499,968,1701"/>
+<area shape="rect" id="node13" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="&lt;TABLE&gt;" alt="" coords="573,1494,978,1706"/>
+<area shape="rect" id="c1853" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="1012,843,2128,2357"/>
+<area shape="rect" id="node15" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="1002,838,2138,2362"/>
+<area shape="rect" id="c1803" href="./JenaTDBInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" alt="" coords="704,582,1098,783"/>
+<area shape="rect" id="node2" href="./JenaTDBInterface.html" title="&lt;TABLE&gt;" alt="" coords="693,577,1109,789"/>
+<area shape="rect" id="c1804" href="./TripleStoreInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" alt="" coords="927,241,1419,522"/>
+<area shape="rect" id="node3" href="./TripleStoreInterface.html" title="&lt;TABLE&gt;" alt="" coords="917,235,1429,527"/>
+<area shape="rect" id="c1806" href="./VirtuosoHttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" alt="" coords="1143,582,1750,783"/>
+<area shape="rect" id="node5" href="./VirtuosoHttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="1133,577,1760,789"/>
+<area shape="rect" id="c1807" href="./VirtuosoInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" alt="" coords="1794,582,2342,783"/>
+<area shape="rect" id="node6" href="./VirtuosoInterface.html" title="&lt;TABLE&gt;" alt="" coords="1784,577,2352,789"/>
+<area shape="rect" id="c1805" href="./TripleStoreInterfaceSingleton.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" alt="" coords="818,11,1528,181"/>
+<area shape="rect" id="node4" href="./TripleStoreInterfaceSingleton.html" title="&lt;TABLE&gt;" alt="" coords="808,6,1538,186"/>
 </map>
