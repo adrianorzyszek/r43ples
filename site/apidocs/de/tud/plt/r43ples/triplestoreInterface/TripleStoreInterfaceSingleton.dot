@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1863 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c1858 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -35,7 +35,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c1864 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterfaceSingleton.html">
+	c1859 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterfaceSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
 		</table></td></tr>
@@ -53,6 +53,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1864:p -> c1863:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1859:p -> c1858:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 
