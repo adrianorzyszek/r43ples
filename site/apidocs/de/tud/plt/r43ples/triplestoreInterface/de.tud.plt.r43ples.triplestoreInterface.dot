@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface
-	c41 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
+	c87 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HttpInterface </td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./HttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface
-	c42 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
+	c88 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JenaTDBInterface </td></tr>
 		</table></td></tr>
@@ -49,28 +49,8 @@ digraph G {
 <tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./JenaTDBInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface
-	c43 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoHttpInterface.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> VirtuosoHttpInterface </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + VirtuosoHttpInterface(sparql_endpoint : String, sparql_username : String, sparql_password : String) </td></tr>
-<tr><td align="left" balign="left"> # close() </td></tr>
-<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
-<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
-<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
-<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
-<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./VirtuosoHttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c44 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c89 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -95,7 +75,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c45 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
+	c90 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
 		</table></td></tr>
@@ -112,8 +92,28 @@ digraph G {
 <tr><td align="left" balign="left"> + close() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface
+	c91 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoHttpInterface.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> VirtuosoHttpInterface </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + VirtuosoHttpInterface(sparql_endpoint : String, sparql_username : String, sparql_password : String) </td></tr>
+<tr><td align="left" balign="left"> # close() </td></tr>
+<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
+<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
+<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
+<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./VirtuosoHttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface
-	c46 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
+	c92 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VirtuosoInterface </td></tr>
 		</table></td></tr>
@@ -133,14 +133,14 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./VirtuosoInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.triplestoreInterface.HttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c44:p -> c41:p [dir=back,arrowtail=empty];
+	c89:p -> c87:p [dir=back,arrowtail=empty];
 	//de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c44:p -> c42:p [dir=back,arrowtail=empty];
-	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c44:p -> c43:p [dir=back,arrowtail=empty];
+	c89:p -> c88:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c45:p -> c44:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c90:p -> c89:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
+	c89:p -> c91:p [dir=back,arrowtail=empty];
 	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c44:p -> c46:p [dir=back,arrowtail=empty];
+	c89:p -> c92:p [dir=back,arrowtail=empty];
 }
 
