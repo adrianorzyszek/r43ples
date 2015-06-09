@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.exception.InternalErrorException
-	c1206 [label=<<table title="de.tud.plt.r43ples.exception.InternalErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InternalErrorException.html">
+	c1189 [label=<<table title="de.tud.plt.r43ples.exception.InternalErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InternalErrorException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InternalErrorException </td></tr>
 		</table></td></tr>
@@ -22,7 +22,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./InternalErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.exception.QueryErrorException
-	c1207 [label=<<table title="de.tud.plt.r43ples.exception.QueryErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QueryErrorException.html">
+	c1190 [label=<<table title="de.tud.plt.r43ples.exception.QueryErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./QueryErrorException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> QueryErrorException </td></tr>
 		</table></td></tr>
@@ -34,6 +34,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./QueryErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.exception.QueryErrorException extends de.tud.plt.r43ples.exception.InternalErrorException
-	c1206:p -> c1207:p [dir=back,arrowtail=empty];
+	c1189:p -> c1190:p [dir=back,arrowtail=empty];
 }
 
