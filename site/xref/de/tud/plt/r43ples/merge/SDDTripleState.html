@@ -5,8 +5,8 @@
 <link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
 </head>
 <body>
-<div id="overview"><a href="../../../../../../apidocs/de/tud/plt/r43ples/management/SDDTripleState.html">View Javadoc</a></div><pre>
-<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> de.tud.plt.r43ples.management;
+<div id="overview"><a href="../../../../../../apidocs/de/tud/plt/r43ples/merge/SDDTripleState.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> de.tud.plt.r43ples.merge;
 <a class="jxr_linenumber" name="L2" href="#L2">2</a>   
 <a class="jxr_linenumber" name="L3" href="#L3">3</a>   <em class="jxr_javadoccomment">/**</em>
 <a class="jxr_linenumber" name="L4" href="#L4">4</a>   <em class="jxr_javadoccomment"> * The SDD triple state.</em>
@@ -14,7 +14,7 @@
 <a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment"> * @author Stephan Hensel</em>
 <a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment"> *</em>
 <a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> */</em>
-<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">public</strong> enum <a href="../../../../../de/tud/plt/r43ples/management/SDDTripleState.html">SDDTripleState</a> {
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">public</strong> enum <a href="../../../../../de/tud/plt/r43ples/merge/SDDTripleState.html">SDDTripleState</a> {
 <a class="jxr_linenumber" name="L10" href="#L10">10</a>  	ADDED(<span class="jxr_string">"http://eatld.et.tu-dresden.de/sddo#added"</span>, <span class="jxr_string">"http://eatld.et.tu-dresden.de/rpo#added"</span>),
 <a class="jxr_linenumber" name="L11" href="#L11">11</a>  	DELETED(<span class="jxr_string">"http://eatld.et.tu-dresden.de/sddo#deleted"</span>, <span class="jxr_string">"http://eatld.et.tu-dresden.de/rpo#removed"</span>),
 <a class="jxr_linenumber" name="L12" href="#L12">12</a>  	ORIGINAL(<span class="jxr_string">"http://eatld.et.tu-dresden.de/sddo#original"</span>, <span class="jxr_string">"http://eatld.et.tu-dresden.de/rpo#original"</span>),
@@ -32,7 +32,7 @@
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  <em class="jxr_javadoccomment">	 * @param sddRepresentation the SDD representation</em>
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  <em class="jxr_javadoccomment">	 * @param rpoRepresentation the RPO representation</em>
 <a class="jxr_linenumber" name="L26" href="#L26">26</a>  <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L27" href="#L27">27</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../de/tud/plt/r43ples/management/SDDTripleState.html">SDDTripleState</a>(String sddRepresentation, String rpoRepresentation) {
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../de/tud/plt/r43ples/merge/SDDTripleState.html">SDDTripleState</a>(String sddRepresentation, String rpoRepresentation) {
 <a class="jxr_linenumber" name="L28" href="#L28">28</a>  		<strong class="jxr_keyword">this</strong>.sddRepresentation = sddRepresentation;
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  		<strong class="jxr_keyword">this</strong>.rpoRepresentation = rpoRepresentation;
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  	}

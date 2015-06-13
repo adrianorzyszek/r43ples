@@ -257,7 +257,7 @@
 <a class="jxr_linenumber" name="L249" href="#L249">249</a> 			queryContent.append(String.format(<span class="jxr_string">"&lt;%s&gt; prov:wasDerivedFrom &lt;%s&gt; ."</span>, revisionUri, revUri));
 <a class="jxr_linenumber" name="L250" href="#L250">250</a> 		}
 <a class="jxr_linenumber" name="L251" href="#L251">251</a> 		String query = prefixes
-<a class="jxr_linenumber" name="L252" href="#L252">252</a> 				+ String.format(<span class="jxr_string">"INSERT DATA { GRAPH &lt;%s&gt; { %s } } ;%n"</span>, Config.revision_graph,
+<a class="jxr_linenumber" name="L252" href="#L252">252</a> 				+ String.format(<span class="jxr_string">"INSERT DATA { GRAPH &lt;%s&gt; { %s } }"</span>, Config.revision_graph,
 <a class="jxr_linenumber" name="L253" href="#L253">253</a> 						queryContent.toString());
 <a class="jxr_linenumber" name="L254" href="#L254">254</a> 		
 <a class="jxr_linenumber" name="L255" href="#L255">255</a> 		TripleStoreInterfaceSingleton.get().executeUpdateQuery(query);
@@ -280,7 +280,7 @@
 <a class="jxr_linenumber" name="L272" href="#L272">272</a> 
 <a class="jxr_linenumber" name="L273" href="#L273">273</a> 		query = prefixes + String.format(<span class="jxr_string">"DELETE DATA { GRAPH &lt;%s&gt; { &lt;%s&gt; rmo:references &lt;%s&gt;. } };%n"</span>,
 <a class="jxr_linenumber" name="L274" href="#L274">274</a> 				Config.revision_graph, branchName, oldRevisionUri);
-<a class="jxr_linenumber" name="L275" href="#L275">275</a> 		query += String.format(<span class="jxr_string">"INSERT DATA { GRAPH &lt;%s&gt; { &lt;%s&gt; rmo:references &lt;%s&gt;. } } ;%n"</span>, Config.revision_graph,
+<a class="jxr_linenumber" name="L275" href="#L275">275</a> 		query += String.format(<span class="jxr_string">"INSERT DATA { GRAPH &lt;%s&gt; { &lt;%s&gt; rmo:references &lt;%s&gt;. } }"</span>, Config.revision_graph,
 <a class="jxr_linenumber" name="L276" href="#L276">276</a> 				branchName, revisionUri);
 <a class="jxr_linenumber" name="L277" href="#L277">277</a> 
 <a class="jxr_linenumber" name="L278" href="#L278">278</a> 		<em class="jxr_comment">// Execute queries</em>
