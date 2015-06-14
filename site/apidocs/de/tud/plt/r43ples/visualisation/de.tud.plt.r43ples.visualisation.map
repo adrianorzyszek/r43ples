@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="c43" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="16,185,291,274"/>
-<area shape="rect" id="node1" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="5,179,301,279"/>
-<area shape="rect" id="c44" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="319,11,633,117"/>
-<area shape="rect" id="node2" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="309,6,643,122"/>
-<area shape="rect" id="c45" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="335,177,617,282"/>
-<area shape="rect" id="node3" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="325,171,627,287"/>
-<area shape="rect" id="c46" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="661,177,957,282"/>
-<area shape="rect" id="node4" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="651,171,968,287"/>
-<area shape="rect" id="c47" href="./VisualisationD3.html" title="de.tud.plt.r43ples.visualisation.VisualisationD3" alt="" coords="677,19,963,109"/>
-<area shape="rect" id="node5" href="./VisualisationD3.html" title="&lt;TABLE&gt;" alt="" coords="667,14,973,114"/>
+<area shape="rect" id="c44" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="16,177,312,282"/>
+<area shape="rect" id="node1" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="5,171,323,287"/>
+<area shape="rect" id="c45" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="357,177,638,282"/>
+<area shape="rect" id="node2" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="347,171,648,287"/>
+<area shape="rect" id="c46" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="683,185,957,274"/>
+<area shape="rect" id="node3" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="672,179,968,279"/>
+<area shape="rect" id="c47" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="341,11,654,117"/>
+<area shape="rect" id="node4" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="331,6,664,122"/>
+<area shape="rect" id="c48" href="./VisualisationD3.html" title="de.tud.plt.r43ples.visualisation.VisualisationD3" alt="" coords="699,19,984,109"/>
+<area shape="rect" id="node5" href="./VisualisationD3.html" title="&lt;TABLE&gt;" alt="" coords="688,14,995,114"/>
 </map>
