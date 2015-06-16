@@ -9,32 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.exception.QueryErrorException
-	c1026 [label=<<table title="de.tud.plt.r43ples.exception.QueryErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QueryErrorException.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> QueryErrorException </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + QueryErrorException(message : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./QueryErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.exception.InternalErrorException
-	c1027 [label=<<table title="de.tud.plt.r43ples.exception.InternalErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InternalErrorException.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> InternalErrorException </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + InternalErrorException(message : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./InternalErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException
-	c1028 [label=<<table title="de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IdentifierAlreadyExistsException.html">
+	c1050 [label=<<table title="de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IdentifierAlreadyExistsException.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IdentifierAlreadyExistsException </td></tr>
 		</table></td></tr>
@@ -45,9 +21,33 @@ digraph G {
 <tr><td align="left" balign="left"> + IdentifierAlreadyExistsException(message : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./IdentifierAlreadyExistsException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//de.tud.plt.r43ples.exception.QueryErrorException extends de.tud.plt.r43ples.exception.InternalErrorException
-	c1027:p -> c1026:p [dir=back,arrowtail=empty];
+	// de.tud.plt.r43ples.exception.InternalErrorException
+	c1051 [label=<<table title="de.tud.plt.r43ples.exception.InternalErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./InternalErrorException.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> InternalErrorException </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + InternalErrorException(message : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./InternalErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.exception.QueryErrorException
+	c1052 [label=<<table title="de.tud.plt.r43ples.exception.QueryErrorException" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./QueryErrorException.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> QueryErrorException </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + QueryErrorException(message : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./QueryErrorException.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.exception.IdentifierAlreadyExistsException extends de.tud.plt.r43ples.exception.InternalErrorException
-	c1027:p -> c1028:p [dir=back,arrowtail=empty];
+	c1051:p -> c1050:p [dir=back,arrowtail=empty];
+	//de.tud.plt.r43ples.exception.QueryErrorException extends de.tud.plt.r43ples.exception.InternalErrorException
+	c1051:p -> c1052:p [dir=back,arrowtail=empty];
 }
 
