@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.management.SparqlRewriter
-	c1766 [label=<<table title="de.tud.plt.r43ples.management.SparqlRewriter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SparqlRewriter.html">
+	c1736 [label=<<table title="de.tud.plt.r43ples.management.SparqlRewriter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SparqlRewriter.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> SparqlRewriter </td></tr>
 		</table></td></tr>
@@ -26,15 +26,15 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./SparqlRewriter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.SparqlRewriter NAVASSOC com.hp.hpl.jena.sparql.expr.ExprList
-	c1766:p -> c1781:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1736:p -> c1781:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.management.SparqlRewriter NAVASSOC com.hp.hpl.jena.sparql.expr.Expr
-	c1766:p -> c1785:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.core.TriplePath
-	c1766:p -> c1789:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1736:p -> c1785:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.syntax.Element
-	c1766:p -> c1791:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1736:p -> c1787:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.syntax.ElementGroup
-	c1766:p -> c1792:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1736:p -> c1789:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.core.TriplePath
+	c1736:p -> c1792:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.sparql.expr.ExprList
 	c1781 [label=<<table title="com.hp.hpl.jena.sparql.expr.ExprList" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/expr/ExprList.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -103,7 +103,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/expr/Expr.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.sparql.syntax.Element
-	c1791 [label=<<table title="com.hp.hpl.jena.sparql.syntax.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html">
+	c1787 [label=<<table title="com.hp.hpl.jena.sparql.syntax.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Element </font></td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.syntax </td></tr>
@@ -121,7 +121,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.sparql.core.TriplePath
-	c1789 [label=<<table title="com.hp.hpl.jena.sparql.core.TriplePath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html">
+	c1792 [label=<<table title="com.hp.hpl.jena.sparql.core.TriplePath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TriplePath </td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.core </td></tr>
@@ -144,7 +144,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.sparql.syntax.ElementGroup
-	c1792 [label=<<table title="com.hp.hpl.jena.sparql.syntax.ElementGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html">
+	c1789 [label=<<table title="com.hp.hpl.jena.sparql.syntax.ElementGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ElementGroup </td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.syntax </td></tr>

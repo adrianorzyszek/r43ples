@@ -9,26 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merge.MergeResult
-	c1251 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergeResult.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MergeResult </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + graph : String </td></tr>
-<tr><td align="left" balign="left"> + branchA : String </td></tr>
-<tr><td align="left" balign="left"> + branchB : String </td></tr>
-<tr><td align="left" balign="left"> + hasConflict : boolean </td></tr>
-<tr><td align="left" balign="left"> + newRevisionNumber : String </td></tr>
-<tr><td align="left" balign="left"> + conflictModel : String </td></tr>
-<tr><td align="left" balign="left"> + graphDiff : String </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + MergeResult(graph : String, branchA : String, branchB : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergeResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface
-	c1256 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../management/Interface.html">
+	c1234 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../management/Interface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Interface </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.management </td></tr>
@@ -46,7 +28,25 @@ digraph G {
 <tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : java.lang.String, user : java.lang.String, commitMessage : java.lang.String, format : java.lang.String) : de.tud.plt.r43ples.merge.MergeResult </td></tr>
 		</table></td></tr>
 		</table>>, URL="../management/Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merge.MergeResult
+	c1252 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergeResult.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MergeResult </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + graph : String </td></tr>
+<tr><td align="left" balign="left"> + branchA : String </td></tr>
+<tr><td align="left" balign="left"> + branchB : String </td></tr>
+<tr><td align="left" balign="left"> + hasConflict : boolean </td></tr>
+<tr><td align="left" balign="left"> + newRevisionNumber : String </td></tr>
+<tr><td align="left" balign="left"> + conflictModel : String </td></tr>
+<tr><td align="left" balign="left"> + graphDiff : String </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + MergeResult(graph : String, branchA : String, branchB : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergeResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface DEPEND de.tud.plt.r43ples.merge.MergeResult
-	c1256:p -> c1251:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1234:p -> c1252:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

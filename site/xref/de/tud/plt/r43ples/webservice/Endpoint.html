@@ -549,7 +549,7 @@
 <a class="jxr_linenumber" name="L541" href="#L541">541</a> 		
 <a class="jxr_linenumber" name="L542" href="#L542">542</a> 		<strong class="jxr_keyword">if</strong> (mresult.hasConflict) {
 <a class="jxr_linenumber" name="L543" href="#L543">543</a> 			responseBuilder = Response.status(Response.Status.CONFLICT);
-<a class="jxr_linenumber" name="L544" href="#L544">544</a> 			responseBuilder.entity(RevisionManagement.getContentOfGraphByConstruct(mresult.graphDiff, format));
+<a class="jxr_linenumber" name="L544" href="#L544">544</a> 			responseBuilder.entity(mresult.conflictModel);
 <a class="jxr_linenumber" name="L545" href="#L545">545</a> 		}
 <a class="jxr_linenumber" name="L546" href="#L546">546</a> 		String graphNameHeader;
 <a class="jxr_linenumber" name="L547" href="#L547">547</a> 		<strong class="jxr_keyword">try</strong> {

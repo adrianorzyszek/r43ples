@@ -95,11 +95,11 @@
 <a class="jxr_linenumber" name="L87" href="#L87">87</a>  	<strong class="jxr_keyword">private</strong> InputStream executeQueryWithAuthorization(String query, String format) {
 <a class="jxr_linenumber" name="L88" href="#L88">88</a>  		HttpResponse response = executeQueryWithAuthorizationResponse(query, format);
 <a class="jxr_linenumber" name="L89" href="#L89">89</a>  		logger.debug(<span class="jxr_string">"Statuscode: "</span> + response.getStatusLine().getStatusCode());
-<a class="jxr_linenumber" name="L90" href="#L90">90</a>  		
-<a class="jxr_linenumber" name="L91" href="#L91">91</a>  		<strong class="jxr_keyword">try</strong>{
-<a class="jxr_linenumber" name="L92" href="#L92">92</a>  			InputStream in = response.getEntity().getContent();
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>  			<strong class="jxr_keyword">if</strong> (response.getStatusLine().getStatusCode() != Status.OK.getStatusCode()) {
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>  				logger.warn(response.getStatusLine().toString()+<span class="jxr_string">"\n"</span>+in);
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>  		<strong class="jxr_keyword">try</strong>{
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>  			InputStream in = response.getEntity().getContent();
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>  			<strong class="jxr_keyword">if</strong> (response.getStatusLine().getStatusCode() != Status.OK.getStatusCode()) {
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>  				logger.warn(response.getStatusLine().toString()+<span class="jxr_string">"\n"</span>+in);
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>  				in.close();
 <a class="jxr_linenumber" name="L95" href="#L95">95</a>  				<strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">null</strong>;
 <a class="jxr_linenumber" name="L96" href="#L96">96</a>  			}
 <a class="jxr_linenumber" name="L97" href="#L97">97</a>  			<strong class="jxr_keyword">return</strong> in;
@@ -181,12 +181,12 @@
 <a class="jxr_linenumber" name="L173" href="#L173">173</a> 		String answer;
 <a class="jxr_linenumber" name="L174" href="#L174">174</a> 		<strong class="jxr_keyword">try</strong> {
 <a class="jxr_linenumber" name="L175" href="#L175">175</a> 			answer = IOUtils.toString(result);
-<a class="jxr_linenumber" name="L176" href="#L176">176</a> 			<strong class="jxr_keyword">return</strong> answer.equals(<span class="jxr_string">"true"</span>);
-<a class="jxr_linenumber" name="L177" href="#L177">177</a> 		} <strong class="jxr_keyword">catch</strong> (IOException e) {
-<a class="jxr_linenumber" name="L178" href="#L178">178</a> 			e.printStackTrace();
-<a class="jxr_linenumber" name="L179" href="#L179">179</a> 			<strong class="jxr_keyword">return</strong> false;
-<a class="jxr_linenumber" name="L180" href="#L180">180</a> 		}
-<a class="jxr_linenumber" name="L181" href="#L181">181</a> 		
+<a class="jxr_linenumber" name="L176" href="#L176">176</a> 			result.close();
+<a class="jxr_linenumber" name="L177" href="#L177">177</a> 			<strong class="jxr_keyword">return</strong> answer.equals(<span class="jxr_string">"true"</span>);
+<a class="jxr_linenumber" name="L178" href="#L178">178</a> 		} <strong class="jxr_keyword">catch</strong> (IOException e) {
+<a class="jxr_linenumber" name="L179" href="#L179">179</a> 			e.printStackTrace();
+<a class="jxr_linenumber" name="L180" href="#L180">180</a> 			<strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="L181" href="#L181">181</a> 		}
 <a class="jxr_linenumber" name="L182" href="#L182">182</a> 	}
 <a class="jxr_linenumber" name="L183" href="#L183">183</a> 
 <a class="jxr_linenumber" name="L184" href="#L184">184</a> 	@Override

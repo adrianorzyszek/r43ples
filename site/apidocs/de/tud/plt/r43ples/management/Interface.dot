@@ -9,8 +9,26 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.management.Interface
+	c979 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Interface.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Interface </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Interface() </td></tr>
+<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : String, format : String, join_option : String) : String </td></tr>
+<tr><td align="left" balign="left"> + sparqlUpdate(query : String, user : String, commitMessage : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlCreateGraph(query : String) : String </td></tr>
+<tr><td align="left" balign="left"> + sparqlDropGraph(query : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlTagOrBranch(sparqlQuery : String, user : String, commitMessage : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : String, user : String, commitMessage : String, format : String) : MergeResult </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merge.MergeResult
-	c996 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merge/MergeResult.html">
+	c997 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merge/MergeResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergeResult </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merge </td></tr>
@@ -28,25 +46,7 @@ digraph G {
 <tr><td align="left" balign="left"> + MergeResult(graph : java.lang.String, branchA : java.lang.String, branchB : java.lang.String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../merge/MergeResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.Interface
-	c1001 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Interface.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Interface </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Interface() </td></tr>
-<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : String, format : String, join_option : String) : String </td></tr>
-<tr><td align="left" balign="left"> + sparqlUpdate(query : String, user : String, commitMessage : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlCreateGraph(query : String) : String </td></tr>
-<tr><td align="left" balign="left"> + sparqlDropGraph(query : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlTagOrBranch(sparqlQuery : String, user : String, commitMessage : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : String, user : String, commitMessage : String, format : String) : MergeResult </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface DEPEND de.tud.plt.r43ples.merge.MergeResult
-	c1001:p -> c996:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c979:p -> c997:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 
