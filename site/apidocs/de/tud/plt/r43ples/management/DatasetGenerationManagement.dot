@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.management.DatasetGenerationManagement
-	c730 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DatasetGenerationManagement.html">
+	c714 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DatasetGenerationManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DatasetGenerationManagement </td></tr>
 		</table></td></tr>
@@ -25,7 +25,6 @@ digraph G {
 <tr><td align="left" balign="left"> + executeDeleteQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
 <tr><td align="left" balign="left"> + executeDeleteWhereQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
 <tr><td align="left" balign="left"> + executeInsertDeleteQuery(user : String, message : String, graphName : String, revision : String, triplesInsert : String, triplesDelete : String) </td></tr>
-<tr><td align="left" balign="left"> + readFileToString(path : String) : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DatasetGenerationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }

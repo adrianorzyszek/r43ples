@@ -162,7 +162,7 @@
 <a class="jxr_linenumber" name="L154" href="#L154">154</a> 	@GET
 <a class="jxr_linenumber" name="L155" href="#L155">155</a> 	@Produces({ <span class="jxr_string">"text/turtle"</span>, <span class="jxr_string">"application/rdf+xml"</span>, MediaType.APPLICATION_JSON, MediaType.TEXT_HTML,
 <a class="jxr_linenumber" name="L156" href="#L156">156</a> 			MediaType.APPLICATION_SVG_XML })
-<a class="jxr_linenumber" name="L157" href="#L157">157</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> Object getRevisionGraph(@HeaderParam(<span class="jxr_string">"Accept"</span>) <strong class="jxr_keyword">final</strong> String format_header,
+<a class="jxr_linenumber" name="L157" href="#L157">157</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> Response getRevisionGraph(@HeaderParam(<span class="jxr_string">"Accept"</span>) <strong class="jxr_keyword">final</strong> String format_header,
 <a class="jxr_linenumber" name="L158" href="#L158">158</a> 			@QueryParam(<span class="jxr_string">"format"</span>) <strong class="jxr_keyword">final</strong> String format_query, @QueryParam(<span class="jxr_string">"graph"</span>) @DefaultValue(<span class="jxr_string">""</span>) <strong class="jxr_keyword">final</strong> String graph) {
 <a class="jxr_linenumber" name="L159" href="#L159">159</a> 		logger.info(<span class="jxr_string">"Get Revision Graph: "</span> + graph);
 <a class="jxr_linenumber" name="L160" href="#L160">160</a> 		String format = (format_query != <strong class="jxr_keyword">null</strong>) ? format_query : format_header;

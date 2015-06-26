@@ -156,7 +156,7 @@
 <a class="jxr_linenumber" name="L148" href="#L148">148</a> 		String initialContentFilePath = <span class="jxr_string">"verification/ExampleGraphClasses_initial.triples"</span>;
 <a class="jxr_linenumber" name="L149" href="#L149">149</a> 
 <a class="jxr_linenumber" name="L150" href="#L150">150</a> 		<em class="jxr_comment">// Read initial content from file to string</em>
-<a class="jxr_linenumber" name="L151" href="#L151">151</a> 		String initialContent = DatasetGenerationManagement.readFileToString(initialContentFilePath);
+<a class="jxr_linenumber" name="L151" href="#L151">151</a> 		String initialContent = ResourceManagement.getContentFromResource(initialContentFilePath);
 <a class="jxr_linenumber" name="L152" href="#L152">152</a> 
 <a class="jxr_linenumber" name="L153" href="#L153">153</a> 		<em class="jxr_comment">// Create new example graph</em>
 <a class="jxr_linenumber" name="L154" href="#L154">154</a> 		DatasetGenerationManagement.createNewGraph(graphName);

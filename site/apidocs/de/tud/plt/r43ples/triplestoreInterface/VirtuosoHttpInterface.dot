@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c2119 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c2026 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -35,7 +35,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface
-	c2121 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VirtuosoHttpInterface.html">
+	c2028 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./VirtuosoHttpInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VirtuosoHttpInterface </td></tr>
 		</table></td></tr>
@@ -55,19 +55,19 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./VirtuosoHttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c2119:p -> c2121:p [dir=back,arrowtail=empty];
-	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c2119:p -> c2152:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2026:p -> c2028:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c2119:p -> c2153:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c2121:p -> c2152:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2026:p -> c2058:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.query.ResultSet
+	c2026:p -> c2059:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c2121:p -> c2153:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2028:p -> c2058:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND com.hp.hpl.jena.query.ResultSet
+	c2028:p -> c2059:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND org.apache.http.HttpResponse
-	c2121:p -> c2154:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2028:p -> c2060:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.rdf.model.Model
-	c2153 [label=<<table title="com.hp.hpl.jena.rdf.model.Model" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html">
+	c2058 [label=<<table title="com.hp.hpl.jena.rdf.model.Model" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Model </td></tr>
@@ -169,7 +169,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.apache.http.HttpResponse
-	c2154 [label=<<table title="org.apache.http.HttpResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html">
+	c2060 [label=<<table title="org.apache.http.HttpResponse" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> HttpResponse </td></tr>
@@ -192,7 +192,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/http/HttpResponse.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.query.ResultSet
-	c2152 [label=<<table title="com.hp.hpl.jena.query.ResultSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html">
+	c2059 [label=<<table title="com.hp.hpl.jena.query.ResultSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResultSet </td></tr>
