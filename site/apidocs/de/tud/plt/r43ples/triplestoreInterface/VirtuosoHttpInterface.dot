@@ -60,10 +60,10 @@ digraph G {
 	c2025:p -> c2057:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.rdf.model.Model
 	c2025:p -> c2058:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND org.apache.http.HttpResponse
-	c2027:p -> c2059:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND com.hp.hpl.jena.query.ResultSet
 	c2027:p -> c2057:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND org.apache.http.HttpResponse
+	c2027:p -> c2059:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoHttpInterface DEPEND com.hp.hpl.jena.rdf.model.Model
 	c2027:p -> c2058:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.rdf.model.Model
