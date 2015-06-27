@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.merge.MergeResult
-	c1223 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergeResult.html">
+	c1222 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergeResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergeResult </td></tr>
 		</table></td></tr>
@@ -28,7 +28,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MergeResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface
-	c1228 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../management/Interface.html">
+	c1230 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../management/Interface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Interface </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.management </td></tr>
@@ -38,7 +38,7 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Interface() </td></tr>
-<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : java.lang.String, format : java.lang.String, join_option : java.lang.String) : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : java.lang.String, format : java.lang.String, join_option : boolean) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + sparqlUpdate(query : java.lang.String, user : java.lang.String, commitMessage : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + sparqlCreateGraph(query : java.lang.String) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + sparqlDropGraph(query : java.lang.String) </td></tr>
@@ -47,6 +47,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../management/Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface DEPEND de.tud.plt.r43ples.merge.MergeResult
-	c1228:p -> c1223:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1230:p -> c1222:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

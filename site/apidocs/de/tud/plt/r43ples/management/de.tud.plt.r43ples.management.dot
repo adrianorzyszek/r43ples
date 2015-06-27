@@ -33,26 +33,8 @@ digraph G {
 <tr><td align="left" balign="left"> + readConfig(configFilePath : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Config.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.DatasetGenerationManagement
-	c230 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatasetGenerationManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DatasetGenerationManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DatasetGenerationManagement() </td></tr>
-<tr><td align="left" balign="left"> + createNewGraph(graphName : String) </td></tr>
-<tr><td align="left" balign="left"> + createNewBranch(user : String, message : String, graphName : String, revision : String, branchName : String) </td></tr>
-<tr><td align="left" balign="left"> + executeInsertQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeDeleteQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeDeleteWhereQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeInsertDeleteQuery(user : String, message : String, graphName : String, revision : String, triplesInsert : String, triplesDelete : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DatasetGenerationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.GitRepositoryState
-	c231 [label=<<table title="de.tud.plt.r43ples.management.GitRepositoryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GitRepositoryState.html">
+	c230 [label=<<table title="de.tud.plt.r43ples.management.GitRepositoryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GitRepositoryState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GitRepositoryState </td></tr>
 		</table></td></tr>
@@ -76,26 +58,8 @@ digraph G {
 <tr><td align="left" balign="left"> + getGitRepositoryState() : GitRepositoryState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GitRepositoryState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.Interface
-	c232 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Interface.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Interface </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Interface() </td></tr>
-<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : String, format : String, join_option : String) : String </td></tr>
-<tr><td align="left" balign="left"> + sparqlUpdate(query : String, user : String, commitMessage : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlCreateGraph(query : String) : String </td></tr>
-<tr><td align="left" balign="left"> + sparqlDropGraph(query : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlTagOrBranch(sparqlQuery : String, user : String, commitMessage : String) </td></tr>
-<tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : String, user : String, commitMessage : String, format : String) : MergeResult </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.JenaModelManagement
-	c233 [label=<<table title="de.tud.plt.r43ples.management.JenaModelManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaModelManagement.html">
+	c231 [label=<<table title="de.tud.plt.r43ples.management.JenaModelManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaModelManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JenaModelManagement </td></tr>
 		</table></td></tr>
@@ -111,7 +75,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./JenaModelManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.ResourceManagement
-	c234 [label=<<table title="de.tud.plt.r43ples.management.ResourceManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceManagement.html">
+	c232 [label=<<table title="de.tud.plt.r43ples.management.ResourceManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResourceManagement </td></tr>
 		</table></td></tr>
@@ -124,7 +88,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./ResourceManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.RevisionManagement
-	c235 [label=<<table title="de.tud.plt.r43ples.management.RevisionManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RevisionManagement.html">
+	c233 [label=<<table title="de.tud.plt.r43ples.management.RevisionManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RevisionManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RevisionManagement </td></tr>
 		</table></td></tr>
@@ -167,6 +131,42 @@ digraph G {
 <tr><td align="left" balign="left"> + getResponseHeader(graphList : String) : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RevisionManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.DatasetGenerationManagement
+	c234 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatasetGenerationManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DatasetGenerationManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + DatasetGenerationManagement() </td></tr>
+<tr><td align="left" balign="left"> + createNewGraph(graphName : String) </td></tr>
+<tr><td align="left" balign="left"> + createNewBranch(user : String, message : String, graphName : String, revision : String, branchName : String) </td></tr>
+<tr><td align="left" balign="left"> + executeInsertQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeDeleteQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeDeleteWhereQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeInsertDeleteQuery(user : String, message : String, graphName : String, revision : String, triplesInsert : String, triplesDelete : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DatasetGenerationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.Interface
+	c235 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Interface.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Interface </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Interface() </td></tr>
+<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : String, format : String, join_option : boolean) : String </td></tr>
+<tr><td align="left" balign="left"> + sparqlUpdate(query : String, user : String, commitMessage : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlCreateGraph(query : String) : String </td></tr>
+<tr><td align="left" balign="left"> + sparqlDropGraph(query : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlTagOrBranch(sparqlQuery : String, user : String, commitMessage : String) </td></tr>
+<tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : String, user : String, commitMessage : String, format : String) : MergeResult </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.SampleDataSet
 	c236 [label=<<table title="de.tud.plt.r43ples.management.SampleDataSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleDataSet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -196,7 +196,6 @@ digraph G {
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + SparqlRewriter(query : String) </td></tr>
 <tr><td align="left" balign="left"> + rewriteQuery(query_r43ples : String) : String </td></tr>
-<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
 <tr><td align="left" balign="left"> + getRewrittenQuery() : String </td></tr>
 <tr><td align="left" balign="left"> + rewrite() : String </td></tr>
 		</table></td></tr>
