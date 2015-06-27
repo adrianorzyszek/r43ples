@@ -19,11 +19,7 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Revision(revisionNumber : String, revisionUri : String, fullGraph : String) </td></tr>
-<tr><td align="left" balign="left"> + getFirstPredecessor() : Revision </td></tr>
-<tr><td align="left" balign="left"> + addPredecessor(predecessor : Revision) </td></tr>
 <tr><td align="left" balign="left"> + getFirstSuccessor() : Revision </td></tr>
-<tr><td align="left" balign="left"> + getSuccessors() : ArrayList&lt;Revision&gt; </td></tr>
-<tr><td align="left" balign="left"> + hasSuccessor() : boolean </td></tr>
 <tr><td align="left" balign="left"> + addSuccessor(successor : Revision) </td></tr>
 <tr><td align="left" balign="left"> + getFullGraph() : String </td></tr>
 <tr><td align="left" balign="left"> + setFullGraph(fullGraph : String) </td></tr>
@@ -44,8 +40,6 @@ digraph G {
 <tr><td align="left" balign="left"> + getPathToRevision(revisionNumber : String) : LinkedList&lt;Revision&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Tree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.revisionTree.Revision NAVASSOC de.tud.plt.r43ples.revisionTree.Revision
-	c1890:p -> c1890:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Revision NAVASSOC de.tud.plt.r43ples.revisionTree.Revision
 	c1890:p -> c1890:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Tree NAVASSOC de.tud.plt.r43ples.revisionTree.Revision

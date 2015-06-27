@@ -71,7 +71,6 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Tag(uri : String, name : String, ref : Commit) </td></tr>
-<tr><td align="left" balign="left"> + Tag(uri : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Tag.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
