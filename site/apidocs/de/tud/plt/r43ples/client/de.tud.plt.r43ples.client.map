@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c323" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="15,11,177,197"/>
-<area shape="rect" id="node1" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="5,6,187,202"/>
-<area shape="rect" id="c325" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="38,257,154,346"/>
-<area shape="rect" id="node3" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="28,251,164,351"/>
-<area shape="rect" id="c324" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="221,59,403,149"/>
-<area shape="rect" id="node2" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="211,54,413,154"/>
-<area shape="rect" id="c326" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="447,59,595,149"/>
-<area shape="rect" id="node4" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="437,54,605,154"/>
+<area shape="rect" id="c323" href="./ConsoleClient.html" title="de.tud.plt.r43ples.client.ConsoleClient" alt="" coords="15,59,163,149"/>
+<area shape="rect" id="node1" href="./ConsoleClient.html" title="&lt;TABLE&gt;" alt="" coords="5,54,173,154"/>
+<area shape="rect" id="c324" href="./ConsoleClientArgs.html" title="de.tud.plt.r43ples.client.ConsoleClientArgs" alt="" coords="207,11,369,197"/>
+<area shape="rect" id="node2" href="./ConsoleClientArgs.html" title="&lt;TABLE&gt;" alt="" coords="197,6,379,202"/>
+<area shape="rect" id="c326" href="./R43plesArgs.html" title="de.tud.plt.r43ples.client.R43plesArgs" alt="" coords="230,257,346,346"/>
+<area shape="rect" id="node4" href="./R43plesArgs.html" title="&lt;TABLE&gt;" alt="" coords="220,251,356,351"/>
+<area shape="rect" id="c325" href="./PreparationDBpediaTest.html" title="de.tud.plt.r43ples.client.PreparationDBpediaTest" alt="" coords="413,59,595,149"/>
+<area shape="rect" id="node3" href="./PreparationDBpediaTest.html" title="&lt;TABLE&gt;" alt="" coords="403,54,605,154"/>
 </map>
