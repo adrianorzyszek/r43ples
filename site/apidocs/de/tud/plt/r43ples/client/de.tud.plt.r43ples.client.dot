@@ -9,8 +9,21 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.client.PreparationDBpediaTest
+	c87 [label=<<table title="de.tud.plt.r43ples.client.PreparationDBpediaTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PreparationDBpediaTest.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PreparationDBpediaTest </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + PreparationDBpediaTest() </td></tr>
+<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PreparationDBpediaTest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.ConsoleClient
-	c323 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClient.html">
+	c88 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClient.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConsoleClient </td></tr>
 		</table></td></tr>
@@ -23,7 +36,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./ConsoleClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.ConsoleClientArgs
-	c324 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClientArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClientArgs.html">
+	c89 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClientArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClientArgs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConsoleClientArgs </td></tr>
 		</table></td></tr>
@@ -41,21 +54,8 @@ digraph G {
 <tr><td align="left" balign="left"> + ConsoleClientArgs() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConsoleClientArgs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.client.PreparationDBpediaTest
-	c325 [label=<<table title="de.tud.plt.r43ples.client.PreparationDBpediaTest" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PreparationDBpediaTest.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PreparationDBpediaTest </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + PreparationDBpediaTest() </td></tr>
-<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PreparationDBpediaTest.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.R43plesArgs
-	c326 [label=<<table title="de.tud.plt.r43ples.client.R43plesArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./R43plesArgs.html">
+	c90 [label=<<table title="de.tud.plt.r43ples.client.R43plesArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./R43plesArgs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> R43plesArgs </td></tr>
 		</table></td></tr>
@@ -68,6 +68,6 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./R43plesArgs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.ConsoleClientArgs NAVASSOC de.tud.plt.r43ples.client.R43plesArgs
-	c324:p -> c326:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c89:p -> c90:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

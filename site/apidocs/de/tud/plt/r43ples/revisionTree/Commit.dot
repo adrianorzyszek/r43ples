@@ -9,23 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.visualisation.CommitGraphView
-	c485 [label=<<table title="de.tud.plt.r43ples.visualisation.CommitGraphView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/CommitGraphView.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CommitGraphView </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.visualisation </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + CommitGraphView(commits : java.util.List&lt;de.tud.plt.r43ples.revisionTree.Commit&gt;) </td></tr>
-<tr><td align="left" balign="left"> + drawGraph(g : java.awt.Graphics2D) </td></tr>
-<tr><td align="left" balign="left"> + getDimension() : java.awt.geom.Dimension2D </td></tr>
-		</table></td></tr>
-		</table>>, URL="../visualisation/CommitGraphView.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.visualisation.MessagesTableView
-	c486 [label=<<table title="de.tud.plt.r43ples.visualisation.MessagesTableView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/MessagesTableView.html">
+	c472 [label=<<table title="de.tud.plt.r43ples.visualisation.MessagesTableView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/MessagesTableView.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MessagesTableView </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.visualisation </td></tr>
@@ -40,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../visualisation/MessagesTableView.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.visualisation.TimeLineView
-	c487 [label=<<table title="de.tud.plt.r43ples.visualisation.TimeLineView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/TimeLineView.html">
+	c473 [label=<<table title="de.tud.plt.r43ples.visualisation.TimeLineView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/TimeLineView.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TimeLineView </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.visualisation </td></tr>
@@ -53,8 +38,23 @@ digraph G {
 <tr><td align="left" balign="left"> + draw(g : java.awt.Graphics2D) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../visualisation/TimeLineView.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.visualisation.CommitGraphView
+	c474 [label=<<table title="de.tud.plt.r43ples.visualisation.CommitGraphView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/CommitGraphView.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CommitGraphView </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.visualisation </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + CommitGraphView(commits : java.util.List&lt;de.tud.plt.r43ples.revisionTree.Commit&gt;) </td></tr>
+<tr><td align="left" balign="left"> + drawGraph(g : java.awt.Graphics2D) </td></tr>
+<tr><td align="left" balign="left"> + getDimension() : java.awt.geom.Dimension2D </td></tr>
+		</table></td></tr>
+		</table>>, URL="../visualisation/CommitGraphView.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.visualisation.VisualisationBatik
-	c488 [label=<<table title="de.tud.plt.r43ples.visualisation.VisualisationBatik" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/VisualisationBatik.html">
+	c475 [label=<<table title="de.tud.plt.r43ples.visualisation.VisualisationBatik" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../visualisation/VisualisationBatik.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VisualisationBatik </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.visualisation </td></tr>
@@ -68,19 +68,21 @@ digraph G {
 <tr><td align="left" balign="left"> + getHtmlOutput(graphName : java.lang.String) : java.lang.String </td></tr>
 		</table></td></tr>
 		</table>>, URL="../visualisation/VisualisationBatik.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.revisionTree.Branch
-	c496 [label=<<table title="de.tud.plt.r43ples.revisionTree.Branch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Branch.html">
+	// de.tud.plt.r43ples.revisionTree.StructuredTree
+	c496 [label=<<table title="de.tud.plt.r43ples.revisionTree.StructuredTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuredTree.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Branch </td></tr>
+<tr><td align="center" balign="center"> StructuredTree </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Branch(uri : String) </td></tr>
-<tr><td align="left" balign="left"> + Branch(uri : String, name : String, ref : Commit) </td></tr>
+<tr><td align="left" balign="left"> + getTreeOfGraph(graph : String) : StructuredTree </td></tr>
+<tr><td align="left" balign="left"> + getCommits() : List&lt;Commit&gt; </td></tr>
+<tr><td align="left" balign="left"> + getBranches() : List&lt;Branch&gt; </td></tr>
+<tr><td align="left" balign="left"> + getTags() : List&lt;Tag&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Branch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./StructuredTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.revisionTree.Commit
 	c497 [label=<<table title="de.tud.plt.r43ples.revisionTree.Commit" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Commit.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -121,52 +123,50 @@ digraph G {
 <tr><td align="left" balign="left"> + equals(obj : Object) : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Reference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.revisionTree.StructuredTree
-	c500 [label=<<table title="de.tud.plt.r43ples.revisionTree.StructuredTree" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./StructuredTree.html">
+	// de.tud.plt.r43ples.revisionTree.Branch
+	c499 [label=<<table title="de.tud.plt.r43ples.revisionTree.Branch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Branch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> StructuredTree </td></tr>
+<tr><td align="center" balign="center"> Branch </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + getTreeOfGraph(graph : String) : StructuredTree </td></tr>
-<tr><td align="left" balign="left"> + getCommits() : List&lt;Commit&gt; </td></tr>
-<tr><td align="left" balign="left"> + getBranches() : List&lt;Branch&gt; </td></tr>
-<tr><td align="left" balign="left"> + getTags() : List&lt;Tag&gt; </td></tr>
+<tr><td align="left" balign="left"> + Branch(uri : String) </td></tr>
+<tr><td align="left" balign="left"> + Branch(uri : String, name : String, ref : Commit) </td></tr>
 		</table></td></tr>
-		</table>>, URL="./StructuredTree.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Branch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.revisionTree.Branch extends de.tud.plt.r43ples.revisionTree.Reference
-	c498:p -> c496:p [dir=back,arrowtail=empty];
-	// de.tud.plt.r43ples.visualisation.CommitGraphView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c485:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.visualisation.CommitGraphView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c485:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c498:p -> c499:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.visualisation.MessagesTableView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c486:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c472:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.TimeLineView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c487:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c473:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.visualisation.CommitGraphView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
+	c474:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.visualisation.CommitGraphView NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
+	c474:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.VisualisationBatik NAVASSOC de.tud.plt.r43ples.visualisation.TimeLineView
-	c488:p -> c487:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c475:p -> c473:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.VisualisationBatik NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c488:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c475:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.VisualisationBatik NAVASSOC de.tud.plt.r43ples.visualisation.CommitGraphView
-	c488:p -> c485:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c475:p -> c474:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.VisualisationBatik NAVASSOC de.tud.plt.r43ples.visualisation.MessagesTableView
-	c488:p -> c486:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c475:p -> c472:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
+	c496:p -> c499:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
+	c496:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
-	c497:p -> c496:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c497:p -> c499:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
 	c497:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Commit NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
 	c497:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.revisionTree.Reference NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
 	c498:p -> c497:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Branch
-	c500:p -> c496:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.revisionTree.StructuredTree NAVASSOC de.tud.plt.r43ples.revisionTree.Commit
-	c500:p -> c497:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.visualisation.CommitGraphView DEPEND de.tud.plt.r43ples.revisionTree.Commit
-	c485:p -> c497:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c474:p -> c497:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 
