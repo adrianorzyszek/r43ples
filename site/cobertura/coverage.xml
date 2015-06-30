@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.7812644208583295" branch-rate="0.6775862068965517" lines-covered="1693" lines-valid="2167" branches-covered="393" branches-valid="580" complexity="2.7577092511013217" version="2.0.3" timestamp="1435416543058">
+<coverage line-rate="0.7812644208583295" branch-rate="0.6775862068965517" lines-covered="1693" lines-valid="2167" branches-covered="393" branches-valid="580" complexity="2.7577092511013217" version="2.0.3" timestamp="1435642679226">
 	<sources>
 		<source>--source</source>
 		<source>/home/travis/build/plt-tud/r43ples/src/main/java</source>
@@ -4429,19 +4429,19 @@
 					<methods>
 						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="17" hits="641" branch="false"/>
-								<line number="26" hits="641" branch="false"/>
-								<line number="27" hits="641" branch="false"/>
-								<line number="28" hits="641" branch="false"/>
-								<line number="29" hits="641" branch="false"/>
-								<line number="30" hits="641" branch="false"/>
-								<line number="31" hits="641" branch="false"/>
+								<line number="17" hits="633" branch="false"/>
+								<line number="26" hits="633" branch="false"/>
+								<line number="27" hits="633" branch="false"/>
+								<line number="28" hits="633" branch="false"/>
+								<line number="29" hits="633" branch="false"/>
+								<line number="30" hits="633" branch="false"/>
+								<line number="31" hits="633" branch="false"/>
 							</lines>
 						</method>
 						<method name="addSuccessor" signature="(Lde/tud/plt/r43ples/revisionTree/Revision;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="49" hits="550" branch="false"/>
-								<line number="50" hits="550" branch="false"/>
+								<line number="49" hits="542" branch="false"/>
+								<line number="50" hits="542" branch="false"/>
 							</lines>
 						</method>
 						<method name="getFirstSuccessor" signature="()Lde/tud/plt/r43ples/revisionTree/Revision;" line-rate="1.0" branch-rate="1.0">
@@ -4472,16 +4472,16 @@
 						</method>
 					</methods>
 					<lines>
-						<line number="17" hits="641" branch="false"/>
-						<line number="26" hits="641" branch="false"/>
-						<line number="27" hits="641" branch="false"/>
-						<line number="28" hits="641" branch="false"/>
-						<line number="29" hits="641" branch="false"/>
-						<line number="30" hits="641" branch="false"/>
-						<line number="31" hits="641" branch="false"/>
+						<line number="17" hits="633" branch="false"/>
+						<line number="26" hits="633" branch="false"/>
+						<line number="27" hits="633" branch="false"/>
+						<line number="28" hits="633" branch="false"/>
+						<line number="29" hits="633" branch="false"/>
+						<line number="30" hits="633" branch="false"/>
+						<line number="31" hits="633" branch="false"/>
 						<line number="39" hits="108" branch="false"/>
-						<line number="49" hits="550" branch="false"/>
-						<line number="50" hits="550" branch="false"/>
+						<line number="49" hits="542" branch="false"/>
+						<line number="50" hits="542" branch="false"/>
 						<line number="57" hits="203" branch="false"/>
 						<line number="65" hits="0" branch="false"/>
 						<line number="66" hits="0" branch="false"/>
@@ -4785,52 +4785,52 @@
 								<line number="40" hits="95" branch="false"/>
 								<line number="43" hits="95" branch="false"/>
 								<line number="53" hits="95" branch="false"/>
-								<line number="54" hits="736" branch="true" condition-coverage="100% (2/2)">
+								<line number="54" hits="728" branch="true" condition-coverage="100% (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100%"/>
 									</conditions>
 								</line>
-								<line number="55" hits="641" branch="false"/>
-								<line number="56" hits="641" branch="false"/>
-								<line number="57" hits="641" branch="false"/>
-								<line number="58" hits="641" branch="false"/>
-								<line number="59" hits="641" branch="true" condition-coverage="100% (2/2)">
+								<line number="55" hits="633" branch="false"/>
+								<line number="56" hits="633" branch="false"/>
+								<line number="57" hits="633" branch="false"/>
+								<line number="58" hits="633" branch="false"/>
+								<line number="59" hits="633" branch="true" condition-coverage="100% (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100%"/>
 									</conditions>
 								</line>
-								<line number="60" hits="256" branch="false"/>
-								<line number="62" hits="641" branch="false"/>
-								<line number="63" hits="641" branch="false"/>
-								<line number="64" hits="641" branch="false"/>
+								<line number="60" hits="250" branch="false"/>
+								<line number="62" hits="633" branch="false"/>
+								<line number="63" hits="633" branch="false"/>
+								<line number="64" hits="633" branch="false"/>
 								<line number="66" hits="95" branch="false"/>
 								<line number="75" hits="95" branch="false"/>
-								<line number="76" hits="645" branch="true" condition-coverage="100% (2/2)">
+								<line number="76" hits="637" branch="true" condition-coverage="100% (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100%"/>
 									</conditions>
 								</line>
-								<line number="77" hits="550" branch="false"/>
-								<line number="78" hits="550" branch="false"/>
-								<line number="79" hits="550" branch="false"/>
-								<line number="80" hits="550" branch="false"/>
-								<line number="81" hits="550" branch="false"/>
+								<line number="77" hits="542" branch="false"/>
+								<line number="78" hits="542" branch="false"/>
+								<line number="79" hits="542" branch="false"/>
+								<line number="80" hits="542" branch="false"/>
+								<line number="81" hits="542" branch="false"/>
 								<line number="82" hits="95" branch="false"/>
 							</lines>
 						</method>
 						<method name="addEdge" signature="(Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="106" hits="550" branch="false"/>
-								<line number="107" hits="550" branch="false"/>
-								<line number="108" hits="550" branch="false"/>
-								<line number="109" hits="550" branch="false"/>
+								<line number="106" hits="542" branch="false"/>
+								<line number="107" hits="542" branch="false"/>
+								<line number="108" hits="542" branch="false"/>
+								<line number="109" hits="542" branch="false"/>
 							</lines>
 						</method>
 						<method name="addNode" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="95" hits="641" branch="false"/>
-								<line number="96" hits="641" branch="false"/>
-								<line number="97" hits="641" branch="false"/>
+								<line number="95" hits="633" branch="false"/>
+								<line number="96" hits="633" branch="false"/>
+								<line number="97" hits="633" branch="false"/>
 							</lines>
 						</method>
 						<method name="getPathToRevision" signature="(Ljava/lang/String;)Ljava/util/LinkedList;" line-rate="1.0" branch-rate="1.0">
@@ -4856,44 +4856,44 @@
 						<line number="40" hits="95" branch="false"/>
 						<line number="43" hits="95" branch="false"/>
 						<line number="53" hits="95" branch="false"/>
-						<line number="54" hits="736" branch="true" condition-coverage="100% (2/2)">
+						<line number="54" hits="728" branch="true" condition-coverage="100% (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100%"/>
 							</conditions>
 						</line>
-						<line number="55" hits="641" branch="false"/>
-						<line number="56" hits="641" branch="false"/>
-						<line number="57" hits="641" branch="false"/>
-						<line number="58" hits="641" branch="false"/>
-						<line number="59" hits="641" branch="true" condition-coverage="100% (2/2)">
+						<line number="55" hits="633" branch="false"/>
+						<line number="56" hits="633" branch="false"/>
+						<line number="57" hits="633" branch="false"/>
+						<line number="58" hits="633" branch="false"/>
+						<line number="59" hits="633" branch="true" condition-coverage="100% (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100%"/>
 							</conditions>
 						</line>
-						<line number="60" hits="256" branch="false"/>
-						<line number="62" hits="641" branch="false"/>
-						<line number="63" hits="641" branch="false"/>
-						<line number="64" hits="641" branch="false"/>
+						<line number="60" hits="250" branch="false"/>
+						<line number="62" hits="633" branch="false"/>
+						<line number="63" hits="633" branch="false"/>
+						<line number="64" hits="633" branch="false"/>
 						<line number="66" hits="95" branch="false"/>
 						<line number="75" hits="95" branch="false"/>
-						<line number="76" hits="645" branch="true" condition-coverage="100% (2/2)">
+						<line number="76" hits="637" branch="true" condition-coverage="100% (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100%"/>
 							</conditions>
 						</line>
-						<line number="77" hits="550" branch="false"/>
-						<line number="78" hits="550" branch="false"/>
-						<line number="79" hits="550" branch="false"/>
-						<line number="80" hits="550" branch="false"/>
-						<line number="81" hits="550" branch="false"/>
+						<line number="77" hits="542" branch="false"/>
+						<line number="78" hits="542" branch="false"/>
+						<line number="79" hits="542" branch="false"/>
+						<line number="80" hits="542" branch="false"/>
+						<line number="81" hits="542" branch="false"/>
 						<line number="82" hits="95" branch="false"/>
-						<line number="95" hits="641" branch="false"/>
-						<line number="96" hits="641" branch="false"/>
-						<line number="97" hits="641" branch="false"/>
-						<line number="106" hits="550" branch="false"/>
-						<line number="107" hits="550" branch="false"/>
-						<line number="108" hits="550" branch="false"/>
-						<line number="109" hits="550" branch="false"/>
+						<line number="95" hits="633" branch="false"/>
+						<line number="96" hits="633" branch="false"/>
+						<line number="97" hits="633" branch="false"/>
+						<line number="106" hits="542" branch="false"/>
+						<line number="107" hits="542" branch="false"/>
+						<line number="108" hits="542" branch="false"/>
+						<line number="109" hits="542" branch="false"/>
 						<line number="119" hits="95" branch="false"/>
 						<line number="120" hits="95" branch="false"/>
 						<line number="123" hits="95" branch="false"/>

@@ -7,8 +7,8 @@
 <area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/expr/Expr.html" title="&lt;TABLE&gt;" alt="" coords="837,195,1768,615"/>
 <area shape="rect" id="c1747" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html" title="com.hp.hpl.jena.sparql.core.TriplePath" alt="" coords="1803,281,2547,530"/>
 <area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html" title="&lt;TABLE&gt;" alt="" coords="1792,275,2557,535"/>
-<area shape="rect" id="c1749" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="com.hp.hpl.jena.sparql.syntax.Element" alt="" coords="2592,321,3331,490"/>
-<area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="&lt;TABLE&gt;" alt="" coords="2581,315,3341,495"/>
-<area shape="rect" id="c1750" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="com.hp.hpl.jena.sparql.syntax.ElementGroup" alt="" coords="3376,289,4115,522"/>
-<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="&lt;TABLE&gt;" alt="" coords="3365,283,4125,527"/>
+<area shape="rect" id="c1749" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="com.hp.hpl.jena.sparql.syntax.ElementGroup" alt="" coords="2592,289,3331,522"/>
+<area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="&lt;TABLE&gt;" alt="" coords="2581,283,3341,527"/>
+<area shape="rect" id="c1750" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="com.hp.hpl.jena.sparql.syntax.Element" alt="" coords="3376,321,4115,490"/>
+<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="&lt;TABLE&gt;" alt="" coords="3365,315,4125,495"/>
 </map>
