@@ -1,16 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="c1793" href="./HttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" alt="" coords="234,518,793,719"/>
-<area shape="rect" id="node1" href="./HttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="224,513,803,725"/>
-<area shape="rect" id="c1842" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="15,779,1131,2293"/>
-<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="5,774,1141,2298"/>
-<area shape="rect" id="c1843" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="com.hp.hpl.jena.query.ResultSet" alt="" coords="1297,1435,1682,1637"/>
-<area shape="rect" id="node13" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="&lt;TABLE&gt;" alt="" coords="1287,1430,1692,1642"/>
-<area shape="rect" id="c1794" href="./JenaTDBInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" alt="" coords="837,518,1232,719"/>
-<area shape="rect" id="node2" href="./JenaTDBInterface.html" title="&lt;TABLE&gt;" alt="" coords="827,513,1243,725"/>
-<area shape="rect" id="c1795" href="./TripleStoreInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" alt="" coords="789,177,1281,458"/>
-<area shape="rect" id="node3" href="./TripleStoreInterface.html" title="&lt;TABLE&gt;" alt="" coords="779,171,1291,463"/>
-<area shape="rect" id="c1797" href="./VirtuosoInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" alt="" coords="1277,518,1825,719"/>
-<area shape="rect" id="node5" href="./VirtuosoInterface.html" title="&lt;TABLE&gt;" alt="" coords="1267,513,1835,725"/>
-<area shape="rect" id="c1796" href="./TripleStoreInterfaceSingleton.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" alt="" coords="930,11,1139,117"/>
-<area shape="rect" id="node4" href="./TripleStoreInterfaceSingleton.html" title="&lt;TABLE&gt;" alt="" coords="920,6,1149,122"/>
+<area shape="rect" id="c1793" href="./HttpInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" alt="" coords="105,518,664,719"/>
+<area shape="rect" id="node1" href="./HttpInterface.html" title="&lt;TABLE&gt;" alt="" coords="95,513,674,725"/>
+<area shape="rect" id="c1842" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="com.hp.hpl.jena.query.ResultSet" alt="" coords="252,1435,637,1637"/>
+<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html" title="&lt;TABLE&gt;" alt="" coords="242,1430,647,1642"/>
+<area shape="rect" id="c1843" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="com.hp.hpl.jena.rdf.model.Model" alt="" coords="803,779,1919,2293"/>
+<area shape="rect" id="node13" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html" title="&lt;TABLE&gt;" alt="" coords="793,774,1929,2298"/>
+<area shape="rect" id="c1794" href="./JenaTDBInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" alt="" coords="709,518,1103,719"/>
+<area shape="rect" id="node2" href="./JenaTDBInterface.html" title="&lt;TABLE&gt;" alt="" coords="698,513,1114,725"/>
+<area shape="rect" id="c1795" href="./TripleStoreInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" alt="" coords="660,177,1152,458"/>
+<area shape="rect" id="node3" href="./TripleStoreInterface.html" title="&lt;TABLE&gt;" alt="" coords="650,171,1162,463"/>
+<area shape="rect" id="c1796" href="./VirtuosoInterface.html" title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" alt="" coords="1148,518,1696,719"/>
+<area shape="rect" id="node4" href="./VirtuosoInterface.html" title="&lt;TABLE&gt;" alt="" coords="1138,513,1706,725"/>
+<area shape="rect" id="c1797" href="./TripleStoreInterfaceSingleton.html" title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" alt="" coords="801,11,1011,117"/>
+<area shape="rect" id="node5" href="./TripleStoreInterfaceSingleton.html" title="&lt;TABLE&gt;" alt="" coords="791,6,1021,122"/>
 </map>
