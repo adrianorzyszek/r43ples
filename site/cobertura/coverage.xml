@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.892530897367007" branch-rate="0.7303370786516854" lines-covered="1661" lines-valid="1861" branches-covered="390" branches-valid="534" complexity="2.9005524861878453" version="2.0.3" timestamp="1435781214083">
+<coverage line-rate="0.892530897367007" branch-rate="0.7303370786516854" lines-covered="1661" lines-valid="1861" branches-covered="390" branches-valid="534" complexity="2.9005524861878453" version="2.0.3" timestamp="1435782086965">
 	<sources>
 		<source>--source</source>
 		<source>/home/travis/build/plt-tud/r43ples/src/main/java</source>

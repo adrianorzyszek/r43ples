@@ -7,8 +7,8 @@
 <area shape="rect" id="node5" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/expr/Expr.html" title="&lt;TABLE&gt;" alt="" coords="837,179,1768,599"/>
 <area shape="rect" id="c1626" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html" title="com.hp.hpl.jena.sparql.core.TriplePath" alt="" coords="1803,265,2547,514"/>
 <area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html" title="&lt;TABLE&gt;" alt="" coords="1792,259,2557,519"/>
-<area shape="rect" id="c1628" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="com.hp.hpl.jena.sparql.syntax.ElementGroup" alt="" coords="2592,273,3331,506"/>
-<area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="&lt;TABLE&gt;" alt="" coords="2581,267,3341,511"/>
-<area shape="rect" id="c1629" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="com.hp.hpl.jena.sparql.syntax.Element" alt="" coords="3376,305,4115,474"/>
-<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="&lt;TABLE&gt;" alt="" coords="3365,299,4125,479"/>
+<area shape="rect" id="c1628" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="com.hp.hpl.jena.sparql.syntax.Element" alt="" coords="2592,305,3331,474"/>
+<area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html" title="&lt;TABLE&gt;" alt="" coords="2581,299,3341,479"/>
+<area shape="rect" id="c1629" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="com.hp.hpl.jena.sparql.syntax.ElementGroup" alt="" coords="3376,273,4115,506"/>
+<area shape="rect" id="node11" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html" title="&lt;TABLE&gt;" alt="" coords="3365,267,4125,511"/>
 </map>
