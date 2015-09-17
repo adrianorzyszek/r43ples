@@ -158,14 +158,14 @@
   <td class="src"><pre class="src">&nbsp;        @Override</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;77</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">public</span> ResultSet executeSelectQuery(String selectQueryString) {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;78</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                dataset.begin(ReadWrite.READ);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                logger.debug(selectQueryString);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;80</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                QueryExecution qExec = QueryExecutionFactory.create(selectQueryString, dataset);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;78</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                dataset.begin(ReadWrite.READ);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                logger.debug(selectQueryString);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;80</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                QueryExecution qExec = QueryExecutionFactory.create(selectQueryString, dataset);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;81</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;82</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                ResultSet result = qExec.execSelect();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;83</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                dataset.end();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;84</td>  <td class="nbHitsCovered">&nbsp;3641</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> result;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;82</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                ResultSet result = qExec.execSelect();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;83</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                dataset.end();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;84</td>  <td class="nbHitsCovered">&nbsp;3944</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> result;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;85</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;86</td>  <td class="nbHits">&nbsp;</td>
@@ -273,19 +273,19 @@
   <td class="src"><pre class="src">&nbsp;        @Override</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;147</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">public</span> <span class="keyword">void</span> executeUpdateQuery(String updateQueryString) {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;148</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;                logger.debug(<span class="string">"Query:"</span> + updateQueryString);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;149</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;                dataset.begin(ReadWrite.WRITE);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;148</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;                logger.debug(<span class="string">"Query:"</span> + updateQueryString);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;149</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;                dataset.begin(ReadWrite.WRITE);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;150</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;151</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;                GraphStore graphStore = GraphStoreFactory.create(dataset) ;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;151</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;                GraphStore graphStore = GraphStoreFactory.create(dataset) ;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;152</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;153</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;            UpdateRequest request = UpdateFactory.create(updateQueryString) ;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;154</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;            UpdateProcessor proc = UpdateExecutionFactory.create(request, graphStore) ;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;155</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;            proc.execute();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;156</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;            dataset.commit();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;157</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;                dataset.end();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;158</td>  <td class="nbHitsCovered">&nbsp;3667</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;153</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;            UpdateRequest request = UpdateFactory.create(updateQueryString) ;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;154</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;            UpdateProcessor proc = UpdateExecutionFactory.create(request, graphStore) ;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;155</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;            proc.execute();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;156</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;            dataset.commit();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;157</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;                dataset.end();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;158</td>  <td class="nbHitsCovered">&nbsp;3669</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;159</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;160</td>  <td class="nbHits">&nbsp;</td>
@@ -326,6 +326,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 9/17/15 1:01 PM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 9/17/15 2:50 PM.</div>
 </body>
 </html>

@@ -9,60 +9,24 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.Difference
-	c5258 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/model/structure/Difference.html">
+	// de.tud.plt.r43ples.management.SDDTripleStateEnum
+	c5249 [label=<<table title="de.tud.plt.r43ples.management.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SDDTripleStateEnum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Difference </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Difference(triple : de.tud.plt.r43ples.merging.model.structure.Triple, referencedRevisionA : java.lang.String, referencedRevisionLabelA : java.lang.String, referencedRevisionB : java.lang.String, referencedRevisionLabelB : java.lang.String, tripleResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum, resolutionState : de.tud.plt.r43ples.management.ResolutionState) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : de.tud.plt.r43ples.merging.model.structure.Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : de.tud.plt.r43ples.merging.model.structure.Triple) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionA() : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : java.lang.String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : java.lang.String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionB() : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : java.lang.String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : java.lang.String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleResolutionState() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getResolutionState() : de.tud.plt.r43ples.management.ResolutionState </td></tr>
-<tr><td align="left" balign="left"> + setResolutionState(resolutionState : de.tud.plt.r43ples.management.ResolutionState) </td></tr>
+<tr><td align="left" balign="left"> ADDED </td></tr>
+<tr><td align="left" balign="left"> DELETED </td></tr>
+<tr><td align="left" balign="left"> ORIGINAL </td></tr>
+<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
 		</table></td></tr>
-		</table>>, URL="../merging/model/structure/Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c5259 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/model/structure/DifferenceGroup.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DifferenceGroup </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DifferenceGroup(tripleStateA : de.tud.plt.r43ples.management.SDDTripleStateEnum, tripleStateB : de.tud.plt.r43ples.management.SDDTripleStateEnum, automaticResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum, conflicting : boolean) </td></tr>
-<tr><td align="left" balign="left"> + getTripleStateA() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleStateA(tripleStateA : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getTripleStateB() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleStateB(tripleStateB : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getAutomaticResolutionState() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setAutomaticResolutionState(automaticResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + isConflicting() : boolean </td></tr>
-<tr><td align="left" balign="left"> + setConflicting(conflicting : boolean) </td></tr>
-<tr><td align="left" balign="left"> + getDifferences() : java.util.HashMap&lt;java.lang.String, de.tud.plt.r43ples.merging.model.structure.Difference&gt; </td></tr>
-<tr><td align="left" balign="left"> + setDifferences(differences : java.util.HashMap&lt;java.lang.String, de.tud.plt.r43ples.merging.model.structure.Difference&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addDifference(identifier : java.lang.String, difference : de.tud.plt.r43ples.merging.model.structure.Difference) </td></tr>
-<tr><td align="left" balign="left"> + removeDifference(identifier : java.lang.String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="../merging/model/structure/DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c5279 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/management/ProcessManagement.html">
+	c5290 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -99,39 +63,75 @@ digraph G {
 <tr><td align="left" balign="left"> + getAllTriplesDividedIntoInsertAndDelete(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel, model : com.hp.hpl.jena.rdf.model.Model) : java.util.ArrayList&lt;java.lang.String&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="../merging/management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5303 [label=<<table title="de.tud.plt.r43ples.management.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./SDDTripleStateEnum.html">
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
+	c5295 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/model/structure/DifferenceGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
+<tr><td align="center" balign="center"> DifferenceGroup </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> ADDED </td></tr>
-<tr><td align="left" balign="left"> DELETED </td></tr>
-<tr><td align="left" balign="left"> ORIGINAL </td></tr>
-<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
+<tr><td align="left" balign="left"> + DifferenceGroup(tripleStateA : de.tud.plt.r43ples.management.SDDTripleStateEnum, tripleStateB : de.tud.plt.r43ples.management.SDDTripleStateEnum, automaticResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum, conflicting : boolean) </td></tr>
+<tr><td align="left" balign="left"> + getTripleStateA() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleStateA(tripleStateA : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getTripleStateB() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleStateB(tripleStateB : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getAutomaticResolutionState() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setAutomaticResolutionState(automaticResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + isConflicting() : boolean </td></tr>
+<tr><td align="left" balign="left"> + setConflicting(conflicting : boolean) </td></tr>
+<tr><td align="left" balign="left"> + getDifferences() : java.util.HashMap&lt;java.lang.String, de.tud.plt.r43ples.merging.model.structure.Difference&gt; </td></tr>
+<tr><td align="left" balign="left"> + setDifferences(differences : java.util.HashMap&lt;java.lang.String, de.tud.plt.r43ples.merging.model.structure.Difference&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addDifference(identifier : java.lang.String, difference : de.tud.plt.r43ples.merging.model.structure.Difference) </td></tr>
+<tr><td align="left" balign="left"> + removeDifference(identifier : java.lang.String) </td></tr>
 		</table></td></tr>
-		</table>>, URL="./SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5258:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+		</table>>, URL="../merging/model/structure/DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Difference
+	c5310 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/model/structure/Difference.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Difference </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Difference(triple : de.tud.plt.r43ples.merging.model.structure.Triple, referencedRevisionA : java.lang.String, referencedRevisionLabelA : java.lang.String, referencedRevisionB : java.lang.String, referencedRevisionLabelB : java.lang.String, tripleResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum, resolutionState : de.tud.plt.r43ples.management.ResolutionState) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : de.tud.plt.r43ples.merging.model.structure.Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : de.tud.plt.r43ples.merging.model.structure.Triple) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionA() : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionB() : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleResolutionState() : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : de.tud.plt.r43ples.management.SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getResolutionState() : de.tud.plt.r43ples.management.ResolutionState </td></tr>
+<tr><td align="left" balign="left"> + setResolutionState(resolutionState : de.tud.plt.r43ples.management.ResolutionState) </td></tr>
+		</table></td></tr>
+		</table>>, URL="../merging/model/structure/Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5259:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5295:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5259:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5295:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5259:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5295:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c5259:p -> c5258:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.Difference DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5258:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5259:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5295:p -> c5310:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
+	c5310:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c5279:p -> c5303:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5290:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
-	c5279:p -> c5258:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5290:p -> c5310:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
+	c5295:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.model.structure.Difference DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
+	c5310:p -> c5249:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

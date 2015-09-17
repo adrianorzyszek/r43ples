@@ -9,54 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
-	c2579 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighLevelChangeTableModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeTableModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeTableModel() </td></tr>
-<tr><td align="left" balign="left"> + readTableRow(tableRow : HighLevelChangeTableRow) </td></tr>
-<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;HighLevelChangeTableRow&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;HighLevelChangeTableRow&gt;) </td></tr>
-<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, HighLevelChangeTableRow&gt; </td></tr>
-<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, HighLevelChangeTableRow&gt;) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeTableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c2580 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableRow.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeTableRow </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeTableRow(highLevelChangeRenaming : HighLevelChangeRenaming, subject : String, predicate : String, objectAlt : String, objectNew : String, isResolved : String, isRenaming : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
-<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
-<tr><td align="left" balign="left"> + getHighLevelChangeRenaming() : HighLevelChangeRenaming </td></tr>
-<tr><td align="left" balign="left"> + setHighLevelChangeRenaming(highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectAlt() : String </td></tr>
-<tr><td align="left" balign="left"> + setObjectAlt(objectAlt : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectNew() : String </td></tr>
-<tr><td align="left" balign="left"> + setObjectNew(objectNew : String) </td></tr>
-<tr><td align="left" balign="left"> + getIsResolved() : String </td></tr>
-<tr><td align="left" balign="left"> + setIsResolved(isResolved : String) </td></tr>
-<tr><td align="left" balign="left"> + getIsRenaming() : String </td></tr>
-<tr><td align="left" balign="left"> + setIsRenaming(isRenaming : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeTableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c2595 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
+	c2606 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -94,7 +48,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c2601 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c2608 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -134,13 +88,59 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c2579:p -> c2580:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c2579:p -> c2580:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
+	c2613 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighLevelChangeTableModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeTableModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeTableModel() </td></tr>
+<tr><td align="left" balign="left"> + readTableRow(tableRow : HighLevelChangeTableRow) </td></tr>
+<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;HighLevelChangeTableRow&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;HighLevelChangeTableRow&gt;) </td></tr>
+<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, HighLevelChangeTableRow&gt; </td></tr>
+<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, HighLevelChangeTableRow&gt;) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeTableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c2621 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableRow.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeTableRow </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeTableRow(highLevelChangeRenaming : HighLevelChangeRenaming, subject : String, predicate : String, objectAlt : String, objectNew : String, isResolved : String, isRenaming : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
+<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
+<tr><td align="left" balign="left"> + getHighLevelChangeRenaming() : HighLevelChangeRenaming </td></tr>
+<tr><td align="left" balign="left"> + setHighLevelChangeRenaming(highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectAlt() : String </td></tr>
+<tr><td align="left" balign="left"> + setObjectAlt(objectAlt : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectNew() : String </td></tr>
+<tr><td align="left" balign="left"> + setObjectNew(objectNew : String) </td></tr>
+<tr><td align="left" balign="left"> + getIsResolved() : String </td></tr>
+<tr><td align="left" balign="left"> + setIsResolved(isResolved : String) </td></tr>
+<tr><td align="left" balign="left"> + getIsRenaming() : String </td></tr>
+<tr><td align="left" balign="left"> + setIsRenaming(isRenaming : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeTableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
-	c2601:p -> c2579:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2608:p -> c2613:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c2613:p -> c2621:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c2613:p -> c2621:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
-	c2595:p -> c2579:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2606:p -> c2613:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

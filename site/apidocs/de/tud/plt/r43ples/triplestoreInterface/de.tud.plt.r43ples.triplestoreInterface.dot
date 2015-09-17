@@ -9,48 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface
-	c159 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HttpInterface </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HttpInterface(sparql_endpoint : String, sparql_username : String, sparql_password : String) </td></tr>
-<tr><td align="left" balign="left"> # close() </td></tr>
-<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
-<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
-<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
-<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
-<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface
-	c160 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> JenaTDBInterface </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + JenaTDBInterface(databaseDirectory : String) </td></tr>
-<tr><td align="left" balign="left"> + close() </td></tr>
-<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
-<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
-<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
-<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
-<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
-<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./JenaTDBInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c161 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c571 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -75,7 +35,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c162 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
+	c572 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
 		</table></td></tr>
@@ -88,8 +48,28 @@ digraph G {
 <tr><td align="left" balign="left"> + close() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface
+	c573 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HttpInterface </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HttpInterface(sparql_endpoint : String, sparql_username : String, sparql_password : String) </td></tr>
+<tr><td align="left" balign="left"> # close() </td></tr>
+<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
+<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
+<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
+<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface
-	c163 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
+	c574 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VirtuosoInterface </td></tr>
 		</table></td></tr>
@@ -108,13 +88,33 @@ digraph G {
 <tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
 		</table></td></tr>
 		</table>>, URL="./VirtuosoInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	//de.tud.plt.r43ples.triplestoreInterface.HttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c161:p -> c159:p [dir=back,arrowtail=empty];
-	//de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c161:p -> c160:p [dir=back,arrowtail=empty];
+	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface
+	c575 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> JenaTDBInterface </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + JenaTDBInterface(databaseDirectory : String) </td></tr>
+<tr><td align="left" balign="left"> + close() </td></tr>
+<tr><td align="left" balign="left"> + executeSelectQuery(selectQueryString : String) : ResultSet </td></tr>
+<tr><td align="left" balign="left"> + executeConstructQuery(constructQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeDescribeQuery(describeQueryString : String) : Model </td></tr>
+<tr><td align="left" balign="left"> + executeAskQuery(askQueryString : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + executeUpdateQuery(updateQueryString : String) </td></tr>
+<tr><td align="left" balign="left"> + executeCreateGraph(graph : String) </td></tr>
+<tr><td align="left" balign="left"> + getGraphs() : Iterator&lt;String&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./JenaTDBInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c162:p -> c161:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c572:p -> c571:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	//de.tud.plt.r43ples.triplestoreInterface.HttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
+	c571:p -> c573:p [dir=back,arrowtail=empty];
 	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c161:p -> c163:p [dir=back,arrowtail=empty];
+	c571:p -> c574:p [dir=back,arrowtail=empty];
+	//de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
+	c571:p -> c575:p [dir=back,arrowtail=empty];
 }
 

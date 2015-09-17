@@ -9,82 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.TableModel
-	c5736 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TableModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TableModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TableModel() </td></tr>
-<tr><td align="left" balign="left"> + readTableRow(tableRow : TableRow) </td></tr>
-<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;TableRow&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;TableRow&gt;) </td></tr>
-<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, Triple&gt; </td></tr>
-<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, Triple&gt;) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.TableRow
-	c5737 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableRow.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TableRow </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TableRow(triple : Triple, subject : String, predicate : String, object : String, stateA : String, stateB : String, revisionA : String, revisionB : String, conflicting : String, resolutionState : String, state : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
-<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObject() : String </td></tr>
-<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
-<tr><td align="left" balign="left"> + getStateA() : String </td></tr>
-<tr><td align="left" balign="left"> + setStateA(stateA : String) </td></tr>
-<tr><td align="left" balign="left"> + getStateB() : String </td></tr>
-<tr><td align="left" balign="left"> + setStateB(stateB : String) </td></tr>
-<tr><td align="left" balign="left"> + getRevisionA() : String </td></tr>
-<tr><td align="left" balign="left"> + setRevisionA(revisionA : String) </td></tr>
-<tr><td align="left" balign="left"> + getRevisionB() : String </td></tr>
-<tr><td align="left" balign="left"> + setRevisionB(revisionB : String) </td></tr>
-<tr><td align="left" balign="left"> + getConflicting() : String </td></tr>
-<tr><td align="left" balign="left"> + setConflicting(conflicting : String) </td></tr>
-<tr><td align="left" balign="left"> + getResolutionState() : String </td></tr>
-<tr><td align="left" balign="left"> + setResolutionState(resolutionState : String) </td></tr>
-<tr><td align="left" balign="left"> + setState(state : String) </td></tr>
-<tr><td align="left" balign="left"> + getState() : String </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Triple
-	c5739 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Triple </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObject() : String </td></tr>
-<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
-<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c5743 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
+	c5754 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -122,7 +48,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c5749 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c5756 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -162,17 +88,91 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableRow
-	c5736:p -> c5737:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c5736:p -> c5739:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c5737:p -> c5739:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableModel
+	c5763 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TableModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TableModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + TableModel() </td></tr>
+<tr><td align="left" balign="left"> + readTableRow(tableRow : TableRow) </td></tr>
+<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;TableRow&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;TableRow&gt;) </td></tr>
+<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, Triple&gt; </td></tr>
+<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, Triple&gt;) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Triple
+	c5770 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Triple </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObject() : String </td></tr>
+<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
+<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.TableRow
+	c5773 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableRow.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TableRow </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + TableRow(triple : Triple, subject : String, predicate : String, object : String, stateA : String, stateB : String, revisionA : String, revisionB : String, conflicting : String, resolutionState : String, state : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
+<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObject() : String </td></tr>
+<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
+<tr><td align="left" balign="left"> + getStateA() : String </td></tr>
+<tr><td align="left" balign="left"> + setStateA(stateA : String) </td></tr>
+<tr><td align="left" balign="left"> + getStateB() : String </td></tr>
+<tr><td align="left" balign="left"> + setStateB(stateB : String) </td></tr>
+<tr><td align="left" balign="left"> + getRevisionA() : String </td></tr>
+<tr><td align="left" balign="left"> + setRevisionA(revisionA : String) </td></tr>
+<tr><td align="left" balign="left"> + getRevisionB() : String </td></tr>
+<tr><td align="left" balign="left"> + setRevisionB(revisionB : String) </td></tr>
+<tr><td align="left" balign="left"> + getConflicting() : String </td></tr>
+<tr><td align="left" balign="left"> + setConflicting(conflicting : String) </td></tr>
+<tr><td align="left" balign="left"> + getResolutionState() : String </td></tr>
+<tr><td align="left" balign="left"> + setResolutionState(resolutionState : String) </td></tr>
+<tr><td align="left" balign="left"> + setState(state : String) </td></tr>
+<tr><td align="left" balign="left"> + getState() : String </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableModel
-	c5749:p -> c5736:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5756:p -> c5763:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableRow
+	c5763:p -> c5773:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
+	c5763:p -> c5770:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
+	c5773:p -> c5770:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Triple
-	c5743:p -> c5739:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5754:p -> c5770:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.TableModel
-	c5743:p -> c5736:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5754:p -> c5763:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

@@ -9,43 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.IndividualModel
-	c2891 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IndividualModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IndividualModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + IndividualModel() </td></tr>
-<tr><td align="left" balign="left"> + getIndividualStructures() : HashMap&lt;String, IndividualStructure&gt; </td></tr>
-<tr><td align="left" balign="left"> + setIndividualStructures(individualStructures : HashMap&lt;String, IndividualStructure&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addIndividualStructure(identifier : String, individualStructure : IndividualStructure) </td></tr>
-<tr><td align="left" balign="left"> + removeIndividualStructure(identifier : String) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IndividualModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c2892 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IndividualStructure </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + IndividualStructure(individualUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getIndividualUri() : String </td></tr>
-<tr><td align="left" balign="left"> + setIndividualUri(individualUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getTriples() : HashMap&lt;String, TripleIndividualStructure&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTriples(triples : HashMap&lt;String, TripleIndividualStructure&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addTriple(identifier : String, triple : TripleIndividualStructure) </td></tr>
-<tr><td align="left" balign="left"> + removeTriple(identifier : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c2905 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
+	c2916 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -83,7 +48,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c2911 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c2918 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -123,13 +88,48 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure
+	c2930 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IndividualStructure </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + IndividualStructure(individualUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getIndividualUri() : String </td></tr>
+<tr><td align="left" balign="left"> + setIndividualUri(individualUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getTriples() : HashMap&lt;String, TripleIndividualStructure&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTriples(triples : HashMap&lt;String, TripleIndividualStructure&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addTriple(identifier : String, triple : TripleIndividualStructure) </td></tr>
+<tr><td align="left" balign="left"> + removeTriple(identifier : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualModel
+	c2937 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IndividualModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IndividualModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + IndividualModel() </td></tr>
+<tr><td align="left" balign="left"> + getIndividualStructures() : HashMap&lt;String, IndividualStructure&gt; </td></tr>
+<tr><td align="left" balign="left"> + setIndividualStructures(individualStructures : HashMap&lt;String, IndividualStructure&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addIndividualStructure(identifier : String, individualStructure : IndividualStructure) </td></tr>
+<tr><td align="left" balign="left"> + removeIndividualStructure(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IndividualModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualModel
+	c2918:p -> c2937:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualModel
+	c2918:p -> c2937:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.IndividualModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c2891:p -> c2892:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualModel
-	c2911:p -> c2891:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualModel
-	c2911:p -> c2891:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2937:p -> c2930:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.IndividualModel
-	c2905:p -> c2891:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2916:p -> c2937:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

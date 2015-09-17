@@ -9,8 +9,24 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.merging.model.structure.PatchGroup
+	c3843 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatchGroup.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PatchGroup </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + PatchGroup(basisRevisionNumber : String, patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
+<tr><td align="left" balign="left"> + getBasisRevisionNumber() : String </td></tr>
+<tr><td align="left" balign="left"> + setBasisRevisionNumber(basisRevisionNumber : String) </td></tr>
+<tr><td align="left" balign="left"> + getPatchMap() : LinkedHashMap&lt;String, Patch&gt; </td></tr>
+<tr><td align="left" balign="left"> + setPatchMap(patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PatchGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.Patch
-	c3808 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Patch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Patch.html">
+	c3849 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Patch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Patch.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Patch </td></tr>
 		</table></td></tr>
@@ -31,23 +47,7 @@ digraph G {
 <tr><td align="left" balign="left"> + setRemovedSetUri(removedSetUri : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Patch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.PatchGroup
-	c3809 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatchGroup.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PatchGroup </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + PatchGroup(basisRevisionNumber : String, patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
-<tr><td align="left" balign="left"> + getBasisRevisionNumber() : String </td></tr>
-<tr><td align="left" balign="left"> + setBasisRevisionNumber(basisRevisionNumber : String) </td></tr>
-<tr><td align="left" balign="left"> + getPatchMap() : LinkedHashMap&lt;String, Patch&gt; </td></tr>
-<tr><td align="left" balign="left"> + setPatchMap(patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PatchGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.PatchGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Patch
-	c3809:p -> c3808:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c3843:p -> c3849:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

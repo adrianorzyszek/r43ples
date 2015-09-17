@@ -9,36 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1422 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommitModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CommitModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + CommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
-<tr><td align="left" balign="left"> + getGraphName() : String </td></tr>
-<tr><td align="left" balign="left"> + setGraphName(graphName : String) </td></tr>
-<tr><td align="left" balign="left"> + getSddName() : String </td></tr>
-<tr><td align="left" balign="left"> + setSddName(sddName : String) </td></tr>
-<tr><td align="left" balign="left"> + getUser() : String </td></tr>
-<tr><td align="left" balign="left"> + setUser(user : String) </td></tr>
-<tr><td align="left" balign="left"> + getMessage() : String </td></tr>
-<tr><td align="left" balign="left"> + setMessage(message : String) </td></tr>
-<tr><td align="left" balign="left"> + getBranch1() : String </td></tr>
-<tr><td align="left" balign="left"> + setBranch1(branch1 : String) </td></tr>
-<tr><td align="left" balign="left"> + getBranch2() : String </td></tr>
-<tr><td align="left" balign="left"> + setBranch2(branch2 : String) </td></tr>
-<tr><td align="left" balign="left"> + getStrategy() : String </td></tr>
-<tr><td align="left" balign="left"> + setStrategy(strategy : String) </td></tr>
-<tr><td align="left" balign="left"> + getType() : String </td></tr>
-<tr><td align="left" balign="left"> + setType(type : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CommitModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.FastForwardControl
-	c1449 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/FastForwardControl.html">
+	c1456 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/FastForwardControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FastForwardControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -54,7 +26,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../control/FastForwardControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c1450 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c1457 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -95,7 +67,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.RebaseControl
-	c1451 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/RebaseControl.html">
+	c1458 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/RebaseControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RebaseControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -121,19 +93,47 @@ digraph G {
 <tr><td align="left" balign="left"> + updateRebaseDifferenceModel(updatedDifferenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/RebaseControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.CommitModel
+	c1465 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CommitModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CommitModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + CommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
+<tr><td align="left" balign="left"> + getGraphName() : String </td></tr>
+<tr><td align="left" balign="left"> + setGraphName(graphName : String) </td></tr>
+<tr><td align="left" balign="left"> + getSddName() : String </td></tr>
+<tr><td align="left" balign="left"> + setSddName(sddName : String) </td></tr>
+<tr><td align="left" balign="left"> + getUser() : String </td></tr>
+<tr><td align="left" balign="left"> + setUser(user : String) </td></tr>
+<tr><td align="left" balign="left"> + getMessage() : String </td></tr>
+<tr><td align="left" balign="left"> + setMessage(message : String) </td></tr>
+<tr><td align="left" balign="left"> + getBranch1() : String </td></tr>
+<tr><td align="left" balign="left"> + setBranch1(branch1 : String) </td></tr>
+<tr><td align="left" balign="left"> + getBranch2() : String </td></tr>
+<tr><td align="left" balign="left"> + setBranch2(branch2 : String) </td></tr>
+<tr><td align="left" balign="left"> + getStrategy() : String </td></tr>
+<tr><td align="left" balign="left"> + setStrategy(strategy : String) </td></tr>
+<tr><td align="left" balign="left"> + getType() : String </td></tr>
+<tr><td align="left" balign="left"> + setType(type : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CommitModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.FastForwardControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1449:p -> c1422:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1456:p -> c1465:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1450:p -> c1422:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1457:p -> c1465:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.control.RebaseControl
-	c1450:p -> c1451:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1457:p -> c1458:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1451:p -> c1422:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1458:p -> c1465:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.control.MergingControl
-	c1451:p -> c1450:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1458:p -> c1457:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.MergingControl DEPEND de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1450:p -> c1422:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1457:p -> c1465:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.control.RebaseControl DEPEND de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c1451:p -> c1422:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1458:p -> c1465:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

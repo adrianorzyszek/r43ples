@@ -9,27 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4647 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportResult.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ReportResult </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ReportResult() </td></tr>
-<tr><td align="left" balign="left"> + getConflictsNotApproved() : int </td></tr>
-<tr><td align="left" balign="left"> + incrementCounterConflictsNotApproved() </td></tr>
-<tr><td align="left" balign="left"> + setConflictsNotApproved(conflictsNotApproved : int) </td></tr>
-<tr><td align="left" balign="left"> + getDifferencesResolutionChanged() : int </td></tr>
-<tr><td align="left" balign="left"> + incrementCounterDifferencesResolutionChanged() </td></tr>
-<tr><td align="left" balign="left"> + decrementCounterDifferencesResolutionChanged() </td></tr>
-<tr><td align="left" balign="left"> + setDifferencesResolutionChanged(differencesResolutionChanged : int) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ReportResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ReportManagement
-	c4659 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ReportManagement.html">
+	c4666 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ReportManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -44,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../management/ReportManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c4663 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c4670 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -84,9 +65,28 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.ReportResult
+	c4679 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportResult.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ReportResult </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ReportResult() </td></tr>
+<tr><td align="left" balign="left"> + getConflictsNotApproved() : int </td></tr>
+<tr><td align="left" balign="left"> + incrementCounterConflictsNotApproved() </td></tr>
+<tr><td align="left" balign="left"> + setConflictsNotApproved(conflictsNotApproved : int) </td></tr>
+<tr><td align="left" balign="left"> + getDifferencesResolutionChanged() : int </td></tr>
+<tr><td align="left" balign="left"> + incrementCounterDifferencesResolutionChanged() </td></tr>
+<tr><td align="left" balign="left"> + decrementCounterDifferencesResolutionChanged() </td></tr>
+<tr><td align="left" balign="left"> + setDifferencesResolutionChanged(differencesResolutionChanged : int) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ReportResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4663:p -> c4647:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c4670:p -> c4679:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4659:p -> c4647:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c4666:p -> c4679:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

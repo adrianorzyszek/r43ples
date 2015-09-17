@@ -1,16 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="c6178" href="./Difference.html" title="de.tud.plt.r43ples.merging.model.structure.Difference" alt="" coords="1362,870,2763,1167"/>
-<area shape="rect" id="node1" href="./Difference.html" title="&lt;TABLE&gt;" alt="" coords="1352,865,2773,1173"/>
-<area shape="rect" id="c6195" href="./Triple.html" title="de.tud.plt.r43ples.merging.model.structure.Triple" alt="" coords="1028,1307,1601,1509"/>
-<area shape="rect" id="node4" href="./Triple.html" title="&lt;TABLE&gt;" alt="" coords="1017,1302,1612,1514"/>
-<area shape="rect" id="c6192" href="./TableModel.html" title="de.tud.plt.r43ples.merging.model.structure.TableModel" alt="" coords="896,561,1267,730"/>
-<area shape="rect" id="node2" href="./TableModel.html" title="&lt;TABLE&gt;" alt="" coords="885,555,1277,735"/>
-<area shape="rect" id="c6193" href="./TableRow.html" title="de.tud.plt.r43ples.merging.model.structure.TableRow" alt="" coords="15,790,1217,1247"/>
-<area shape="rect" id="node3" href="./TableRow.html" title="&lt;TABLE&gt;" alt="" coords="5,785,1227,1253"/>
-<area shape="rect" id="c6226" href="../../../management/TripleObjectTypeEnum.html" title="de.tud.plt.r43ples.management.TripleObjectTypeEnum" alt="" coords="1215,1569,1415,1690"/>
-<area shape="rect" id="node7" href="../../../management/TripleObjectTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="1204,1563,1425,1695"/>
-<area shape="rect" id="c6196" href="./TripleIndividualStructure.html" title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" alt="" coords="2241,577,2631,714"/>
-<area shape="rect" id="node5" href="./TripleIndividualStructure.html" title="&lt;TABLE&gt;" alt="" coords="2231,571,2641,719"/>
-<area shape="rect" id="c6199" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="155,11,2475,501"/>
-<area shape="rect" id="node6" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="144,6,2485,506"/>
+<area shape="rect" id="c6171" href="../../../management/TripleObjectTypeEnum.html" title="de.tud.plt.r43ples.management.TripleObjectTypeEnum" alt="" coords="1277,1569,1477,1690"/>
+<area shape="rect" id="node1" href="../../../management/TripleObjectTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="1266,1563,1488,1695"/>
+<area shape="rect" id="c6210" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="217,11,2537,501"/>
+<area shape="rect" id="node2" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="206,6,2548,506"/>
+<area shape="rect" id="c6219" href="./TableModel.html" title="de.tud.plt.r43ples.merging.model.structure.TableModel" alt="" coords="544,561,914,730"/>
+<area shape="rect" id="node3" href="./TableModel.html" title="&lt;TABLE&gt;" alt="" coords="533,555,925,735"/>
+<area shape="rect" id="c6226" href="./Triple.html" title="de.tud.plt.r43ples.merging.model.structure.Triple" alt="" coords="1090,1307,1664,1509"/>
+<area shape="rect" id="node4" href="./Triple.html" title="&lt;TABLE&gt;" alt="" coords="1080,1302,1674,1514"/>
+<area shape="rect" id="c6230" href="./Difference.html" title="de.tud.plt.r43ples.merging.model.structure.Difference" alt="" coords="1424,870,2826,1167"/>
+<area shape="rect" id="node6" href="./Difference.html" title="&lt;TABLE&gt;" alt="" coords="1414,865,2836,1173"/>
+<area shape="rect" id="c6229" href="./TableRow.html" title="de.tud.plt.r43ples.merging.model.structure.TableRow" alt="" coords="128,790,1330,1247"/>
+<area shape="rect" id="node5" href="./TableRow.html" title="&lt;TABLE&gt;" alt="" coords="118,785,1340,1253"/>
+<area shape="rect" id="c6232" href="./TripleIndividualStructure.html" title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" alt="" coords="2165,577,2554,714"/>
+<area shape="rect" id="node7" href="./TripleIndividualStructure.html" title="&lt;TABLE&gt;" alt="" coords="2154,571,2565,719"/>
 </map>

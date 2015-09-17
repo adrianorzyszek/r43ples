@@ -9,8 +9,22 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.merging.management.ReportManagement
+	c4590 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ReportManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ReportManagement() </td></tr>
+<tr><td align="left" balign="left"> + initialReportResult(differenceModel : DifferenceModel) : ReportResult </td></tr>
+<tr><td align="left" balign="left"> + createReportTableRowList(differenceModel : DifferenceModel) : List&lt;ReportTableRow&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ReportManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c4562 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/DifferenceModel.html">
+	c4598 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/DifferenceModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DifferenceModel </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
@@ -28,7 +42,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../model/structure/DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4571 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/ReportResult.html">
+	c4603 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/ReportResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportResult </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
@@ -47,23 +61,9 @@ digraph G {
 <tr><td align="left" balign="left"> + setDifferencesResolutionChanged(differencesResolutionChanged : int) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/structure/ReportResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.management.ReportManagement
-	c4583 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ReportManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ReportManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ReportManagement() </td></tr>
-<tr><td align="left" balign="left"> + initialReportResult(differenceModel : DifferenceModel) : ReportResult </td></tr>
-<tr><td align="left" balign="left"> + createReportTableRowList(differenceModel : DifferenceModel) : List&lt;ReportTableRow&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ReportManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c4583:p -> c4562:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c4590:p -> c4598:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4583:p -> c4571:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c4590:p -> c4603:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

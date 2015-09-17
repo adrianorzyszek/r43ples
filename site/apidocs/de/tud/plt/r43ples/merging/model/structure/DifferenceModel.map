@@ -1,14 +1,14 @@
 <map id="G" name="G">
-<area shape="rect" id="c2043" href="./DifferenceGroup.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" alt="" coords="3027,1371,4003,1637"/>
-<area shape="rect" id="node1" href="./DifferenceGroup.html" title="&lt;TABLE&gt;" alt="" coords="3016,1366,4013,1642"/>
-<area shape="rect" id="c2044" href="./DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="3274,1158,3755,1311"/>
-<area shape="rect" id="node2" href="./DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="3264,1153,3765,1317"/>
-<area shape="rect" id="c2063" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="16,609,2336,1098"/>
-<area shape="rect" id="node3" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,603,2347,1103"/>
-<area shape="rect" id="c2065" href="../../management/ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="2381,793,3467,914"/>
-<area shape="rect" id="node4" href="../../management/ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="2371,787,3477,919"/>
-<area shape="rect" id="c2069" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="3563,11,4957,549"/>
-<area shape="rect" id="node5" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="3552,6,4968,554"/>
-<area shape="rect" id="c2070" href="../../control/RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="3563,697,4957,1010"/>
-<area shape="rect" id="node6" href="../../control/RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="3552,691,4968,1015"/>
+<area shape="rect" id="c2072" href="../../management/ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="15,793,1102,914"/>
+<area shape="rect" id="node1" href="../../management/ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,787,1112,919"/>
+<area shape="rect" id="c2080" href="./DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="3969,1158,4450,1311"/>
+<area shape="rect" id="node6" href="./DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="3959,1153,4460,1317"/>
+<area shape="rect" id="c2074" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="1147,609,3467,1098"/>
+<area shape="rect" id="node2" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="1136,603,3477,1103"/>
+<area shape="rect" id="c2076" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="3512,11,4907,549"/>
+<area shape="rect" id="node3" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="3501,6,4917,554"/>
+<area shape="rect" id="c2077" href="../../control/RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="3512,697,4907,1010"/>
+<area shape="rect" id="node4" href="../../control/RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="3501,691,4917,1015"/>
+<area shape="rect" id="c2079" href="./DifferenceGroup.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" alt="" coords="3721,1371,4697,1637"/>
+<area shape="rect" id="node5" href="./DifferenceGroup.html" title="&lt;TABLE&gt;" alt="" coords="3711,1366,4708,1642"/>
 </map>

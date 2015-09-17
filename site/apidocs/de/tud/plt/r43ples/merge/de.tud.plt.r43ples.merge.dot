@@ -9,42 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merge.MergeManagement
-	c581 [label=<<table title="de.tud.plt.r43ples.merge.MergeManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MergeManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + MergeManagement() </td></tr>
-<tr><td align="left" balign="left"> + getCommonRevisionWithShortestPath(revision1 : String, revision2 : String) : String </td></tr>
-<tr><td align="left" balign="left"> + getPathBetweenStartAndTargetRevision(startRevision : String, targetRevision : String) : LinkedList&lt;String&gt; </td></tr>
-<tr><td align="left" balign="left"> + createRevisionProgresses(listA : LinkedList&lt;String&gt;, graphNameRevisionProgressA : String, uriA : String, listB : LinkedList&lt;String&gt;, graphNameRevisionProgressB : String, uriB : String) </td></tr>
-<tr><td align="left" balign="left"> + createRevisionProgress(list : LinkedList&lt;String&gt;, fullGraphNameCommonRevision : String, graphNameRevisionProgress : String, uri : String) </td></tr>
-<tr><td align="left" balign="left"> + createDifferenceTripleModel(graphName : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String) </td></tr>
-<tr><td align="left" balign="left"> + createMergedRevision(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : MergeQueryTypeEnum, triples : String) : String </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergeManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merge.MergeQueryTypeEnum
-	c582 [label=<<table title="de.tud.plt.r43ples.merge.MergeQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeQueryTypeEnum.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> MergeQueryTypeEnum </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> AUTO </td></tr>
-<tr><td align="left" balign="left"> MANUAL </td></tr>
-<tr><td align="left" balign="left"> WITH </td></tr>
-<tr><td align="left" balign="left"> COMMON </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergeQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merge.MergeResult
-	c583 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeResult.html">
+	c248 [label=<<table title="de.tud.plt.r43ples.merge.MergeResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergeResult </td></tr>
 		</table></td></tr>
@@ -61,8 +27,24 @@ digraph G {
 <tr><td align="left" balign="left"> + MergeResult(graph : String, branchA : String, branchB : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MergeResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merge.MergeQueryTypeEnum
+	c249 [label=<<table title="de.tud.plt.r43ples.merge.MergeQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeQueryTypeEnum.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> MergeQueryTypeEnum </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> AUTO </td></tr>
+<tr><td align="left" balign="left"> MANUAL </td></tr>
+<tr><td align="left" balign="left"> WITH </td></tr>
+<tr><td align="left" balign="left"> COMMON </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergeQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merge.SDDTripleState
-	c584 [label=<<table title="de.tud.plt.r43ples.merge.SDDTripleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SDDTripleState.html">
+	c250 [label=<<table title="de.tud.plt.r43ples.merge.SDDTripleState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SDDTripleState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
 <tr><td align="center" balign="center"> SDDTripleState </td></tr>
@@ -77,5 +59,23 @@ digraph G {
 <tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
 		</table></td></tr>
 		</table>>, URL="./SDDTripleState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merge.MergeManagement
+	c251 [label=<<table title="de.tud.plt.r43ples.merge.MergeManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MergeManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + MergeManagement() </td></tr>
+<tr><td align="left" balign="left"> + getCommonRevisionWithShortestPath(revision1 : String, revision2 : String) : String </td></tr>
+<tr><td align="left" balign="left"> + getPathBetweenStartAndTargetRevision(startRevision : String, targetRevision : String) : LinkedList&lt;String&gt; </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgresses(listA : LinkedList&lt;String&gt;, graphNameRevisionProgressA : String, uriA : String, listB : LinkedList&lt;String&gt;, graphNameRevisionProgressB : String, uriB : String) </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgress(list : LinkedList&lt;String&gt;, fullGraphNameCommonRevision : String, graphNameRevisionProgress : String, uri : String) </td></tr>
+<tr><td align="left" balign="left"> + createDifferenceTripleModel(graphName : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String) </td></tr>
+<tr><td align="left" balign="left"> + createMergedRevision(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : MergeQueryTypeEnum, triples : String) : String </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergeManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

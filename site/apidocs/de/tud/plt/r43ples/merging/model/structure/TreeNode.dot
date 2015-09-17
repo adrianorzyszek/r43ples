@@ -9,28 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.TreeNode
-	c6118 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TreeNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TreeNode.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TreeNode </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + differenceGroup : String </td></tr>
-<tr><td align="left" balign="left"> + tripleList : List&lt;String&gt; </td></tr>
-<tr><td align="left" balign="left"> + status : boolean </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TreeNode(differenceGroup : String, tripleList : List&lt;String&gt;, status : boolean) </td></tr>
-<tr><td align="left" balign="left"> + getDifferenceGroup() : String </td></tr>
-<tr><td align="left" balign="left"> + setDifferenceGroup(differenceGroup : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleList() : List&lt;String&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTripleList(tripleList : List&lt;String&gt;) </td></tr>
-<tr><td align="left" balign="left"> + isStatus() : boolean </td></tr>
-<tr><td align="left" balign="left"> + setStatus(status : boolean) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TreeNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c6129 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c6136 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -70,7 +50,27 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.TreeNode
+	c6157 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TreeNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TreeNode.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TreeNode </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + differenceGroup : String </td></tr>
+<tr><td align="left" balign="left"> + tripleList : List&lt;String&gt; </td></tr>
+<tr><td align="left" balign="left"> + status : boolean </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + TreeNode(differenceGroup : String, tripleList : List&lt;String&gt;, status : boolean) </td></tr>
+<tr><td align="left" balign="left"> + getDifferenceGroup() : String </td></tr>
+<tr><td align="left" balign="left"> + setDifferenceGroup(differenceGroup : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleList() : List&lt;String&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTripleList(tripleList : List&lt;String&gt;) </td></tr>
+<tr><td align="left" balign="left"> + isStatus() : boolean </td></tr>
+<tr><td align="left" balign="left"> + setStatus(status : boolean) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TreeNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.TreeNode
-	c6129:p -> c6118:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c6136:p -> c6157:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c5258" href="../merging/model/structure/Difference.html" title="de.tud.plt.r43ples.merging.model.structure.Difference" alt="" coords="863,561,3103,874"/>
-<area shape="rect" id="node1" href="../merging/model/structure/Difference.html" title="&lt;TABLE&gt;" alt="" coords="852,555,3113,879"/>
-<area shape="rect" id="c5303" href="./SDDTripleStateEnum.html" title="de.tud.plt.r43ples.management.SDDTripleStateEnum" alt="" coords="705,934,852,1071"/>
-<area shape="rect" id="node4" href="./SDDTripleStateEnum.html" title="&lt;TABLE&gt;" alt="" coords="695,929,863,1077"/>
-<area shape="rect" id="c5259" href="../merging/model/structure/DifferenceGroup.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" alt="" coords="16,115,1541,397"/>
-<area shape="rect" id="node2" href="../merging/model/structure/DifferenceGroup.html" title="&lt;TABLE&gt;" alt="" coords="5,110,1552,402"/>
-<area shape="rect" id="c5279" href="../merging/management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="1788,11,4108,501"/>
-<area shape="rect" id="node3" href="../merging/management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="1777,6,4119,506"/>
+<area shape="rect" id="c5249" href="./SDDTripleStateEnum.html" title="de.tud.plt.r43ples.management.SDDTripleStateEnum" alt="" coords="3272,934,3419,1071"/>
+<area shape="rect" id="node1" href="./SDDTripleStateEnum.html" title="&lt;TABLE&gt;" alt="" coords="3261,929,3429,1077"/>
+<area shape="rect" id="c5290" href="../merging/management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="16,11,2336,501"/>
+<area shape="rect" id="node2" href="../merging/management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,6,2347,506"/>
+<area shape="rect" id="c5310" href="../merging/model/structure/Difference.html" title="de.tud.plt.r43ples.merging.model.structure.Difference" alt="" coords="1021,561,3261,874"/>
+<area shape="rect" id="node4" href="../merging/model/structure/Difference.html" title="&lt;TABLE&gt;" alt="" coords="1011,555,3272,879"/>
+<area shape="rect" id="c5295" href="../merging/model/structure/DifferenceGroup.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" alt="" coords="2583,115,4108,397"/>
+<area shape="rect" id="node3" href="../merging/model/structure/DifferenceGroup.html" title="&lt;TABLE&gt;" alt="" coords="2572,110,4119,402"/>
 </map>

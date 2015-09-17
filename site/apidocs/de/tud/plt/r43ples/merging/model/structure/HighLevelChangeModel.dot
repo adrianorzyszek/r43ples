@@ -9,41 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
-	c2425 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighLevelChangeModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeModel() </td></tr>
-<tr><td align="left" balign="left"> + getHighLevelChangesRenaming() : HashMap&lt;String, HighLevelChangeRenaming&gt; </td></tr>
-<tr><td align="left" balign="left"> + setHighLevelChangesRenaming(highLevelChangesRenaming : HashMap&lt;String, HighLevelChangeRenaming&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addHighLevelChangeRenaming(identifier : String, highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
-<tr><td align="left" balign="left"> + removeHighLevelChangeRenaming(identifier : String) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
-	c2426 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeRenaming.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeRenaming </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeRenaming(deletetionDifference : Difference, additionDifference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + getDeletionDifference() : Difference </td></tr>
-<tr><td align="left" balign="left"> + setDeletionDifference(deletionDifference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + getAdditionDifference() : Difference </td></tr>
-<tr><td align="left" balign="left"> + setAdditionDifference(additionDifference : Difference) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeRenaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c2443 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
+	c2454 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -81,7 +48,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c2449 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c2456 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -121,11 +88,44 @@ digraph G {
 <tr><td align="left" balign="left"> + getIsRebase() : boolean </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
-	c2425:p -> c2426:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
+	c2458 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./HighLevelChangeModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeModel() </td></tr>
+<tr><td align="left" balign="left"> + getHighLevelChangesRenaming() : HashMap&lt;String, HighLevelChangeRenaming&gt; </td></tr>
+<tr><td align="left" balign="left"> + setHighLevelChangesRenaming(highLevelChangesRenaming : HashMap&lt;String, HighLevelChangeRenaming&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addHighLevelChangeRenaming(identifier : String, highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
+<tr><td align="left" balign="left"> + removeHighLevelChangeRenaming(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
+	c2471 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeRenaming.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeRenaming </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeRenaming(deletetionDifference : Difference, additionDifference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + getDeletionDifference() : Difference </td></tr>
+<tr><td align="left" balign="left"> + setDeletionDifference(deletionDifference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + getAdditionDifference() : Difference </td></tr>
+<tr><td align="left" balign="left"> + setAdditionDifference(additionDifference : Difference) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeRenaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
-	c2449:p -> c2425:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2456:p -> c2458:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
+	c2458:p -> c2471:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
-	c2443:p -> c2425:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c2454:p -> c2458:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

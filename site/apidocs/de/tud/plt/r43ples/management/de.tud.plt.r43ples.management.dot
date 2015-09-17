@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.management.Config
-	c661 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Config.html">
+	c156 [label=<<table title="de.tud.plt.r43ples.management.Config" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Config.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Config </td></tr>
 		</table></td></tr>
@@ -33,39 +33,8 @@ digraph G {
 <tr><td align="left" balign="left"> + readConfig(configFilePath : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Config.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.DataSetGenerationResult
-	c662 [label=<<table title="de.tud.plt.r43ples.management.DataSetGenerationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataSetGenerationResult.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DataSetGenerationResult </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + graphName : String </td></tr>
-<tr><td align="left" balign="left"> + revisions : HashMap&lt;String, String&gt; </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DataSetGenerationResult() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DataSetGenerationResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.DatasetGenerationManagement
-	c663 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatasetGenerationManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DatasetGenerationManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DatasetGenerationManagement() </td></tr>
-<tr><td align="left" balign="left"> + createNewGraph(graphName : String) </td></tr>
-<tr><td align="left" balign="left"> + createNewBranch(user : String, message : String, graphName : String, revision : String, branchName : String) </td></tr>
-<tr><td align="left" balign="left"> + executeInsertQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeDeleteQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeDeleteWhereQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
-<tr><td align="left" balign="left"> + executeInsertDeleteQuery(user : String, message : String, graphName : String, revision : String, triplesInsert : String, triplesDelete : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DatasetGenerationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.GitRepositoryState
-	c664 [label=<<table title="de.tud.plt.r43ples.management.GitRepositoryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GitRepositoryState.html">
+	c157 [label=<<table title="de.tud.plt.r43ples.management.GitRepositoryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GitRepositoryState.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GitRepositoryState </td></tr>
 		</table></td></tr>
@@ -89,8 +58,65 @@ digraph G {
 <tr><td align="left" balign="left"> + getGitRepositoryState() : GitRepositoryState </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GitRepositoryState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.SparqlRewriter
+	c158 [label=<<table title="de.tud.plt.r43ples.management.SparqlRewriter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SparqlRewriter.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> SparqlRewriter </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + SparqlRewriter() </td></tr>
+<tr><td align="left" balign="left"> + rewriteQuery(query_r43ples : String) : String </td></tr>
+<tr><td align="left" balign="left"> + rewrite(r43ples_query : String) : String </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SparqlRewriter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.MergeQueryState
+	c159 [label=<<table title="de.tud.plt.r43ples.management.MergeQueryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeQueryState.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> MergeQueryState </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> CONFLICTED </td></tr>
+<tr><td align="left" balign="left"> CREATED </td></tr>
+<tr><td align="left" balign="left"> ERROR </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergeQueryState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.ResolutionState
+	c160 [label=<<table title="de.tud.plt.r43ples.management.ResolutionState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolutionState.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> ResolutionState </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> RESOLVED </td></tr>
+<tr><td align="left" balign="left"> DIFFERENCE </td></tr>
+<tr><td align="left" balign="left"> CONFLICT </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ResolutionState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.ResourceManagement
+	c161 [label=<<table title="de.tud.plt.r43ples.management.ResourceManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ResourceManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ResourceManagement() </td></tr>
+<tr><td align="left" balign="left"> + getContentFromResource(resourceName : String) : String </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ResourceManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.Interface
-	c665 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Interface.html">
+	c162 [label=<<table title="de.tud.plt.r43ples.management.Interface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Interface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Interface </td></tr>
 		</table></td></tr>
@@ -107,8 +133,24 @@ digraph G {
 <tr><td align="left" balign="left"> + sparqlMerge(sparqlQuery : String, user : String, commitMessage : String, format : String) : MergeResult </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Interface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.SDDTripleStateEnum
+	c163 [label=<<table title="de.tud.plt.r43ples.management.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SDDTripleStateEnum.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> ADDED </td></tr>
+<tr><td align="left" balign="left"> DELETED </td></tr>
+<tr><td align="left" balign="left"> ORIGINAL </td></tr>
+<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
+		</table></td></tr>
+		</table>>, URL="./SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.JenaModelManagement
-	c666 [label=<<table title="de.tud.plt.r43ples.management.JenaModelManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaModelManagement.html">
+	c164 [label=<<table title="de.tud.plt.r43ples.management.JenaModelManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaModelManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JenaModelManagement </td></tr>
 		</table></td></tr>
@@ -123,87 +165,56 @@ digraph G {
 <tr><td align="left" balign="left"> + convertJenaModelToNTriple(model : Model) : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./JenaModelManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.MergeManagement
-	c667 [label=<<table title="de.tud.plt.r43ples.management.MergeManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MergeManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + MergeManagement() </td></tr>
-<tr><td align="left" balign="left"> + getCommonRevisionWithShortestPath(revision1 : String, revision2 : String) : String </td></tr>
-<tr><td align="left" balign="left"> + getPathBetweenStartAndTargetRevision(startRevision : String, targetRevision : String) : LinkedList&lt;String&gt; </td></tr>
-<tr><td align="left" balign="left"> + createRevisionProgresses(listA : LinkedList&lt;String&gt;, graphNameRevisionProgressA : String, uriA : String, listB : LinkedList&lt;String&gt;, graphNameRevisionProgressB : String, uriB : String) </td></tr>
-<tr><td align="left" balign="left"> + createRevisionProgress(list : LinkedList&lt;String&gt;, fullGraphNameCommonRevision : String, graphNameRevisionProgress : String, uri : String) </td></tr>
-<tr><td align="left" balign="left"> + createDifferenceTripleModel(graphName : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String) </td></tr>
-<tr><td align="left" balign="left"> + createMergedRevision(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : MergeQueryTypeEnum, triples : String) : String </td></tr>
-<tr><td align="left" balign="left"> + createRebaseMergedTripleList(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : RebaseQueryTypeEnum, triples : String) : ArrayList&lt;String&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergeManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.MergeQueryState
-	c668 [label=<<table title="de.tud.plt.r43ples.management.MergeQueryState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeQueryState.html">
+	// de.tud.plt.r43ples.management.TripleObjectTypeEnum
+	c165 [label=<<table title="de.tud.plt.r43ples.management.TripleObjectTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleObjectTypeEnum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> MergeQueryState </td></tr>
+<tr><td align="center" balign="center"> TripleObjectTypeEnum </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> CONFLICTED </td></tr>
-<tr><td align="left" balign="left"> CREATED </td></tr>
-<tr><td align="left" balign="left"> ERROR </td></tr>
+<tr><td align="left" balign="left"> LITERAL </td></tr>
+<tr><td align="left" balign="left"> RESOURCE </td></tr>
 		</table></td></tr>
-		</table>>, URL="./MergeQueryState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
-	c669 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RebaseQueryTypeEnum.html">
+		</table>>, URL="./TripleObjectTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.DataSetGenerationResult
+	c166 [label=<<table title="de.tud.plt.r43ples.management.DataSetGenerationResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DataSetGenerationResult.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
+<tr><td align="center" balign="center"> DataSetGenerationResult </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
+<tr><td align="left" balign="left"> + graphName : String </td></tr>
+<tr><td align="left" balign="left"> + revisions : HashMap&lt;String, String&gt; </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> AUTO </td></tr>
-<tr><td align="left" balign="left"> COMMON </td></tr>
-<tr><td align="left" balign="left"> FORCE </td></tr>
-<tr><td align="left" balign="left"> MANUAL </td></tr>
-<tr><td align="left" balign="left"> WITH </td></tr>
+<tr><td align="left" balign="left"> + DataSetGenerationResult() </td></tr>
 		</table></td></tr>
-		</table>>, URL="./RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.ResolutionState
-	c670 [label=<<table title="de.tud.plt.r43ples.management.ResolutionState" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolutionState.html">
+		</table>>, URL="./DataSetGenerationResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.SampleDataSet
+	c167 [label=<<table title="de.tud.plt.r43ples.management.SampleDataSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleDataSet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> ResolutionState </td></tr>
+<tr><td align="center" balign="center"> SampleDataSet </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> RESOLVED </td></tr>
-<tr><td align="left" balign="left"> DIFFERENCE </td></tr>
-<tr><td align="left" balign="left"> CONFLICT </td></tr>
+<tr><td align="left" balign="left"> + SampleDataSet() </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataset1() : DataSetGenerationResult </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataset2() : DataSetGenerationResult </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetMerging() : DataSetGenerationResult </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetFastForward() : String </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetRebase() : String </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetForceRebase() : String </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetMergingClasses() : String </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetRenaming() : String </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataSetComplexStructure() : String </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ResolutionState.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.ResourceManagement
-	c671 [label=<<table title="de.tud.plt.r43ples.management.ResourceManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResourceManagement.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ResourceManagement </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ResourceManagement() </td></tr>
-<tr><td align="left" balign="left"> + getContentFromResource(resourceName : String) : String </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ResourceManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./SampleDataSet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.management.RevisionManagement
-	c672 [label=<<table title="de.tud.plt.r43ples.management.RevisionManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RevisionManagement.html">
+	c168 [label=<<table title="de.tud.plt.r43ples.management.RevisionManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RevisionManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RevisionManagement </td></tr>
 		</table></td></tr>
@@ -228,7 +239,7 @@ digraph G {
 <tr><td align="left" balign="left"> + getRevisionNumber(graphName : String, referenceName : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getMasterRevisionNumber(graphName : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getNextRevisionNumber(graphName : String) : String </td></tr>
-<tr><td align="left" balign="left"> + checkExistUID(revisionUid : String, graphName : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + existRevisionNumber(revisionNumber : String, graphName : String) : boolean </td></tr>
 <tr><td align="left" balign="left"> + executeINSERT(graphName : String, dataSetAsNTriples : String) </td></tr>
 <tr><td align="left" balign="left"> + executeDELETE(graphName : String, dataSetAsNTriples : String) </td></tr>
 <tr><td align="left" balign="left"> + splitAndExecuteBigQuery(graphName : String, dataSetAsNTriples : String, template : String) </td></tr>
@@ -248,70 +259,59 @@ digraph G {
 <tr><td align="left" balign="left"> + getFullGraphUri(branchURI : String) : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RevisionManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c673 [label=<<table title="de.tud.plt.r43ples.management.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SDDTripleStateEnum.html">
+	// de.tud.plt.r43ples.management.DatasetGenerationManagement
+	c169 [label=<<table title="de.tud.plt.r43ples.management.DatasetGenerationManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatasetGenerationManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DatasetGenerationManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + DatasetGenerationManagement() </td></tr>
+<tr><td align="left" balign="left"> + createNewGraph(graphName : String) </td></tr>
+<tr><td align="left" balign="left"> + createNewBranch(user : String, message : String, graphName : String, revision : String, branchName : String) </td></tr>
+<tr><td align="left" balign="left"> + executeInsertQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeDeleteQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeDeleteWhereQuery(user : String, message : String, graphName : String, revision : String, triples : String) </td></tr>
+<tr><td align="left" balign="left"> + executeInsertDeleteQuery(user : String, message : String, graphName : String, revision : String, triplesInsert : String, triplesDelete : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DatasetGenerationManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.MergeManagement
+	c170 [label=<<table title="de.tud.plt.r43ples.management.MergeManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergeManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MergeManagement </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + MergeManagement() </td></tr>
+<tr><td align="left" balign="left"> + getCommonRevisionWithShortestPath(revision1 : String, revision2 : String) : String </td></tr>
+<tr><td align="left" balign="left"> + getPathBetweenStartAndTargetRevision(startRevision : String, targetRevision : String) : LinkedList&lt;String&gt; </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgresses(listA : LinkedList&lt;String&gt;, graphNameRevisionProgressA : String, uriA : String, listB : LinkedList&lt;String&gt;, graphNameRevisionProgressB : String, uriB : String) </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgress(list : LinkedList&lt;String&gt;, fullGraphNameCommonRevision : String, graphNameRevisionProgress : String, uri : String) </td></tr>
+<tr><td align="left" balign="left"> + createDifferenceTripleModel(graphName : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String) </td></tr>
+<tr><td align="left" balign="left"> + createMergedRevision(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : MergeQueryTypeEnum, triples : String) : String </td></tr>
+<tr><td align="left" balign="left"> + createRebaseMergedTripleList(graphName : String, branchNameA : String, branchNameB : String, user : String, commitMessage : String, graphNameDifferenceTripleModel : String, graphNameRevisionProgressA : String, uriA : String, graphNameRevisionProgressB : String, uriB : String, uriSDD : String, type : RebaseQueryTypeEnum, triples : String) : ArrayList&lt;String&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MergeManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
+	c171 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RebaseQueryTypeEnum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
+<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> ADDED </td></tr>
-<tr><td align="left" balign="left"> DELETED </td></tr>
-<tr><td align="left" balign="left"> ORIGINAL </td></tr>
-<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
+<tr><td align="left" balign="left"> AUTO </td></tr>
+<tr><td align="left" balign="left"> COMMON </td></tr>
+<tr><td align="left" balign="left"> FORCE </td></tr>
+<tr><td align="left" balign="left"> MANUAL </td></tr>
+<tr><td align="left" balign="left"> WITH </td></tr>
 		</table></td></tr>
-		</table>>, URL="./SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.SampleDataSet
-	c674 [label=<<table title="de.tud.plt.r43ples.management.SampleDataSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SampleDataSet.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SampleDataSet </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + SampleDataSet() </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataset1() : DataSetGenerationResult </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataset2() : DataSetGenerationResult </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetMerging() : DataSetGenerationResult </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetFastForward() : String </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetRebase() : String </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetForceRebase() : String </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetMergingClasses() : String </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetRenaming() : String </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataSetComplexStructure() : String </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SampleDataSet.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.SparqlRewriter
-	c675 [label=<<table title="de.tud.plt.r43ples.management.SparqlRewriter" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./SparqlRewriter.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> SparqlRewriter </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + SparqlRewriter() </td></tr>
-<tr><td align="left" balign="left"> + rewriteQuery(query_r43ples : String) : String </td></tr>
-<tr><td align="left" balign="left"> + rewrite(r43ples_query : String) : String </td></tr>
-		</table></td></tr>
-		</table>>, URL="./SparqlRewriter.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.management.TripleObjectTypeEnum
-	c676 [label=<<table title="de.tud.plt.r43ples.management.TripleObjectTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleObjectTypeEnum.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> TripleObjectTypeEnum </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> LITERAL </td></tr>
-<tr><td align="left" balign="left"> RESOURCE </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TripleObjectTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 
