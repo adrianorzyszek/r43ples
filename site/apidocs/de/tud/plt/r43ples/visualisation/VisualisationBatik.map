@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="c1927" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="179,177,475,282"/>
+<area shape="rect" id="c6638" href="./CommitGraphView.html" title="de.tud.plt.r43ples.visualisation.CommitGraphView" alt="" coords="179,177,475,282"/>
 <area shape="rect" id="node1" href="./CommitGraphView.html" title="&lt;TABLE&gt;" alt="" coords="168,171,485,287"/>
-<area shape="rect" id="c1938" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,342,971,623"/>
+<area shape="rect" id="c6649" href="../revisionTree/Commit.html" title="de.tud.plt.r43ples.revisionTree.Commit" alt="" coords="16,342,971,623"/>
 <area shape="rect" id="node5" href="../revisionTree/Commit.html" title="&lt;TABLE&gt;" alt="" coords="5,337,981,629"/>
-<area shape="rect" id="c1928" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="519,177,801,282"/>
+<area shape="rect" id="c6639" href="./MessagesTableView.html" title="de.tud.plt.r43ples.visualisation.MessagesTableView" alt="" coords="519,177,801,282"/>
 <area shape="rect" id="node2" href="./MessagesTableView.html" title="&lt;TABLE&gt;" alt="" coords="509,171,811,287"/>
-<area shape="rect" id="c1929" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="845,185,1120,274"/>
+<area shape="rect" id="c6640" href="./TimeLineView.html" title="de.tud.plt.r43ples.visualisation.TimeLineView" alt="" coords="845,185,1120,274"/>
 <area shape="rect" id="node3" href="./TimeLineView.html" title="&lt;TABLE&gt;" alt="" coords="835,179,1131,279"/>
-<area shape="rect" id="c1930" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="665,11,978,117"/>
+<area shape="rect" id="c6641" href="./VisualisationBatik.html" title="de.tud.plt.r43ples.visualisation.VisualisationBatik" alt="" coords="665,11,978,117"/>
 <area shape="rect" id="node4" href="./VisualisationBatik.html" title="&lt;TABLE&gt;" alt="" coords="655,6,988,122"/>
 </map>

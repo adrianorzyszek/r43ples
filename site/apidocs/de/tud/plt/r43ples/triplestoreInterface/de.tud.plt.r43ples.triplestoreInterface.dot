@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface
-	c85 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
+	c159 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HttpInterface </td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./HttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface
-	c86 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
+	c160 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JenaTDBInterface </td></tr>
 		</table></td></tr>
@@ -50,7 +50,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./JenaTDBInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c87 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
+	c161 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -75,7 +75,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c88 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
+	c162 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
 		</table></td></tr>
@@ -89,7 +89,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface
-	c89 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
+	c163 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VirtuosoInterface </td></tr>
 		</table></td></tr>
@@ -109,12 +109,12 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./VirtuosoInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.triplestoreInterface.HttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c87:p -> c85:p [dir=back,arrowtail=empty];
+	c161:p -> c159:p [dir=back,arrowtail=empty];
 	//de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c87:p -> c86:p [dir=back,arrowtail=empty];
+	c161:p -> c160:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c88:p -> c87:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c162:p -> c161:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c87:p -> c89:p [dir=back,arrowtail=empty];
+	c161:p -> c163:p [dir=back,arrowtail=empty];
 }
 

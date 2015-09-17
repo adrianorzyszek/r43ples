@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="c2498" href="./Difference.html" title="de.tud.plt.r43ples.merging.model.structure.Difference" alt="" coords="147,598,1549,895"/>
+<area shape="rect" id="node1" href="./Difference.html" title="&lt;TABLE&gt;" alt="" coords="137,593,1559,901"/>
+<area shape="rect" id="c2501" href="./HighLevelChangeModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" alt="" coords="15,99,697,253"/>
+<area shape="rect" id="node2" href="./HighLevelChangeModel.html" title="&lt;TABLE&gt;" alt="" coords="5,94,707,258"/>
+<area shape="rect" id="c2502" href="./HighLevelChangeRenaming.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" alt="" coords="560,401,1136,538"/>
+<area shape="rect" id="node3" href="./HighLevelChangeRenaming.html" title="&lt;TABLE&gt;" alt="" coords="549,395,1147,543"/>
+<area shape="rect" id="c2504" href="./HighLevelChangeTableRow.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" alt="" coords="741,11,1942,341"/>
+<area shape="rect" id="node4" href="./HighLevelChangeTableRow.html" title="&lt;TABLE&gt;" alt="" coords="731,6,1952,346"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="c1422" href="./CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="1015,982,1926,1311"/>
+<area shape="rect" id="node1" href="./CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="1005,977,1936,1317"/>
+<area shape="rect" id="c1449" href="../../control/FastForwardControl.html" title="de.tud.plt.r43ples.merging.control.FastForwardControl" alt="" coords="16,697,1411,834"/>
+<area shape="rect" id="node2" href="../../control/FastForwardControl.html" title="&lt;TABLE&gt;" alt="" coords="5,691,1421,839"/>
+<area shape="rect" id="c1450" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="1152,11,2547,549"/>
+<area shape="rect" id="node3" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="1141,6,2557,554"/>
+<area shape="rect" id="c1451" href="../../control/RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="1531,609,2925,922"/>
+<area shape="rect" id="node4" href="../../control/RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="1520,603,2936,927"/>
+</map>

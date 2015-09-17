@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="c3646" href="../model/structure/CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="15,950,1374,1295"/>
+<area shape="rect" id="node1" href="../model/structure/CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="5,945,1384,1301"/>
+<area shape="rect" id="c3649" href="../model/structure/DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="1418,1038,2251,1207"/>
+<area shape="rect" id="node2" href="../model/structure/DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="1408,1033,2261,1213"/>
+<area shape="rect" id="c3650" href="../model/structure/HighLevelChangeModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" alt="" coords="1747,657,2781,826"/>
+<area shape="rect" id="node3" href="../model/structure/HighLevelChangeModel.html" title="&lt;TABLE&gt;" alt="" coords="1736,651,2792,831"/>
+<area shape="rect" id="c3652" href="../model/structure/HighLevelChangeTableModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" alt="" coords="2827,649,3680,834"/>
+<area shape="rect" id="node4" href="../model/structure/HighLevelChangeTableModel.html" title="&lt;TABLE&gt;" alt="" coords="2816,643,3691,839"/>
+<area shape="rect" id="c3654" href="../model/structure/IndividualModel.html" title="de.tud.plt.r43ples.merging.model.structure.IndividualModel" alt="" coords="3725,657,4600,826"/>
+<area shape="rect" id="node5" href="../model/structure/IndividualModel.html" title="&lt;TABLE&gt;" alt="" coords="3715,651,4611,831"/>
+<area shape="rect" id="c3658" href="../model/structure/ReportResult.html" title="de.tud.plt.r43ples.merging.model.structure.ReportResult" alt="" coords="4645,641,5089,842"/>
+<area shape="rect" id="node6" href="../model/structure/ReportResult.html" title="&lt;TABLE&gt;" alt="" coords="4635,635,5099,847"/>
+<area shape="rect" id="c3661" href="../model/structure/TableModel.html" title="de.tud.plt.r43ples.merging.model.structure.TableModel" alt="" coords="5133,649,5857,834"/>
+<area shape="rect" id="node7" href="../model/structure/TableModel.html" title="&lt;TABLE&gt;" alt="" coords="5123,643,5867,839"/>
+<area shape="rect" id="c3663" href="../model/structure/TreeNode.html" title="de.tud.plt.r43ples.merging.model.structure.TreeNode" alt="" coords="5901,633,6539,850"/>
+<area shape="rect" id="node8" href="../model/structure/TreeNode.html" title="&lt;TABLE&gt;" alt="" coords="5891,627,6549,855"/>
+<area shape="rect" id="c3674" href="./MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="3235,11,4181,533"/>
+<area shape="rect" id="node9" href="./MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="3224,6,4192,538"/>
+<area shape="rect" id="c3675" href="./RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="755,593,1701,890"/>
+<area shape="rect" id="node10" href="./RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="744,587,1712,895"/>
+</map>

@@ -1,4 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c1125" href="./MergeQueryTypeEnum.html" title="de.tud.plt.r43ples.merge.MergeQueryTypeEnum" alt="" coords="16,11,171,149"/>
-<area shape="rect" id="node1" href="./MergeQueryTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="5,6,181,154"/>
+<area shape="rect" id="c3516" href="../merging/management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="16,11,2336,501"/>
+<area shape="rect" id="node1" href="../merging/management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,6,2347,506"/>
+<area shape="rect" id="c3525" href="./MergeQueryTypeEnum.html" title="de.tud.plt.r43ples.merge.MergeQueryTypeEnum" alt="" coords="2488,561,2643,698"/>
+<area shape="rect" id="node2" href="./MergeQueryTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="2477,555,2653,703"/>
+<area shape="rect" id="c3534" href="../management/MergeManagement.html" title="de.tud.plt.r43ples.management.MergeManagement" alt="" coords="2381,155,5531,357"/>
+<area shape="rect" id="node3" href="../management/MergeManagement.html" title="&lt;TABLE&gt;" alt="" coords="2371,150,5541,362"/>
 </map>
