@@ -9,8 +9,34 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// de.tud.plt.r43ples.merging.model.structure.Difference
+	c5865 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Difference </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getResolutionState() : ResolutionStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionStateEnum) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c6300 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
+	c5873 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IndividualStructure </td></tr>
 		</table></td></tr>
@@ -28,7 +54,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./IndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.Triple
-	c6302 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
+	c5882 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Triple </td></tr>
 		</table></td></tr>
@@ -47,34 +73,8 @@ digraph G {
 <tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Difference
-	c6306 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Difference </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionState) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getResolutionState() : ResolutionState </td></tr>
-<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionState) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
-	c6308 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleIndividualStructure.html">
+	c5883 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleIndividualStructure.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleIndividualStructure </td></tr>
 		</table></td></tr>
@@ -89,13 +89,13 @@ digraph G {
 <tr><td align="left" balign="left"> + setDifference(difference : Difference) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TripleIndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
-	c6300:p -> c6308:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c6306:p -> c6302:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5865:p -> c5882:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
+	c5873:p -> c5883:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c6308:p -> c6302:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5883:p -> c5882:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c6308:p -> c6306:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5883:p -> c5865:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c3910" href="../../control/RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="16,11,1411,325"/>
-<area shape="rect" id="node1" href="../../control/RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="5,6,1421,330"/>
-<area shape="rect" id="c3919" href="./PatchGroup.html" title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" alt="" coords="440,385,987,522"/>
+<area shape="rect" id="c3661" href="./Patch.html" title="de.tud.plt.r43ples.merging.model.structure.Patch" alt="" coords="354,582,1073,815"/>
+<area shape="rect" id="node1" href="./Patch.html" title="&lt;TABLE&gt;" alt="" coords="344,577,1083,821"/>
+<area shape="rect" id="c3662" href="./PatchGroup.html" title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" alt="" coords="440,385,987,522"/>
 <area shape="rect" id="node2" href="./PatchGroup.html" title="&lt;TABLE&gt;" alt="" coords="429,379,997,527"/>
-<area shape="rect" id="c3925" href="./Patch.html" title="de.tud.plt.r43ples.merging.model.structure.Patch" alt="" coords="354,582,1073,815"/>
-<area shape="rect" id="node3" href="./Patch.html" title="&lt;TABLE&gt;" alt="" coords="344,577,1083,821"/>
+<area shape="rect" id="c3679" href="../../control/RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="16,11,1411,325"/>
+<area shape="rect" id="node3" href="../../control/RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="5,6,1421,330"/>
 </map>

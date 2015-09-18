@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c4590" href="./ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="503,11,1044,117"/>
-<area shape="rect" id="node1" href="./ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="492,6,1055,122"/>
-<area shape="rect" id="c4598" href="../model/structure/DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="15,193,849,362"/>
-<area shape="rect" id="node2" href="../model/structure/DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="5,187,859,367"/>
-<area shape="rect" id="c4603" href="../model/structure/ReportResult.html" title="de.tud.plt.r43ples.merging.model.structure.ReportResult" alt="" coords="893,177,1337,378"/>
-<area shape="rect" id="node3" href="../model/structure/ReportResult.html" title="&lt;TABLE&gt;" alt="" coords="883,171,1347,383"/>
+<area shape="rect" id="c4312" href="../model/structure/DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="15,193,849,362"/>
+<area shape="rect" id="node1" href="../model/structure/DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="5,187,859,367"/>
+<area shape="rect" id="c4321" href="../model/structure/ReportResult.html" title="de.tud.plt.r43ples.merging.model.structure.ReportResult" alt="" coords="893,177,1337,378"/>
+<area shape="rect" id="node2" href="../model/structure/ReportResult.html" title="&lt;TABLE&gt;" alt="" coords="883,171,1347,383"/>
+<area shape="rect" id="c4332" href="./ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="503,11,1044,117"/>
+<area shape="rect" id="node3" href="./ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="492,6,1055,122"/>
 </map>

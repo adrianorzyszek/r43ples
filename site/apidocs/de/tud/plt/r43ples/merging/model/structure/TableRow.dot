@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.merging.model.structure.TableModel
-	c5839 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableModel.html">
+	c5441 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TableModel </td></tr>
 		</table></td></tr>
@@ -27,28 +27,8 @@ digraph G {
 <tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Triple
-	c5846 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Triple </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObject() : String </td></tr>
-<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
-<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TableRow
-	c5849 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TableRow.html">
+	c5442 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TableRow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TableRow </td></tr>
 		</table></td></tr>
@@ -83,11 +63,31 @@ digraph G {
 <tr><td align="left" balign="left"> + getState() : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Triple
+	c5444 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Triple </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObject() : String </td></tr>
+<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
+<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableRow
-	c5839:p -> c5849:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5441:p -> c5442:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c5839:p -> c5846:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5441:p -> c5444:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c5849:p -> c5846:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5442:p -> c5444:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

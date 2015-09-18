@@ -1,6 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c4407" href="./RebaseQueryTypeEnum.html" title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" alt="" coords="834,433,998,586"/>
-<area shape="rect" id="node1" href="./RebaseQueryTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="824,427,1008,591"/>
-<area shape="rect" id="c4435" href="../merging/management/StrategyManagement.html" title="de.tud.plt.r43ples.merging.management.StrategyManagement" alt="" coords="15,11,1817,373"/>
-<area shape="rect" id="node2" href="../merging/management/StrategyManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,6,1827,378"/>
+<area shape="rect" id="c4188" href="../merging/management/StrategyManagement.html" title="de.tud.plt.r43ples.merging.management.StrategyManagement" alt="" coords="15,11,1817,373"/>
+<area shape="rect" id="node1" href="../merging/management/StrategyManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,6,1827,378"/>
+<area shape="rect" id="c4205" href="./RebaseQueryTypeEnum.html" title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" alt="" coords="2094,433,2258,586"/>
+<area shape="rect" id="node3" href="./RebaseQueryTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="2084,427,2268,591"/>
+<area shape="rect" id="c4192" href="../merging/MergeManagement.html" title="de.tud.plt.r43ples.merging.MergeManagement" alt="" coords="1861,91,5011,293"/>
+<area shape="rect" id="node2" href="../merging/MergeManagement.html" title="&lt;TABLE&gt;" alt="" coords="1851,86,5021,298"/>
 </map>

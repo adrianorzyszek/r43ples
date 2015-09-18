@@ -9,25 +9,62 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
-	c892 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeModel.html">
+	// de.tud.plt.r43ples.merging.model.structure.CommitModel
+	c311 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommitModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeModel </td></tr>
+<tr><td align="center" balign="center"> CommitModel </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeModel() </td></tr>
-<tr><td align="left" balign="left"> + getHighLevelChangesRenaming() : HashMap&lt;String, HighLevelChangeRenaming&gt; </td></tr>
-<tr><td align="left" balign="left"> + setHighLevelChangesRenaming(highLevelChangesRenaming : HashMap&lt;String, HighLevelChangeRenaming&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addHighLevelChangeRenaming(identifier : String, highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
-<tr><td align="left" balign="left"> + removeHighLevelChangeRenaming(identifier : String) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
+<tr><td align="left" balign="left"> + CommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
+<tr><td align="left" balign="left"> + getGraphName() : String </td></tr>
+<tr><td align="left" balign="left"> + setGraphName(graphName : String) </td></tr>
+<tr><td align="left" balign="left"> + getSddName() : String </td></tr>
+<tr><td align="left" balign="left"> + setSddName(sddName : String) </td></tr>
+<tr><td align="left" balign="left"> + getUser() : String </td></tr>
+<tr><td align="left" balign="left"> + setUser(user : String) </td></tr>
+<tr><td align="left" balign="left"> + getMessage() : String </td></tr>
+<tr><td align="left" balign="left"> + setMessage(message : String) </td></tr>
+<tr><td align="left" balign="left"> + getBranch1() : String </td></tr>
+<tr><td align="left" balign="left"> + setBranch1(branch1 : String) </td></tr>
+<tr><td align="left" balign="left"> + getBranch2() : String </td></tr>
+<tr><td align="left" balign="left"> + setBranch2(branch2 : String) </td></tr>
+<tr><td align="left" balign="left"> + getStrategy() : String </td></tr>
+<tr><td align="left" balign="left"> + setStrategy(strategy : String) </td></tr>
+<tr><td align="left" balign="left"> + getType() : String </td></tr>
+<tr><td align="left" balign="left"> + setType(type : String) </td></tr>
 		</table></td></tr>
-		</table>>, URL="./HighLevelChangeModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./CommitModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Difference
+	c312 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Difference </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getResolutionState() : ResolutionStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionStateEnum) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c893 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceGroup.html">
+	c313 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DifferenceGroup </td></tr>
 		</table></td></tr>
@@ -51,7 +88,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c894 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceModel.html">
+	c314 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DifferenceModel </td></tr>
 		</table></td></tr>
@@ -67,8 +104,41 @@ digraph G {
 <tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
+	c315 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeModel() </td></tr>
+<tr><td align="left" balign="left"> + getHighLevelChangesRenaming() : HashMap&lt;String, HighLevelChangeRenaming&gt; </td></tr>
+<tr><td align="left" balign="left"> + setHighLevelChangesRenaming(highLevelChangesRenaming : HashMap&lt;String, HighLevelChangeRenaming&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addHighLevelChangeRenaming(identifier : String, highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
+<tr><td align="left" balign="left"> + removeHighLevelChangeRenaming(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
+	c316 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeRenaming.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeRenaming </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeRenaming(deletetionDifference : Difference, additionDifference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + getDeletionDifference() : Difference </td></tr>
+<tr><td align="left" balign="left"> + setDeletionDifference(deletionDifference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + getAdditionDifference() : Difference </td></tr>
+<tr><td align="left" balign="left"> + setAdditionDifference(additionDifference : Difference) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeRenaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
-	c895 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableModel.html">
+	c317 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HighLevelChangeTableModel </td></tr>
 		</table></td></tr>
@@ -85,8 +155,128 @@ digraph G {
 <tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./HighLevelChangeTableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c318 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableRow.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> HighLevelChangeTableRow </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + HighLevelChangeTableRow(highLevelChangeRenaming : HighLevelChangeRenaming, subject : String, predicate : String, objectAlt : String, objectNew : String, isResolved : String, isRenaming : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
+<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
+<tr><td align="left" balign="left"> + getHighLevelChangeRenaming() : HighLevelChangeRenaming </td></tr>
+<tr><td align="left" balign="left"> + setHighLevelChangeRenaming(highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectAlt() : String </td></tr>
+<tr><td align="left" balign="left"> + setObjectAlt(objectAlt : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectNew() : String </td></tr>
+<tr><td align="left" balign="left"> + setObjectNew(objectNew : String) </td></tr>
+<tr><td align="left" balign="left"> + getIsResolved() : String </td></tr>
+<tr><td align="left" balign="left"> + setIsResolved(isResolved : String) </td></tr>
+<tr><td align="left" balign="left"> + getIsRenaming() : String </td></tr>
+<tr><td align="left" balign="left"> + setIsRenaming(isRenaming : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./HighLevelChangeTableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualModel
+	c319 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IndividualModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + IndividualModel() </td></tr>
+<tr><td align="left" balign="left"> + getIndividualStructures() : HashMap&lt;String, IndividualStructure&gt; </td></tr>
+<tr><td align="left" balign="left"> + setIndividualStructures(individualStructures : HashMap&lt;String, IndividualStructure&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addIndividualStructure(identifier : String, individualStructure : IndividualStructure) </td></tr>
+<tr><td align="left" balign="left"> + removeIndividualStructure(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IndividualModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure
+	c320 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IndividualStructure </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + IndividualStructure(individualUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getIndividualUri() : String </td></tr>
+<tr><td align="left" balign="left"> + setIndividualUri(individualUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getTriples() : HashMap&lt;String, TripleIndividualStructure&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTriples(triples : HashMap&lt;String, TripleIndividualStructure&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addTriple(identifier : String, triple : TripleIndividualStructure) </td></tr>
+<tr><td align="left" balign="left"> + removeTriple(identifier : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Patch
+	c321 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Patch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Patch.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Patch </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Patch(patchNumber : String, patchUser : String, patchMessage : String, addedSetUri : String, removedSetUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getPatchNumber() : String </td></tr>
+<tr><td align="left" balign="left"> + setPatchNumber(patchNumber : String) </td></tr>
+<tr><td align="left" balign="left"> + getPatchUser() : String </td></tr>
+<tr><td align="left" balign="left"> + setPatchUser(patchUser : String) </td></tr>
+<tr><td align="left" balign="left"> + getPatchMessage() : String </td></tr>
+<tr><td align="left" balign="left"> + setPatchMessage(patchMessage : String) </td></tr>
+<tr><td align="left" balign="left"> + getAddedSetUri() : String </td></tr>
+<tr><td align="left" balign="left"> + setAddedSetUri(addedSetUri : String) </td></tr>
+<tr><td align="left" balign="left"> + getRemovedSetUri() : String </td></tr>
+<tr><td align="left" balign="left"> + setRemovedSetUri(removedSetUri : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Patch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.PatchGroup
+	c322 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatchGroup.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> PatchGroup </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + PatchGroup(basisRevisionNumber : String, patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
+<tr><td align="left" balign="left"> + getBasisRevisionNumber() : String </td></tr>
+<tr><td align="left" balign="left"> + setBasisRevisionNumber(basisRevisionNumber : String) </td></tr>
+<tr><td align="left" balign="left"> + getPatchMap() : LinkedHashMap&lt;String, Patch&gt; </td></tr>
+<tr><td align="left" balign="left"> + setPatchMap(patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./PatchGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.ReportResult
+	c323 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportResult.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ReportResult </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ReportResult() </td></tr>
+<tr><td align="left" balign="left"> + getConflictsNotApproved() : int </td></tr>
+<tr><td align="left" balign="left"> + incrementCounterConflictsNotApproved() </td></tr>
+<tr><td align="left" balign="left"> + setConflictsNotApproved(conflictsNotApproved : int) </td></tr>
+<tr><td align="left" balign="left"> + getDifferencesResolutionChanged() : int </td></tr>
+<tr><td align="left" balign="left"> + incrementCounterDifferencesResolutionChanged() </td></tr>
+<tr><td align="left" balign="left"> + decrementCounterDifferencesResolutionChanged() </td></tr>
+<tr><td align="left" balign="left"> + setDifferencesResolutionChanged(differencesResolutionChanged : int) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ReportResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.ReportTableRow
-	c896 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportTableRow.html">
+	c324 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportTableRow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ReportTableRow </td></tr>
 		</table></td></tr>
@@ -119,89 +309,8 @@ digraph G {
 <tr><td align="left" balign="left"> + setApproved(approved : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ReportTableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.TableModel
-	c897 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TableModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TableModel() </td></tr>
-<tr><td align="left" balign="left"> + readTableRow(tableRow : TableRow) </td></tr>
-<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;TableRow&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;TableRow&gt;) </td></tr>
-<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, Triple&gt; </td></tr>
-<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, Triple&gt;) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c898 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CommitModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CommitModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + CommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
-<tr><td align="left" balign="left"> + getGraphName() : String </td></tr>
-<tr><td align="left" balign="left"> + setGraphName(graphName : String) </td></tr>
-<tr><td align="left" balign="left"> + getSddName() : String </td></tr>
-<tr><td align="left" balign="left"> + setSddName(sddName : String) </td></tr>
-<tr><td align="left" balign="left"> + getUser() : String </td></tr>
-<tr><td align="left" balign="left"> + setUser(user : String) </td></tr>
-<tr><td align="left" balign="left"> + getMessage() : String </td></tr>
-<tr><td align="left" balign="left"> + setMessage(message : String) </td></tr>
-<tr><td align="left" balign="left"> + getBranch1() : String </td></tr>
-<tr><td align="left" balign="left"> + setBranch1(branch1 : String) </td></tr>
-<tr><td align="left" balign="left"> + getBranch2() : String </td></tr>
-<tr><td align="left" balign="left"> + setBranch2(branch2 : String) </td></tr>
-<tr><td align="left" balign="left"> + getStrategy() : String </td></tr>
-<tr><td align="left" balign="left"> + setStrategy(strategy : String) </td></tr>
-<tr><td align="left" balign="left"> + getType() : String </td></tr>
-<tr><td align="left" balign="left"> + setType(type : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CommitModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c899 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.ReportResult" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ReportResult.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ReportResult </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ReportResult() </td></tr>
-<tr><td align="left" balign="left"> + getConflictsNotApproved() : int </td></tr>
-<tr><td align="left" balign="left"> + incrementCounterConflictsNotApproved() </td></tr>
-<tr><td align="left" balign="left"> + setConflictsNotApproved(conflictsNotApproved : int) </td></tr>
-<tr><td align="left" balign="left"> + getDifferencesResolutionChanged() : int </td></tr>
-<tr><td align="left" balign="left"> + incrementCounterDifferencesResolutionChanged() </td></tr>
-<tr><td align="left" balign="left"> + decrementCounterDifferencesResolutionChanged() </td></tr>
-<tr><td align="left" balign="left"> + setDifferencesResolutionChanged(differencesResolutionChanged : int) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ReportResult.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.PatchGroup
-	c900 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PatchGroup.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PatchGroup </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + PatchGroup(basisRevisionNumber : String, patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
-<tr><td align="left" balign="left"> + getBasisRevisionNumber() : String </td></tr>
-<tr><td align="left" balign="left"> + setBasisRevisionNumber(basisRevisionNumber : String) </td></tr>
-<tr><td align="left" balign="left"> + getPatchMap() : LinkedHashMap&lt;String, Patch&gt; </td></tr>
-<tr><td align="left" balign="left"> + setPatchMap(patchMap : LinkedHashMap&lt;String, Patch&gt;) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PatchGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals
-	c901 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableEntrySemanticEnrichmentAllIndividuals.html">
+	c325 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableEntrySemanticEnrichmentAllIndividuals.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TableEntrySemanticEnrichmentAllIndividuals </td></tr>
 		</table></td></tr>
@@ -218,112 +327,26 @@ digraph G {
 <tr><td align="left" balign="left"> + setRowData(rowData : Object[]) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TableEntrySemanticEnrichmentAllIndividuals.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c902 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualStructure.html">
+	// de.tud.plt.r43ples.merging.model.structure.TableModel
+	c326 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IndividualStructure </td></tr>
+<tr><td align="center" balign="center"> TableModel </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + IndividualStructure(individualUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getIndividualUri() : String </td></tr>
-<tr><td align="left" balign="left"> + setIndividualUri(individualUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getTriples() : HashMap&lt;String, TripleIndividualStructure&gt; </td></tr>
-<tr><td align="left" balign="left"> + setTriples(triples : HashMap&lt;String, TripleIndividualStructure&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addTriple(identifier : String, triple : TripleIndividualStructure) </td></tr>
-<tr><td align="left" balign="left"> + removeTriple(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + TableModel() </td></tr>
+<tr><td align="left" balign="left"> + readTableRow(tableRow : TableRow) </td></tr>
+<tr><td align="left" balign="left"> + getTripleRowList() : List&lt;TableRow&gt; </td></tr>
+<tr><td align="left" balign="left"> + setTripleRowList(tripleRowList : List&lt;TableRow&gt;) </td></tr>
+<tr><td align="left" balign="left"> + getManuellTriple() : Map&lt;String, Triple&gt; </td></tr>
+<tr><td align="left" balign="left"> + setManuellTriple(manuellTriple : HashMap&lt;String, Triple&gt;) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
-		</table>>, URL="./IndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c903 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeTableRow.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeTableRow </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeTableRow(highLevelChangeRenaming : HighLevelChangeRenaming, subject : String, predicate : String, objectAlt : String, objectNew : String, isResolved : String, isRenaming : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleId() : String </td></tr>
-<tr><td align="left" balign="left"> + setTripleId(tripleId : String) </td></tr>
-<tr><td align="left" balign="left"> + getHighLevelChangeRenaming() : HighLevelChangeRenaming </td></tr>
-<tr><td align="left" balign="left"> + setHighLevelChangeRenaming(highLevelChangeRenaming : HighLevelChangeRenaming) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectAlt() : String </td></tr>
-<tr><td align="left" balign="left"> + setObjectAlt(objectAlt : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectNew() : String </td></tr>
-<tr><td align="left" balign="left"> + setObjectNew(objectNew : String) </td></tr>
-<tr><td align="left" balign="left"> + getIsResolved() : String </td></tr>
-<tr><td align="left" balign="left"> + setIsResolved(isResolved : String) </td></tr>
-<tr><td align="left" balign="left"> + getIsRenaming() : String </td></tr>
-<tr><td align="left" balign="left"> + setIsRenaming(isRenaming : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeTableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Triple
-	c904 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Triple </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
-<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
-<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
-<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
-<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
-<tr><td align="left" balign="left"> + getObject() : String </td></tr>
-<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
-<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
-<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
-	c905 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HighLevelChangeRenaming.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> HighLevelChangeRenaming </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + HighLevelChangeRenaming(deletetionDifference : Difference, additionDifference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + getDeletionDifference() : Difference </td></tr>
-<tr><td align="left" balign="left"> + setDeletionDifference(deletionDifference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + getAdditionDifference() : Difference </td></tr>
-<tr><td align="left" balign="left"> + setAdditionDifference(additionDifference : Difference) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./HighLevelChangeRenaming.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Patch
-	c906 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Patch" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Patch.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Patch </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Patch(patchNumber : String, patchUser : String, patchMessage : String, addedSetUri : String, removedSetUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getPatchNumber() : String </td></tr>
-<tr><td align="left" balign="left"> + setPatchNumber(patchNumber : String) </td></tr>
-<tr><td align="left" balign="left"> + getPatchUser() : String </td></tr>
-<tr><td align="left" balign="left"> + setPatchUser(patchUser : String) </td></tr>
-<tr><td align="left" balign="left"> + getPatchMessage() : String </td></tr>
-<tr><td align="left" balign="left"> + setPatchMessage(patchMessage : String) </td></tr>
-<tr><td align="left" balign="left"> + getAddedSetUri() : String </td></tr>
-<tr><td align="left" balign="left"> + setAddedSetUri(addedSetUri : String) </td></tr>
-<tr><td align="left" balign="left"> + getRemovedSetUri() : String </td></tr>
-<tr><td align="left" balign="left"> + setRemovedSetUri(removedSetUri : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Patch.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./TableModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TableRow
-	c907 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableRow.html">
+	c327 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TableRow" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TableRow.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TableRow </td></tr>
 		</table></td></tr>
@@ -358,67 +381,8 @@ digraph G {
 <tr><td align="left" balign="left"> + getState() : String </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TableRow.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Difference
-	c908 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Difference </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionState) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getResolutionState() : ResolutionState </td></tr>
-<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionState) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.IndividualModel
-	c909 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.IndividualModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IndividualModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IndividualModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + IndividualModel() </td></tr>
-<tr><td align="left" balign="left"> + getIndividualStructures() : HashMap&lt;String, IndividualStructure&gt; </td></tr>
-<tr><td align="left" balign="left"> + setIndividualStructures(individualStructures : HashMap&lt;String, IndividualStructure&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addIndividualStructure(identifier : String, individualStructure : IndividualStructure) </td></tr>
-<tr><td align="left" balign="left"> + removeIndividualStructure(identifier : String) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IndividualModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
-	c910 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleIndividualStructure.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> TripleIndividualStructure </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + TripleIndividualStructure(triple : Triple, difference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
-<tr><td align="left" balign="left"> + getDifference() : Difference </td></tr>
-<tr><td align="left" balign="left"> + setDifference(difference : Difference) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./TripleIndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.TreeNode
-	c911 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TreeNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreeNode.html">
+	c328 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TreeNode" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TreeNode.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TreeNode </td></tr>
 		</table></td></tr>
@@ -437,43 +401,79 @@ digraph G {
 <tr><td align="left" balign="left"> + setStatus(status : boolean) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./TreeNode.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
-	c892:p -> c905:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c893:p -> c908:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c894:p -> c893:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c895:p -> c903:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
-	c895:p -> c903:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableRow
-	c897:p -> c907:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c897:p -> c904:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.PatchGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Patch
-	c900:p -> c906:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c901:p -> c902:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c901:p -> c902:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
-	c902:p -> c910:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
-	c903:p -> c905:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c905:p -> c908:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c905:p -> c908:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.TableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c907:p -> c904:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.Triple
+	c329 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Triple" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Triple.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> Triple </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + Triple(subject : String, predicate : String, object : String, objectType : TripleObjectTypeEnum) </td></tr>
+<tr><td align="left" balign="left"> + getSubject() : String </td></tr>
+<tr><td align="left" balign="left"> + setSubject(subject : String) </td></tr>
+<tr><td align="left" balign="left"> + getPredicate() : String </td></tr>
+<tr><td align="left" balign="left"> + setPredicate(predicate : String) </td></tr>
+<tr><td align="left" balign="left"> + getObject() : String </td></tr>
+<tr><td align="left" balign="left"> + setObject(object : String) </td></tr>
+<tr><td align="left" balign="left"> + getObjectType() : TripleObjectTypeEnum </td></tr>
+<tr><td align="left" balign="left"> + setObjectType(objectType : TripleObjectTypeEnum) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./Triple.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
+	c330 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleIndividualStructure.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> TripleIndividualStructure </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + TripleIndividualStructure(triple : Triple, difference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
+<tr><td align="left" balign="left"> + getDifference() : Difference </td></tr>
+<tr><td align="left" balign="left"> + setDifference(difference : Difference) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./TripleIndividualStructure.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c908:p -> c904:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c312:p -> c329:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
+	c313:p -> c312:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
+	c314:p -> c313:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
+	c315:p -> c316:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
+	c316:p -> c312:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
+	c316:p -> c312:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c317:p -> c318:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow
+	c317:p -> c318:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming
+	c318:p -> c316:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.IndividualModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
-	c909:p -> c902:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c319:p -> c320:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.IndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure
+	c320:p -> c330:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.PatchGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Patch
+	c322:p -> c321:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
+	c325:p -> c320:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableEntrySemanticEnrichmentAllIndividuals NAVASSOC de.tud.plt.r43ples.merging.model.structure.IndividualStructure
+	c325:p -> c320:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.TableRow
+	c326:p -> c327:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
+	c326:p -> c329:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.TableRow NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
+	c327:p -> c329:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
-	c910:p -> c904:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c330:p -> c329:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.TripleIndividualStructure NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c910:p -> c908:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c330:p -> c312:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

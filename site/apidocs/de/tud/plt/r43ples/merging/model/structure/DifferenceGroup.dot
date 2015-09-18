@@ -9,25 +9,34 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c1957 [label=<<table title="de.tud.plt.r43ples.management.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../../management/SDDTripleStateEnum.html">
+	// de.tud.plt.r43ples.merging.model.structure.Difference
+	c1818 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.management </td></tr>
+<tr><td align="center" balign="center"> Difference </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> ADDED </td></tr>
-<tr><td align="left" balign="left"> DELETED </td></tr>
-<tr><td align="left" balign="left"> ORIGINAL </td></tr>
-<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
+<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
+<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
+<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
+<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
+<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getResolutionState() : ResolutionStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionStateEnum) </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../../management/SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c2003 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DifferenceGroup.html">
+	c1819 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DifferenceGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DifferenceGroup </td></tr>
 		</table></td></tr>
@@ -51,7 +60,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2004 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceModel.html">
+	c1820 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DifferenceModel </td></tr>
 		</table></td></tr>
@@ -67,47 +76,38 @@ digraph G {
 <tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.Difference
-	c2018 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.Difference" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./Difference.html">
+	// de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1851 [label=<<table title="de.tud.plt.r43ples.merging.SDDTripleStateEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../SDDTripleStateEnum.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> Difference </td></tr>
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> SDDTripleStateEnum </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + Difference(triple : Triple, referencedRevisionA : String, referencedRevisionLabelA : String, referencedRevisionB : String, referencedRevisionLabelB : String, tripleResolutionState : SDDTripleStateEnum, resolutionState : ResolutionState) </td></tr>
-<tr><td align="left" balign="left"> + getTriple() : Triple </td></tr>
-<tr><td align="left" balign="left"> + setTriple(triple : Triple) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionA(referencedRevisionA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelA() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelA(referencedRevisionLabelA : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionB(referencedRevisionB : String) </td></tr>
-<tr><td align="left" balign="left"> + getReferencedRevisionLabelB() : String </td></tr>
-<tr><td align="left" balign="left"> + setReferencedRevisionLabelB(referencedRevisionLabelB : String) </td></tr>
-<tr><td align="left" balign="left"> + getTripleResolutionState() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleResolutionState(tripleResolutionState : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getResolutionState() : ResolutionState </td></tr>
-<tr><td align="left" balign="left"> + setResolutionState(resolutionState : ResolutionState) </td></tr>
+<tr><td align="left" balign="left"> ADDED </td></tr>
+<tr><td align="left" balign="left"> DELETED </td></tr>
+<tr><td align="left" balign="left"> ORIGINAL </td></tr>
+<tr><td align="left" balign="left"> NOTINCLUDED </td></tr>
 		</table></td></tr>
-		</table>>, URL="./Difference.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2003:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2003:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2003:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+		</table>>, URL="../../SDDTripleStateEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1818:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1819:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1819:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1819:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup NAVASSOC de.tud.plt.r43ples.merging.model.structure.Difference
-	c2003:p -> c2018:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c1819:p -> c1818:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c2004:p -> c2003:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2018:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2003:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.model.structure.Difference DEPEND de.tud.plt.r43ples.management.SDDTripleStateEnum
-	c2018:p -> c1957:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1820:p -> c1819:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.model.structure.Difference DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1818:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c1819:p -> c1851:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

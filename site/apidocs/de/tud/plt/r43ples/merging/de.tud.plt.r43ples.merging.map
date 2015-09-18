@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c559" href="./MergeManagement.html" title="de.tud.plt.r43ples.merging.MergeManagement" alt="" coords="16,11,2205,197"/>
+<area shape="rect" id="node1" href="./MergeManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,6,2216,202"/>
+<area shape="rect" id="c560" href="./MergeQueryStateEnum.html" title="de.tud.plt.r43ples.merging.MergeQueryStateEnum" alt="" coords="2251,43,2408,165"/>
+<area shape="rect" id="node2" href="./MergeQueryStateEnum.html" title="&lt;TABLE&gt;" alt="" coords="2240,38,2419,170"/>
+<area shape="rect" id="c561" href="./MergeQueryTypeEnum.html" title="de.tud.plt.r43ples.merging.MergeQueryTypeEnum" alt="" coords="2453,35,2608,173"/>
+<area shape="rect" id="node3" href="./MergeQueryTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="2443,30,2619,178"/>
+<area shape="rect" id="c562" href="./MergeResult.html" title="de.tud.plt.r43ples.merging.MergeResult" alt="" coords="2653,19,3051,189"/>
+<area shape="rect" id="node4" href="./MergeResult.html" title="&lt;TABLE&gt;" alt="" coords="2643,14,3061,194"/>
+<area shape="rect" id="c563" href="./ResolutionStateEnum.html" title="de.tud.plt.r43ples.merging.ResolutionStateEnum" alt="" coords="3095,43,3243,165"/>
+<area shape="rect" id="node5" href="./ResolutionStateEnum.html" title="&lt;TABLE&gt;" alt="" coords="3085,38,3253,170"/>
+<area shape="rect" id="c564" href="./SDDTripleStateEnum.html" title="de.tud.plt.r43ples.merging.SDDTripleStateEnum" alt="" coords="3288,35,3435,173"/>
+<area shape="rect" id="node6" href="./SDDTripleStateEnum.html" title="&lt;TABLE&gt;" alt="" coords="3277,30,3445,178"/>
+<area shape="rect" id="c565" href="./TripleObjectTypeEnum.html" title="de.tud.plt.r43ples.merging.TripleObjectTypeEnum" alt="" coords="3479,51,3633,157"/>
+<area shape="rect" id="node7" href="./TripleObjectTypeEnum.html" title="&lt;TABLE&gt;" alt="" coords="3469,46,3643,162"/>
+</map>

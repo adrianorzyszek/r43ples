@@ -1,16 +1,14 @@
 <map id="G" name="G">
-<area shape="rect" id="c730" href="./RewriteManagement.html" title="de.tud.plt.r43ples.merging.management.RewriteManagement" alt="" coords="16,203,304,293"/>
-<area shape="rect" id="node1" href="./RewriteManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,198,315,298"/>
-<area shape="rect" id="c731" href="./StrategyManagement.html" title="de.tud.plt.r43ples.merging.management.StrategyManagement" alt="" coords="349,75,1520,421"/>
-<area shape="rect" id="node2" href="./StrategyManagement.html" title="&lt;TABLE&gt;" alt="" coords="339,70,1531,426"/>
-<area shape="rect" id="c732" href="./QueryManagement.html" title="de.tud.plt.r43ples.merging.management.QueryManagement" alt="" coords="1565,195,2059,301"/>
-<area shape="rect" id="node3" href="./QueryManagement.html" title="&lt;TABLE&gt;" alt="" coords="1555,190,2069,306"/>
-<area shape="rect" id="c733" href="./BranchManagement.html" title="de.tud.plt.r43ples.merging.management.BranchManagement" alt="" coords="2103,203,2537,293"/>
-<area shape="rect" id="node4" href="./BranchManagement.html" title="&lt;TABLE&gt;" alt="" coords="2093,198,2547,298"/>
-<area shape="rect" id="c734" href="./ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="2581,195,3123,301"/>
-<area shape="rect" id="node5" href="./ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="2571,190,3133,306"/>
-<area shape="rect" id="c735" href="./ClientConfig.html" title="de.tud.plt.r43ples.merging.management.ClientConfig" alt="" coords="3167,163,3449,333"/>
-<area shape="rect" id="node6" href="./ClientConfig.html" title="&lt;TABLE&gt;" alt="" coords="3157,158,3459,338"/>
-<area shape="rect" id="c736" href="./ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="3493,11,4659,485"/>
-<area shape="rect" id="node7" href="./ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="3483,6,4669,490"/>
+<area shape="rect" id="c404" href="./BranchManagement.html" title="de.tud.plt.r43ples.merging.management.BranchManagement" alt="" coords="15,203,449,293"/>
+<area shape="rect" id="node1" href="./BranchManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,198,459,298"/>
+<area shape="rect" id="c405" href="./ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="493,11,1659,485"/>
+<area shape="rect" id="node2" href="./ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="483,6,1669,490"/>
+<area shape="rect" id="c406" href="./QueryManagement.html" title="de.tud.plt.r43ples.merging.management.QueryManagement" alt="" coords="1704,195,2197,301"/>
+<area shape="rect" id="node3" href="./QueryManagement.html" title="&lt;TABLE&gt;" alt="" coords="1693,190,2208,306"/>
+<area shape="rect" id="c407" href="./ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="2243,195,2784,301"/>
+<area shape="rect" id="node4" href="./ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="2232,190,2795,306"/>
+<area shape="rect" id="c408" href="./RewriteManagement.html" title="de.tud.plt.r43ples.merging.management.RewriteManagement" alt="" coords="2829,203,3117,293"/>
+<area shape="rect" id="node5" href="./RewriteManagement.html" title="&lt;TABLE&gt;" alt="" coords="2819,198,3128,298"/>
+<area shape="rect" id="c409" href="./StrategyManagement.html" title="de.tud.plt.r43ples.merging.management.StrategyManagement" alt="" coords="3163,75,4333,421"/>
+<area shape="rect" id="node6" href="./StrategyManagement.html" title="&lt;TABLE&gt;" alt="" coords="3152,70,4344,426"/>
 </map>

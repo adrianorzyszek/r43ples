@@ -8,8 +8,8 @@
 <div id="overview"><a href="../../../../../../../../apidocs/de/tud/plt/r43ples/merging/model/structure/Difference.html">View Javadoc</a></div><pre>
 <a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> de.tud.plt.r43ples.merging.model.structure;
 <a class="jxr_linenumber" name="L2" href="#L2">2</a>   
-<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.management.ResolutionState;
-<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.management.SDDTripleStateEnum;
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.ResolutionStateEnum;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.SDDTripleStateEnum;
 <a class="jxr_linenumber" name="L5" href="#L5">5</a>   
 <a class="jxr_linenumber" name="L6" href="#L6">6</a>   
 <a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment">/**</em>
@@ -31,9 +31,9 @@
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  	<em class="jxr_javadoccomment">/** The revision label of referenced revision B. **/</em>
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  	<strong class="jxr_keyword">private</strong> String referencedRevisionLabelB;
 <a class="jxr_linenumber" name="L25" href="#L25">25</a>  	<em class="jxr_javadoccomment">/** The triple resolution state. **/</em>
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState;
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState;
 <a class="jxr_linenumber" name="L27" href="#L27">27</a>  	<em class="jxr_javadoccomment">/** The resolution state of this difference. **/</em>
-<a class="jxr_linenumber" name="L28" href="#L28">28</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/ResolutionState.html">ResolutionState</a> resolutionState;
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/ResolutionStateEnum.html">ResolutionStateEnum</a> resolutionState;
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  	
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  	
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  	<em class="jxr_javadoccomment">/**</em>
@@ -47,7 +47,7 @@
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>  <em class="jxr_javadoccomment">	 * @param tripleResolutionState the triple resolution state</em>
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  <em class="jxr_javadoccomment">	 * @param resolutionState the resolution state</em>
 <a class="jxr_linenumber" name="L41" href="#L41">41</a>  <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L42" href="#L42">42</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Difference.html">Difference</a>(<a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Triple.html">Triple</a> triple, String referencedRevisionA, String referencedRevisionLabelA, String referencedRevisionB, String referencedRevisionLabelB, <a href="../../../../../../../de/tud/plt/r43ples/management/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState, <a href="../../../../../../../de/tud/plt/r43ples/management/ResolutionState.html">ResolutionState</a> resolutionState) {
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Difference.html">Difference</a>(<a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Triple.html">Triple</a> triple, String referencedRevisionA, String referencedRevisionLabelA, String referencedRevisionB, String referencedRevisionLabelB, <a href="../../../../../../../de/tud/plt/r43ples/merging/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState, <a href="../../../../../../../de/tud/plt/r43ples/merging/ResolutionStateEnum.html">ResolutionStateEnum</a> resolutionState) {
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>  		<strong class="jxr_keyword">this</strong>.triple = triple;
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>  		<strong class="jxr_keyword">this</strong>.referencedRevisionA = referencedRevisionA;
 <a class="jxr_linenumber" name="L45" href="#L45">45</a>  		<strong class="jxr_keyword">this</strong>.referencedRevisionLabelA = referencedRevisionLabelA;
@@ -163,7 +163,7 @@
 <a class="jxr_linenumber" name="L155" href="#L155">155</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L156" href="#L156">156</a> <em class="jxr_javadoccomment">	 * @return the triple resolution state</em>
 <a class="jxr_linenumber" name="L157" href="#L157">157</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L158" href="#L158">158</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/SDDTripleStateEnum.html">SDDTripleStateEnum</a> getTripleResolutionState() {
+<a class="jxr_linenumber" name="L158" href="#L158">158</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/SDDTripleStateEnum.html">SDDTripleStateEnum</a> getTripleResolutionState() {
 <a class="jxr_linenumber" name="L159" href="#L159">159</a> 		<strong class="jxr_keyword">return</strong> tripleResolutionState;
 <a class="jxr_linenumber" name="L160" href="#L160">160</a> 	}
 <a class="jxr_linenumber" name="L161" href="#L161">161</a> 
@@ -173,7 +173,7 @@
 <a class="jxr_linenumber" name="L165" href="#L165">165</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L166" href="#L166">166</a> <em class="jxr_javadoccomment">	 * @param tripleResolutionState the triple resolution state</em>
 <a class="jxr_linenumber" name="L167" href="#L167">167</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L168" href="#L168">168</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setTripleResolutionState(<a href="../../../../../../../de/tud/plt/r43ples/management/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState) {
+<a class="jxr_linenumber" name="L168" href="#L168">168</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setTripleResolutionState(<a href="../../../../../../../de/tud/plt/r43ples/merging/SDDTripleStateEnum.html">SDDTripleStateEnum</a> tripleResolutionState) {
 <a class="jxr_linenumber" name="L169" href="#L169">169</a> 		<strong class="jxr_keyword">this</strong>.tripleResolutionState = tripleResolutionState;
 <a class="jxr_linenumber" name="L170" href="#L170">170</a> 	}
 <a class="jxr_linenumber" name="L171" href="#L171">171</a> 
@@ -183,7 +183,7 @@
 <a class="jxr_linenumber" name="L175" href="#L175">175</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L176" href="#L176">176</a> <em class="jxr_javadoccomment">	 * @return the resolutionState</em>
 <a class="jxr_linenumber" name="L177" href="#L177">177</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L178" href="#L178">178</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/ResolutionState.html">ResolutionState</a> getResolutionState() {
+<a class="jxr_linenumber" name="L178" href="#L178">178</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/ResolutionStateEnum.html">ResolutionStateEnum</a> getResolutionState() {
 <a class="jxr_linenumber" name="L179" href="#L179">179</a> 		<strong class="jxr_keyword">return</strong> resolutionState;
 <a class="jxr_linenumber" name="L180" href="#L180">180</a> 	}
 <a class="jxr_linenumber" name="L181" href="#L181">181</a> 
@@ -193,7 +193,7 @@
 <a class="jxr_linenumber" name="L185" href="#L185">185</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L186" href="#L186">186</a> <em class="jxr_javadoccomment">	 * @param resolutionState the resolutionState to set</em>
 <a class="jxr_linenumber" name="L187" href="#L187">187</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L188" href="#L188">188</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setResolutionState(<a href="../../../../../../../de/tud/plt/r43ples/management/ResolutionState.html">ResolutionState</a> resolutionState) {
+<a class="jxr_linenumber" name="L188" href="#L188">188</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setResolutionState(<a href="../../../../../../../de/tud/plt/r43ples/merging/ResolutionStateEnum.html">ResolutionStateEnum</a> resolutionState) {
 <a class="jxr_linenumber" name="L189" href="#L189">189</a> 		<strong class="jxr_keyword">this</strong>.resolutionState = resolutionState;
 <a class="jxr_linenumber" name="L190" href="#L190">190</a> 	}
 <a class="jxr_linenumber" name="L191" href="#L191">191</a> 	

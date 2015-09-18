@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.merging.control.FastForwardControl
-	c813 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FastForwardControl.html">
+	c483 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FastForwardControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FastForwardControl </td></tr>
 		</table></td></tr>
@@ -25,7 +25,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./FastForwardControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c814 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergingControl.html">
+	c484 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 		</table></td></tr>
@@ -40,7 +40,6 @@ digraph G {
 <tr><td align="left" balign="left"> + getViewHtmlOutput() : String </td></tr>
 <tr><td align="left" balign="left"> + getUpdatedViewHtmlOutput() : String </td></tr>
 <tr><td align="left" balign="left"> + getThreeWayReportView(graphName : String) : String </td></tr>
-<tr><td align="left" balign="left"> + getBranchInformation(graph : String) : String </td></tr>
 <tr><td align="left" balign="left"> + getMergeProcess(response : Response, graphName : String, branchNameA : String, branchNameB : String, format : String) </td></tr>
 <tr><td align="left" balign="left"> + getIndividualView() : String </td></tr>
 <tr><td align="left" balign="left"> + getIndividualFilter(individualA : String, individualB : String) : String </td></tr>
@@ -51,7 +50,6 @@ digraph G {
 <tr><td align="left" balign="left"> + approveToDifferenceModel(id : String, isChecked : String) </td></tr>
 <tr><td align="left" balign="left"> + approveHighLevelToDifferenceModel(id : String, isChecked : String) </td></tr>
 <tr><td align="left" balign="left"> + createReportProcess() : String </td></tr>
-<tr><td align="left" balign="left"> + createRebaseReportProcess() : String </td></tr>
 <tr><td align="left" balign="left"> + updateMergeQueryNew() : String </td></tr>
 <tr><td align="left" balign="left"> + transformDifferenceModelToRebase() </td></tr>
 <tr><td align="left" balign="left"> + updateMergeQuery(triplesId : String) : String </td></tr>
@@ -65,7 +63,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.RebaseControl
-	c815 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RebaseControl.html">
+	c485 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RebaseControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RebaseControl </td></tr>
 		</table></td></tr>
@@ -91,8 +89,8 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./RebaseControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.control.RebaseControl
-	c814:p -> c815:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c484:p -> c485:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.control.MergingControl
-	c815:p -> c814:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c485:p -> c484:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

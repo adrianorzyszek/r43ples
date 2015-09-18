@@ -9,23 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.control.FastForwardControl
-	c2303 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FastForwardControl.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> FastForwardControl </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + FastForwardControl() </td></tr>
-<tr><td align="left" balign="left"> + getFastForwardReportView(graphName : String) : String </td></tr>
-<tr><td align="left" balign="left"> + fastForwardCheck(graphName : String, branch1 : String, branch2 : String) : boolean </td></tr>
-<tr><td align="left" balign="left"> + createCommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./FastForwardControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c2312 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/CommitModel.html">
+	c2109 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.CommitModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../model/structure/CommitModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CommitModel </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.model.structure </td></tr>
@@ -53,7 +38,22 @@ digraph G {
 <tr><td align="left" balign="left"> + setType(type : java.lang.String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/structure/CommitModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.control.FastForwardControl
+	c2135 [label=<<table title="de.tud.plt.r43ples.merging.control.FastForwardControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./FastForwardControl.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> FastForwardControl </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + FastForwardControl() </td></tr>
+<tr><td align="left" balign="left"> + getFastForwardReportView(graphName : String) : String </td></tr>
+<tr><td align="left" balign="left"> + fastForwardCheck(graphName : String, branch1 : String, branch2 : String) : boolean </td></tr>
+<tr><td align="left" balign="left"> + createCommitModel(graphName : String, sddName : String, user : String, message : String, branch1 : String, branch2 : String, strategy : String, type : String) </td></tr>
+		</table></td></tr>
+		</table>>, URL="./FastForwardControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.FastForwardControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c2303:p -> c2312:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c2135:p -> c2109:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 

@@ -9,25 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
-	c4407 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RebaseQueryTypeEnum.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> AUTO </td></tr>
-<tr><td align="left" balign="left"> COMMON </td></tr>
-<tr><td align="left" balign="left"> FORCE </td></tr>
-<tr><td align="left" balign="left"> MANUAL </td></tr>
-<tr><td align="left" balign="left"> WITH </td></tr>
-		</table></td></tr>
-		</table>>, URL="./RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.StrategyManagement
-	c4435 [label=<<table title="de.tud.plt.r43ples.merging.management.StrategyManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/management/StrategyManagement.html">
+	c4188 [label=<<table title="de.tud.plt.r43ples.merging.management.StrategyManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/management/StrategyManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StrategyManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -56,7 +39,46 @@ digraph G {
 <tr><td align="left" balign="left"> + fullGraphCopy(fullGraphUriA : java.lang.String, fullGraphUriB : java.lang.String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../merging/management/StrategyManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.MergeManagement
+	c4192 [label=<<table title="de.tud.plt.r43ples.merging.MergeManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../merging/MergeManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MergeManagement </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + MergeManagement() </td></tr>
+<tr><td align="left" balign="left"> + getCommonRevisionWithShortestPath(revision1 : java.lang.String, revision2 : java.lang.String) : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + getPathBetweenStartAndTargetRevision(startRevision : java.lang.String, targetRevision : java.lang.String) : java.util.LinkedList&lt;java.lang.String&gt; </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgresses(listA : java.util.LinkedList&lt;java.lang.String&gt;, graphNameRevisionProgressA : java.lang.String, uriA : java.lang.String, listB : java.util.LinkedList&lt;java.lang.String&gt;, graphNameRevisionProgressB : java.lang.String, uriB : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + createRevisionProgress(list : java.util.LinkedList&lt;java.lang.String&gt;, fullGraphNameCommonRevision : java.lang.String, graphNameRevisionProgress : java.lang.String, uri : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + createDifferenceTripleModel(graphName : java.lang.String, graphNameDifferenceTripleModel : java.lang.String, graphNameRevisionProgressA : java.lang.String, uriA : java.lang.String, graphNameRevisionProgressB : java.lang.String, uriB : java.lang.String, uriSDD : java.lang.String) </td></tr>
+<tr><td align="left" balign="left"> + createMergedRevision(graphName : java.lang.String, branchNameA : java.lang.String, branchNameB : java.lang.String, user : java.lang.String, commitMessage : java.lang.String, graphNameDifferenceTripleModel : java.lang.String, graphNameRevisionProgressA : java.lang.String, uriA : java.lang.String, graphNameRevisionProgressB : java.lang.String, uriB : java.lang.String, uriSDD : java.lang.String, type : de.tud.plt.r43ples.merging.MergeQueryTypeEnum, triples : java.lang.String) : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + createRebaseMergedTripleList(graphName : java.lang.String, branchNameA : java.lang.String, branchNameB : java.lang.String, user : java.lang.String, commitMessage : java.lang.String, graphNameDifferenceTripleModel : java.lang.String, graphNameRevisionProgressA : java.lang.String, uriA : java.lang.String, graphNameRevisionProgressB : java.lang.String, uriB : java.lang.String, uriSDD : java.lang.String, type : de.tud.plt.r43ples.management.RebaseQueryTypeEnum, triples : java.lang.String) : java.util.ArrayList&lt;java.lang.String&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="../merging/MergeManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
+	c4205 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./RebaseQueryTypeEnum.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> AUTO </td></tr>
+<tr><td align="left" balign="left"> COMMON </td></tr>
+<tr><td align="left" balign="left"> FORCE </td></tr>
+<tr><td align="left" balign="left"> MANUAL </td></tr>
+<tr><td align="left" balign="left"> WITH </td></tr>
+		</table></td></tr>
+		</table>>, URL="./RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.StrategyManagement DEPEND de.tud.plt.r43ples.management.RebaseQueryTypeEnum
-	c4435:p -> c4407:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c4188:p -> c4205:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.MergeManagement DEPEND de.tud.plt.r43ples.management.RebaseQueryTypeEnum
+	c4192:p -> c4205:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c2689" href="./HighLevelChangeTableModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" alt="" coords="365,11,867,181"/>
-<area shape="rect" id="node1" href="./HighLevelChangeTableModel.html" title="&lt;TABLE&gt;" alt="" coords="355,6,877,186"/>
-<area shape="rect" id="c2697" href="./HighLevelChangeTableRow.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" alt="" coords="15,241,1217,570"/>
-<area shape="rect" id="node2" href="./HighLevelChangeTableRow.html" title="&lt;TABLE&gt;" alt="" coords="5,235,1227,575"/>
-<area shape="rect" id="c2699" href="./HighLevelChangeRenaming.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" alt="" coords="328,630,904,767"/>
-<area shape="rect" id="node3" href="./HighLevelChangeRenaming.html" title="&lt;TABLE&gt;" alt="" coords="317,625,915,773"/>
+<area shape="rect" id="c2479" href="./HighLevelChangeRenaming.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeRenaming" alt="" coords="328,630,904,767"/>
+<area shape="rect" id="node1" href="./HighLevelChangeRenaming.html" title="&lt;TABLE&gt;" alt="" coords="317,625,915,773"/>
+<area shape="rect" id="c2480" href="./HighLevelChangeTableModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" alt="" coords="365,11,867,181"/>
+<area shape="rect" id="node2" href="./HighLevelChangeTableModel.html" title="&lt;TABLE&gt;" alt="" coords="355,6,877,186"/>
+<area shape="rect" id="c2481" href="./HighLevelChangeTableRow.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" alt="" coords="15,241,1217,570"/>
+<area shape="rect" id="node3" href="./HighLevelChangeTableRow.html" title="&lt;TABLE&gt;" alt="" coords="5,235,1227,575"/>
 </map>

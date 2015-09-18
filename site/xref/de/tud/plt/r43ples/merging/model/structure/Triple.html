@@ -8,7 +8,7 @@
 <div id="overview"><a href="../../../../../../../../apidocs/de/tud/plt/r43ples/merging/model/structure/Triple.html">View Javadoc</a></div><pre>
 <a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> de.tud.plt.r43ples.merging.model.structure;
 <a class="jxr_linenumber" name="L2" href="#L2">2</a>   
-<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.management.TripleObjectTypeEnum;
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.TripleObjectTypeEnum;
 <a class="jxr_linenumber" name="L4" href="#L4">4</a>   
 <a class="jxr_linenumber" name="L5" href="#L5">5</a>   
 <a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment">/**</em>
@@ -26,7 +26,7 @@
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>  	<em class="jxr_javadoccomment">/** The object of the triple. **/</em>
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  	<strong class="jxr_keyword">private</strong> String object;
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  	<em class="jxr_javadoccomment">/** The object type. **/</em>
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType;
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  	<strong class="jxr_keyword">private</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType;
 <a class="jxr_linenumber" name="L22" href="#L22">22</a>  	
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>  	
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>  	<em class="jxr_javadoccomment">/**</em>
@@ -37,7 +37,7 @@
 <a class="jxr_linenumber" name="L29" href="#L29">29</a>  <em class="jxr_javadoccomment">	 * @param object the object</em>
 <a class="jxr_linenumber" name="L30" href="#L30">30</a>  <em class="jxr_javadoccomment">	 * @param objectType the object type</em>
 <a class="jxr_linenumber" name="L31" href="#L31">31</a>  <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L32" href="#L32">32</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Triple.html">Triple</a>(String subject, String predicate, String object, <a href="../../../../../../../de/tud/plt/r43ples/management/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType) {
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>  	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/model/structure/Triple.html">Triple</a>(String subject, String predicate, String object, <a href="../../../../../../../de/tud/plt/r43ples/merging/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType) {
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  		<strong class="jxr_keyword">this</strong>.subject = subject;
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  		<strong class="jxr_keyword">this</strong>.predicate = predicate;
 <a class="jxr_linenumber" name="L35" href="#L35">35</a>  		<strong class="jxr_keyword">this</strong>.object = object;
@@ -110,7 +110,7 @@
 <a class="jxr_linenumber" name="L102" href="#L102">102</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L103" href="#L103">103</a> <em class="jxr_javadoccomment">	 * @return the object type</em>
 <a class="jxr_linenumber" name="L104" href="#L104">104</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L105" href="#L105">105</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/management/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> getObjectType() {
+<a class="jxr_linenumber" name="L105" href="#L105">105</a> 	<strong class="jxr_keyword">public</strong> <a href="../../../../../../../de/tud/plt/r43ples/merging/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> getObjectType() {
 <a class="jxr_linenumber" name="L106" href="#L106">106</a> 		<strong class="jxr_keyword">return</strong> objectType;
 <a class="jxr_linenumber" name="L107" href="#L107">107</a> 	}
 <a class="jxr_linenumber" name="L108" href="#L108">108</a> 
@@ -120,7 +120,7 @@
 <a class="jxr_linenumber" name="L112" href="#L112">112</a> <em class="jxr_javadoccomment">	 * </em>
 <a class="jxr_linenumber" name="L113" href="#L113">113</a> <em class="jxr_javadoccomment">	 * @param objectType the object type</em>
 <a class="jxr_linenumber" name="L114" href="#L114">114</a> <em class="jxr_javadoccomment">	 */</em>
-<a class="jxr_linenumber" name="L115" href="#L115">115</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setObjectType(<a href="../../../../../../../de/tud/plt/r43ples/management/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType) {
+<a class="jxr_linenumber" name="L115" href="#L115">115</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setObjectType(<a href="../../../../../../../de/tud/plt/r43ples/merging/TripleObjectTypeEnum.html">TripleObjectTypeEnum</a> objectType) {
 <a class="jxr_linenumber" name="L116" href="#L116">116</a> 		<strong class="jxr_keyword">this</strong>.objectType = objectType;
 <a class="jxr_linenumber" name="L117" href="#L117">117</a> 	}
 <a class="jxr_linenumber" name="L118" href="#L118">118</a> 	

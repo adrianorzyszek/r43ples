@@ -9,23 +9,49 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.merging.management.ReportManagement
-	c2072 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ReportManagement.html">
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
+	c1892 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ReportManagement </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
+<tr><td align="center" balign="center"> DifferenceGroup </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ReportManagement() </td></tr>
-<tr><td align="left" balign="left"> + initialReportResult(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) : de.tud.plt.r43ples.merging.model.structure.ReportResult </td></tr>
-<tr><td align="left" balign="left"> + createReportTableRowList(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) : java.util.List&lt;de.tud.plt.r43ples.merging.model.structure.ReportTableRow&gt; </td></tr>
+<tr><td align="left" balign="left"> + DifferenceGroup(tripleStateA : SDDTripleStateEnum, tripleStateB : SDDTripleStateEnum, automaticResolutionState : SDDTripleStateEnum, conflicting : boolean) </td></tr>
+<tr><td align="left" balign="left"> + getTripleStateA() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleStateA(tripleStateA : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getTripleStateB() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setTripleStateB(tripleStateB : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + getAutomaticResolutionState() : SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + setAutomaticResolutionState(automaticResolutionState : SDDTripleStateEnum) </td></tr>
+<tr><td align="left" balign="left"> + isConflicting() : boolean </td></tr>
+<tr><td align="left" balign="left"> + setConflicting(conflicting : boolean) </td></tr>
+<tr><td align="left" balign="left"> + getDifferences() : HashMap&lt;String, Difference&gt; </td></tr>
+<tr><td align="left" balign="left"> + setDifferences(differences : HashMap&lt;String, Difference&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addDifference(identifier : String, difference : Difference) </td></tr>
+<tr><td align="left" balign="left"> + removeDifference(identifier : String) </td></tr>
 		</table></td></tr>
-		</table>>, URL="../../management/ReportManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel
+	c1893 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DifferenceModel.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> DifferenceModel </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + DifferenceModel() </td></tr>
+<tr><td align="left" balign="left"> + getDifferenceGroups() : HashMap&lt;String, DifferenceGroup&gt; </td></tr>
+<tr><td align="left" balign="left"> + setDifferenceGroups(differenceGroups : HashMap&lt;String, DifferenceGroup&gt;) </td></tr>
+<tr><td align="left" balign="left"> + addDifferenceGroup(identifier : String, differenceGroup : DifferenceGroup) </td></tr>
+<tr><td align="left" balign="left"> + removeDifferenceGroup(identifier : String) </td></tr>
+<tr><td align="left" balign="left"> + clear() </td></tr>
+		</table></td></tr>
+		</table>>, URL="./DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement
-	c2074 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
+	c1911 [label=<<table title="de.tud.plt.r43ples.merging.management.ProcessManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ProcessManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessManagement </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
@@ -35,11 +61,11 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + ProcessManagement() </td></tr>
-<tr><td align="left" balign="left"> + createMergeQuery(graphName : java.lang.String, sdd : java.lang.String, user : java.lang.String, commitMessage : java.lang.String, type : de.tud.plt.r43ples.merge.MergeQueryTypeEnum, branchNameA : java.lang.String, branchNameB : java.lang.String, triples : java.lang.String) : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + createMergeQuery(graphName : java.lang.String, sdd : java.lang.String, user : java.lang.String, commitMessage : java.lang.String, type : de.tud.plt.r43ples.merging.MergeQueryTypeEnum, branchNameA : java.lang.String, branchNameB : java.lang.String, triples : java.lang.String) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + readDifferenceModel(differenceModelToRead : java.lang.String, differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel, format : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + readTurtleStringToJenaModel(triples : java.lang.String, format : java.lang.String) : com.hp.hpl.jena.rdf.model.Model </td></tr>
 <tr><td align="left" balign="left"> + writeJenaModelToNTriplesString(model : com.hp.hpl.jena.rdf.model.Model) : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + convertSDDStringToSDDTripleState(state : java.lang.String) : de.tud.plt.r43ples.management.SDDTripleStateEnum </td></tr>
+<tr><td align="left" balign="left"> + convertSDDStringToSDDTripleState(state : java.lang.String) : de.tud.plt.r43ples.merging.SDDTripleStateEnum </td></tr>
 <tr><td align="left" balign="left"> + tripleToString(triple : de.tud.plt.r43ples.merging.model.structure.Triple) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getSubject(triple : de.tud.plt.r43ples.merging.model.structure.Triple) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getPredicate(triple : de.tud.plt.r43ples.merging.model.structure.Triple) : java.lang.String </td></tr>
@@ -62,8 +88,23 @@ digraph G {
 <tr><td align="left" balign="left"> + getAllTriplesDividedIntoInsertAndDelete(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel, model : com.hp.hpl.jena.rdf.model.Model) : java.util.ArrayList&lt;java.lang.String&gt; </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../management/ProcessManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.merging.management.ReportManagement
+	c1913 [label=<<table title="de.tud.plt.r43ples.merging.management.ReportManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/ReportManagement.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ReportManagement </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.management </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> + ReportManagement() </td></tr>
+<tr><td align="left" balign="left"> + initialReportResult(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) : de.tud.plt.r43ples.merging.model.structure.ReportResult </td></tr>
+<tr><td align="left" balign="left"> + createReportTableRowList(differenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) : java.util.List&lt;de.tud.plt.r43ples.merging.model.structure.ReportTableRow&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../management/ReportManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.MergingControl
-	c2076 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
+	c1917 [label=<<table title="de.tud.plt.r43ples.merging.control.MergingControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/MergingControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergingControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -79,7 +120,6 @@ digraph G {
 <tr><td align="left" balign="left"> + getViewHtmlOutput() : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getUpdatedViewHtmlOutput() : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getThreeWayReportView(graphName : java.lang.String) : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + getBranchInformation(graph : java.lang.String) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getMergeProcess(response : javax.ws.rs.core.Response, graphName : java.lang.String, branchNameA : java.lang.String, branchNameB : java.lang.String, format : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + getIndividualView() : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + getIndividualFilter(individualA : java.lang.String, individualB : java.lang.String) : java.lang.String </td></tr>
@@ -90,7 +130,6 @@ digraph G {
 <tr><td align="left" balign="left"> + approveToDifferenceModel(id : java.lang.String, isChecked : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + approveHighLevelToDifferenceModel(id : java.lang.String, isChecked : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + createReportProcess() : java.lang.String </td></tr>
-<tr><td align="left" balign="left"> + createRebaseReportProcess() : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + updateMergeQueryNew() : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + transformDifferenceModelToRebase() </td></tr>
 <tr><td align="left" balign="left"> + updateMergeQuery(triplesId : java.lang.String) : java.lang.String </td></tr>
@@ -104,7 +143,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="../../control/MergingControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.control.RebaseControl
-	c2077 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/RebaseControl.html">
+	c1918 [label=<<table title="de.tud.plt.r43ples.merging.control.RebaseControl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../control/RebaseControl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RebaseControl </td></tr>
 <tr><td align="center" balign="center"> de.tud.plt.r43ples.merging.control </td></tr>
@@ -130,62 +169,21 @@ digraph G {
 <tr><td align="left" balign="left"> + updateRebaseDifferenceModel(updatedDifferenceModel : de.tud.plt.r43ples.merging.model.structure.DifferenceModel) </td></tr>
 		</table></td></tr>
 		</table>>, URL="../../control/RebaseControl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c2079 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DifferenceGroup.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DifferenceGroup </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DifferenceGroup(tripleStateA : SDDTripleStateEnum, tripleStateB : SDDTripleStateEnum, automaticResolutionState : SDDTripleStateEnum, conflicting : boolean) </td></tr>
-<tr><td align="left" balign="left"> + getTripleStateA() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleStateA(tripleStateA : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getTripleStateB() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setTripleStateB(tripleStateB : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + getAutomaticResolutionState() : SDDTripleStateEnum </td></tr>
-<tr><td align="left" balign="left"> + setAutomaticResolutionState(automaticResolutionState : SDDTripleStateEnum) </td></tr>
-<tr><td align="left" balign="left"> + isConflicting() : boolean </td></tr>
-<tr><td align="left" balign="left"> + setConflicting(conflicting : boolean) </td></tr>
-<tr><td align="left" balign="left"> + getDifferences() : HashMap&lt;String, Difference&gt; </td></tr>
-<tr><td align="left" balign="left"> + setDifferences(differences : HashMap&lt;String, Difference&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addDifference(identifier : String, difference : Difference) </td></tr>
-<tr><td align="left" balign="left"> + removeDifference(identifier : String) </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DifferenceGroup.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2080 [label=<<table title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DifferenceModel.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DifferenceModel </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + DifferenceModel() </td></tr>
-<tr><td align="left" balign="left"> + getDifferenceGroups() : HashMap&lt;String, DifferenceGroup&gt; </td></tr>
-<tr><td align="left" balign="left"> + setDifferenceGroups(differenceGroups : HashMap&lt;String, DifferenceGroup&gt;) </td></tr>
-<tr><td align="left" balign="left"> + addDifferenceGroup(identifier : String, differenceGroup : DifferenceGroup) </td></tr>
-<tr><td align="left" balign="left"> + removeDifferenceGroup(identifier : String) </td></tr>
-<tr><td align="left" balign="left"> + clear() </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2076:p -> c2080:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.control.RebaseControl
-	c2076:p -> c2077:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2077:p -> c2080:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.control.MergingControl
-	c2077:p -> c2076:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceModel NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceGroup
-	c2080:p -> c2079:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2072:p -> c2080:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1893:p -> c1892:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceModel
+	c1917:p -> c1893:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.control.RebaseControl
+	c1917:p -> c1918:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.model.structure.DifferenceModel
+	c1918:p -> c1893:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.control.RebaseControl NAVASSOC de.tud.plt.r43ples.merging.control.MergingControl
+	c1918:p -> c1917:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2074:p -> c2080:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1911:p -> c1893:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
+	c1913:p -> c1893:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.control.RebaseControl DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c2077:p -> c2080:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c1918:p -> c1893:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

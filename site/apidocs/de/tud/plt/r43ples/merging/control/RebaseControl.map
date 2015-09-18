@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="c4366" href="./MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="1064,11,2011,533"/>
-<area shape="rect" id="node1" href="./MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="1053,6,2021,538"/>
-<area shape="rect" id="c4367" href="./RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="1064,593,2011,890"/>
-<area shape="rect" id="node2" href="./RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="1053,587,2021,895"/>
-<area shape="rect" id="c4370" href="../model/structure/DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="15,1038,849,1207"/>
-<area shape="rect" id="node3" href="../model/structure/DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="5,1033,859,1213"/>
-<area shape="rect" id="c4374" href="../model/structure/CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="1893,950,3251,1295"/>
-<area shape="rect" id="node4" href="../model/structure/CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="1883,945,3261,1301"/>
-<area shape="rect" id="c4376" href="../model/structure/PatchGroup.html" title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" alt="" coords="893,1046,1849,1199"/>
-<area shape="rect" id="node5" href="../model/structure/PatchGroup.html" title="&lt;TABLE&gt;" alt="" coords="883,1041,1859,1205"/>
+<area shape="rect" id="c4090" href="../model/structure/CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="15,918,1374,1263"/>
+<area shape="rect" id="node1" href="../model/structure/CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="5,913,1384,1269"/>
+<area shape="rect" id="c4093" href="../model/structure/DifferenceModel.html" title="de.tud.plt.r43ples.merging.model.structure.DifferenceModel" alt="" coords="2418,1006,3251,1175"/>
+<area shape="rect" id="node2" href="../model/structure/DifferenceModel.html" title="&lt;TABLE&gt;" alt="" coords="2408,1001,3261,1181"/>
+<area shape="rect" id="c4101" href="../model/structure/PatchGroup.html" title="de.tud.plt.r43ples.merging.model.structure.PatchGroup" alt="" coords="1418,1014,2374,1167"/>
+<area shape="rect" id="node3" href="../model/structure/PatchGroup.html" title="&lt;TABLE&gt;" alt="" coords="1408,1009,2384,1173"/>
+<area shape="rect" id="c4117" href="./MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="1161,11,2108,501"/>
+<area shape="rect" id="node4" href="./MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="1151,6,2119,506"/>
+<area shape="rect" id="c4118" href="./RebaseControl.html" title="de.tud.plt.r43ples.merging.control.RebaseControl" alt="" coords="1161,561,2108,858"/>
+<area shape="rect" id="node5" href="./RebaseControl.html" title="&lt;TABLE&gt;" alt="" coords="1151,555,2119,863"/>
 </map>

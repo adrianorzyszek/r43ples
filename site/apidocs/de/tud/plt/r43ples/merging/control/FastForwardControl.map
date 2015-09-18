@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="c2303" href="./FastForwardControl.html" title="de.tud.plt.r43ples.merging.control.FastForwardControl" alt="" coords="221,11,1168,133"/>
-<area shape="rect" id="node1" href="./FastForwardControl.html" title="&lt;TABLE&gt;" alt="" coords="211,6,1179,138"/>
-<area shape="rect" id="c2312" href="../model/structure/CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="15,193,1374,538"/>
-<area shape="rect" id="node2" href="../model/structure/CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="5,187,1384,543"/>
+<area shape="rect" id="c2109" href="../model/structure/CommitModel.html" title="de.tud.plt.r43ples.merging.model.structure.CommitModel" alt="" coords="15,193,1374,538"/>
+<area shape="rect" id="node1" href="../model/structure/CommitModel.html" title="&lt;TABLE&gt;" alt="" coords="5,187,1384,543"/>
+<area shape="rect" id="c2135" href="./FastForwardControl.html" title="de.tud.plt.r43ples.merging.control.FastForwardControl" alt="" coords="221,11,1168,133"/>
+<area shape="rect" id="node2" href="./FastForwardControl.html" title="&lt;TABLE&gt;" alt="" coords="211,6,1179,138"/>
 </map>

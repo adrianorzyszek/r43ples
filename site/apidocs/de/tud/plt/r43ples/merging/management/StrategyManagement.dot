@@ -9,26 +9,8 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
-	c5493 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/RebaseQueryTypeEnum.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
-<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
-<tr><td align="center" balign="center"> de.tud.plt.r43ples.management </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
-		</table></td></tr>
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> AUTO </td></tr>
-<tr><td align="left" balign="left"> COMMON </td></tr>
-<tr><td align="left" balign="left"> FORCE </td></tr>
-<tr><td align="left" balign="left"> MANUAL </td></tr>
-<tr><td align="left" balign="left"> WITH </td></tr>
-		</table></td></tr>
-		</table>>, URL="../../management/RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.StrategyManagement
-	c5521 [label=<<table title="de.tud.plt.r43ples.merging.management.StrategyManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StrategyManagement.html">
+	c5159 [label=<<table title="de.tud.plt.r43ples.merging.management.StrategyManagement" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./StrategyManagement.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> StrategyManagement </td></tr>
 		</table></td></tr>
@@ -56,7 +38,25 @@ digraph G {
 <tr><td align="left" balign="left"> + fullGraphCopy(fullGraphUriA : String, fullGraphUriB : String) </td></tr>
 		</table></td></tr>
 		</table>>, URL="./StrategyManagement.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// de.tud.plt.r43ples.management.RebaseQueryTypeEnum
+	c5176 [label=<<table title="de.tud.plt.r43ples.management.RebaseQueryTypeEnum" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../../management/RebaseQueryTypeEnum.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;enumeration&#187; </td></tr>
+<tr><td align="center" balign="center"> RebaseQueryTypeEnum </td></tr>
+<tr><td align="center" balign="center"> de.tud.plt.r43ples.management </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left">  </td></tr>
+		</table></td></tr>
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="left" balign="left"> AUTO </td></tr>
+<tr><td align="left" balign="left"> COMMON </td></tr>
+<tr><td align="left" balign="left"> FORCE </td></tr>
+<tr><td align="left" balign="left"> MANUAL </td></tr>
+<tr><td align="left" balign="left"> WITH </td></tr>
+		</table></td></tr>
+		</table>>, URL="../../management/RebaseQueryTypeEnum.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.merging.management.StrategyManagement DEPEND de.tud.plt.r43ples.management.RebaseQueryTypeEnum
-	c5521:p -> c5493:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5159:p -> c5176:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

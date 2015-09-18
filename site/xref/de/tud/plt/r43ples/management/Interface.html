@@ -20,9 +20,9 @@
 <a class="jxr_linenumber" name="L12" href="#L12">12</a>  
 <a class="jxr_linenumber" name="L13" href="#L13">13</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.exception.InternalErrorException;
 <a class="jxr_linenumber" name="L14" href="#L14">14</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.exception.QueryErrorException;
-<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merge.MergeManagement;
-<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merge.MergeQueryTypeEnum;
-<a class="jxr_linenumber" name="L17" href="#L17">17</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merge.MergeResult;
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.MergeManagement;
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.MergeQueryTypeEnum;
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.merging.MergeResult;
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>  <strong class="jxr_keyword">import</strong> de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton;
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>  
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../de/tud/plt/r43ples/management/Interface.html">Interface</a> {
@@ -277,7 +277,7 @@
 <a class="jxr_linenumber" name="L269" href="#L269">269</a> 		}
 <a class="jxr_linenumber" name="L270" href="#L270">270</a> 	}
 <a class="jxr_linenumber" name="L271" href="#L271">271</a> 	
-<a class="jxr_linenumber" name="L272" href="#L272">272</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../../de/tud/plt/r43ples/merge/MergeResult.html">MergeResult</a> sparqlMerge(<strong class="jxr_keyword">final</strong> String sparqlQuery, <strong class="jxr_keyword">final</strong> String user, <strong class="jxr_keyword">final</strong> String commitMessage, <strong class="jxr_keyword">final</strong> String format) <strong class="jxr_keyword">throws</strong> InternalErrorException {
+<a class="jxr_linenumber" name="L272" href="#L272">272</a> 	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <a href="../../../../../de/tud/plt/r43ples/merging/MergeResult.html">MergeResult</a> sparqlMerge(<strong class="jxr_keyword">final</strong> String sparqlQuery, <strong class="jxr_keyword">final</strong> String user, <strong class="jxr_keyword">final</strong> String commitMessage, <strong class="jxr_keyword">final</strong> String format) <strong class="jxr_keyword">throws</strong> InternalErrorException {
 <a class="jxr_linenumber" name="L273" href="#L273">273</a> 		<strong class="jxr_keyword">final</strong> Pattern patternMergeQuery =  Pattern.compile(
 <a class="jxr_linenumber" name="L274" href="#L274">274</a> 				<span class="jxr_string">"MERGE&#92;&#92;s*(?&lt;action&gt;AUTO|MANUAL)?&#92;&#92;s*GRAPH&#92;&#92;s*&lt;(?&lt;graph&gt;[^&gt;]*?)&gt;&#92;&#92;s*(&#92;&#92;s*(?&lt;sdd&gt;SDD)?&#92;&#92;s*&lt;(?&lt;sddURI&gt;[^&gt;]*?)&gt;)?&#92;&#92;s*BRANCH&#92;&#92;s*\&quot;(?&lt;branchNameA&gt;[^\&quot;]*?)\&quot;&#92;&#92;s*INTO&#92;&#92;s*\&quot;(?&lt;branchNameB&gt;[^\&quot;]*?)\&quot;(&#92;&#92;s*(?&lt;with&gt;WITH)?&#92;&#92;s*&#92;&#92;{(?&lt;triples&gt;.*)&#92;&#92;})?"</span>,
 <a class="jxr_linenumber" name="L275" href="#L275">275</a> 				patternModifier);
@@ -307,7 +307,7 @@
 <a class="jxr_linenumber" name="L299" href="#L299">299</a> 		logger.debug(<span class="jxr_string">"with: "</span> + with);
 <a class="jxr_linenumber" name="L300" href="#L300">300</a> 		logger.debug(<span class="jxr_string">"triples: "</span> + triples);
 <a class="jxr_linenumber" name="L301" href="#L301">301</a> 		
-<a class="jxr_linenumber" name="L302" href="#L302">302</a> 		MergeResult mresult = <strong class="jxr_keyword">new</strong> <a href="../../../../../de/tud/plt/r43ples/merge/MergeResult.html">MergeResult</a>(graphName, branchNameA, branchNameB);
+<a class="jxr_linenumber" name="L302" href="#L302">302</a> 		MergeResult mresult = <strong class="jxr_keyword">new</strong> <a href="../../../../../de/tud/plt/r43ples/merging/MergeResult.html">MergeResult</a>(graphName, branchNameA, branchNameB);
 <a class="jxr_linenumber" name="L303" href="#L303">303</a> 		
 <a class="jxr_linenumber" name="L304" href="#L304">304</a> 		<strong class="jxr_keyword">if</strong> (!RevisionManagement.checkGraphExistence(graphName)){
 <a class="jxr_linenumber" name="L305" href="#L305">305</a> 			logger.error(<span class="jxr_string">"Graph &lt;"</span>+graphName+<span class="jxr_string">"&gt; does not exist."</span>);

@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c4666" href="../../management/ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="15,219,1102,341"/>
-<area shape="rect" id="node1" href="../../management/ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,214,1112,346"/>
-<area shape="rect" id="c4679" href="./ReportResult.html" title="de.tud.plt.r43ples.merging.model.structure.ReportResult" alt="" coords="979,609,1423,794"/>
-<area shape="rect" id="node3" href="./ReportResult.html" title="&lt;TABLE&gt;" alt="" coords="969,603,1433,799"/>
-<area shape="rect" id="c4670" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="1147,11,2541,549"/>
-<area shape="rect" id="node2" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="1136,6,2552,554"/>
+<area shape="rect" id="c4394" href="./ReportResult.html" title="de.tud.plt.r43ples.merging.model.structure.ReportResult" alt="" coords="979,577,1423,762"/>
+<area shape="rect" id="node1" href="./ReportResult.html" title="&lt;TABLE&gt;" alt="" coords="969,571,1433,767"/>
+<area shape="rect" id="c4405" href="../../management/ReportManagement.html" title="de.tud.plt.r43ples.merging.management.ReportManagement" alt="" coords="15,203,1102,325"/>
+<area shape="rect" id="node2" href="../../management/ReportManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,198,1112,330"/>
+<area shape="rect" id="c4409" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="1147,11,2541,517"/>
+<area shape="rect" id="node3" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="1136,6,2552,522"/>
 </map>

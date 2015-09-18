@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c2606" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="16,35,2336,525"/>
-<area shape="rect" id="node1" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,30,2347,530"/>
-<area shape="rect" id="c2613" href="./HighLevelChangeTableModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" alt="" coords="1876,609,2377,778"/>
-<area shape="rect" id="node3" href="./HighLevelChangeTableModel.html" title="&lt;TABLE&gt;" alt="" coords="1865,603,2388,783"/>
-<area shape="rect" id="c2608" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="2381,11,3776,549"/>
-<area shape="rect" id="node2" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="2371,6,3787,554"/>
-<area shape="rect" id="c2621" href="./HighLevelChangeTableRow.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" alt="" coords="1526,838,2727,1167"/>
-<area shape="rect" id="node4" href="./HighLevelChangeTableRow.html" title="&lt;TABLE&gt;" alt="" coords="1516,833,2737,1173"/>
+<area shape="rect" id="c2407" href="./HighLevelChangeTableModel.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel" alt="" coords="1876,577,2377,746"/>
+<area shape="rect" id="node1" href="./HighLevelChangeTableModel.html" title="&lt;TABLE&gt;" alt="" coords="1865,571,2388,751"/>
+<area shape="rect" id="c2408" href="./HighLevelChangeTableRow.html" title="de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableRow" alt="" coords="1526,806,2727,1135"/>
+<area shape="rect" id="node2" href="./HighLevelChangeTableRow.html" title="&lt;TABLE&gt;" alt="" coords="1516,801,2737,1141"/>
+<area shape="rect" id="c2422" href="../../management/ProcessManagement.html" title="de.tud.plt.r43ples.merging.management.ProcessManagement" alt="" coords="16,19,2336,509"/>
+<area shape="rect" id="node3" href="../../management/ProcessManagement.html" title="&lt;TABLE&gt;" alt="" coords="5,14,2347,514"/>
+<area shape="rect" id="c2428" href="../../control/MergingControl.html" title="de.tud.plt.r43ples.merging.control.MergingControl" alt="" coords="2381,11,3776,517"/>
+<area shape="rect" id="node4" href="../../control/MergingControl.html" title="&lt;TABLE&gt;" alt="" coords="2371,6,3787,522"/>
 </map>
