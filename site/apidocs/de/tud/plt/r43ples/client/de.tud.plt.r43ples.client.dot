@@ -9,21 +9,21 @@ digraph G {
 	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// de.tud.plt.r43ples.client.ConsoleClient
-	c799 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClient.html">
+	// de.tud.plt.r43ples.client.R43plesArgs
+	c40 [label=<<table title="de.tud.plt.r43ples.client.R43plesArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./R43plesArgs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ConsoleClient </td></tr>
+<tr><td align="center" balign="center"> R43plesArgs </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
+<tr><td align="left" balign="left"> + config : String </td></tr>
+<tr><td align="left" balign="left"> + help : boolean </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + ConsoleClient() </td></tr>
-<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
+<tr><td align="left" balign="left"> + R43plesArgs() </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ConsoleClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./R43plesArgs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.ConsoleClientArgs
-	c800 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClientArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClientArgs.html">
+	c41 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClientArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClientArgs.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ConsoleClientArgs </td></tr>
 		</table></td></tr>
@@ -41,20 +41,20 @@ digraph G {
 <tr><td align="left" balign="left"> + ConsoleClientArgs() </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ConsoleClientArgs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.client.R43plesArgs
-	c801 [label=<<table title="de.tud.plt.r43ples.client.R43plesArgs" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./R43plesArgs.html">
+	// de.tud.plt.r43ples.client.ConsoleClient
+	c42 [label=<<table title="de.tud.plt.r43ples.client.ConsoleClient" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ConsoleClient.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> R43plesArgs </td></tr>
+<tr><td align="center" balign="center"> ConsoleClient </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + config : String </td></tr>
-<tr><td align="left" balign="left"> + help : boolean </td></tr>
+<tr><td align="left" balign="left">  </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left"> + R43plesArgs() </td></tr>
+<tr><td align="left" balign="left"> + ConsoleClient() </td></tr>
+<tr><td align="left" balign="left"> + main(args : String[]) </td></tr>
 		</table></td></tr>
-		</table>>, URL="./R43plesArgs.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ConsoleClient.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.client.ConsoleClientArgs NAVASSOC de.tud.plt.r43ples.client.R43plesArgs
-	c800:p -> c801:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c41:p -> c40:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 }
 
