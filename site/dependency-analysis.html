@@ -47,7 +47,7 @@
                                                                                                                                                                                                                                       <li class="collapsed">
                           <a href="project-info.html" title="Project Information">Project Information</a>
                   </li>
-                                                                                                                                                                                                            <li class="expanded">
+                                                                                                                                                                                                                              <li class="expanded">
                           <a href="project-reports.html" title="Project Reports">Project Reports</a>
                     <ul>
                       <li class="none">
@@ -64,6 +64,9 @@
             </li>
                       <li class="none">
                           <a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a>
+            </li>
+                      <li class="none">
+                          <a href="cpd.html" title="CPD">CPD</a>
             </li>
                       <li class="none">
                           <a href="pmd.html" title="PMD">PMD</a>
@@ -110,7 +113,7 @@
 <tr class="a">
 <td>org.glassfish.jersey.containers</td>
 <td>jersey-container-grizzly2-http</td>
-<td>2.17</td>
+<td>2.21</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
@@ -118,7 +121,7 @@
 <tr class="b">
 <td>org.glassfish.jersey.ext</td>
 <td>jersey-mvc-mustache</td>
-<td>2.17</td>
+<td>2.21</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
@@ -214,7 +217,23 @@
 <tr class="b">
 <td>org.glassfish.jersey.media</td>
 <td>jersey-media-json-jackson</td>
-<td>2.17</td>
+<td>2.21</td>
+<td>compile</td>
+<td></td>
+<td>jar</td>
+<td>false</td></tr>
+<tr class="a">
+<td>log4j</td>
+<td>log4j</td>
+<td>1.2.12</td>
+<td>compile</td>
+<td></td>
+<td>jar</td>
+<td>false</td></tr>
+<tr class="b">
+<td>org.apache.jena</td>
+<td>jena-core</td>
+<td>2.12.1</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
@@ -232,24 +251,24 @@
 <td><b>Optional</b></td></tr>
 <tr class="b">
 <td>org.glassfish.grizzly</td>
-<td>grizzly-http-server</td>
-<td>2.3.16</td>
+<td>grizzly-framework</td>
+<td>2.3.22</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr>
 <tr class="a">
-<td>com.github.spullara.mustache.java</td>
-<td>compiler</td>
-<td>0.8.12</td>
+<td>org.apache.httpcomponents</td>
+<td>httpcore</td>
+<td>4.2.5</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr>
 <tr class="b">
-<td>org.apache.httpcomponents</td>
-<td>httpcore</td>
-<td>4.2.5</td>
+<td>org.glassfish.jersey.core</td>
+<td>jersey-server</td>
+<td>2.21</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
@@ -263,22 +282,14 @@
 <td>jar</td>
 <td>false</td></tr>
 <tr class="b">
-<td>org.glassfish.grizzly</td>
-<td>grizzly-framework</td>
-<td>2.3.16</td>
+<td>org.glassfish.jersey.ext</td>
+<td>jersey-mvc</td>
+<td>2.21</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr>
 <tr class="a">
-<td>org.apache.jena</td>
-<td>jena-core</td>
-<td>2.12.1</td>
-<td>compile</td>
-<td></td>
-<td>jar</td>
-<td>false</td></tr>
-<tr class="b">
 <td>xml-apis</td>
 <td>xml-apis</td>
 <td>1.3.04</td>
@@ -286,26 +297,18 @@
 <td></td>
 <td>jar</td>
 <td>false</td></tr>
-<tr class="a">
-<td>log4j</td>
-<td>log4j</td>
-<td>1.2.17</td>
-<td>compile</td>
-<td></td>
-<td>jar</td>
-<td>false</td></tr>
 <tr class="b">
-<td>org.glassfish.jersey.ext</td>
-<td>jersey-mvc</td>
-<td>2.17</td>
+<td>org.glassfish.grizzly</td>
+<td>grizzly-http-server</td>
+<td>2.3.22</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr>
 <tr class="a">
-<td>org.glassfish.jersey.core</td>
-<td>jersey-server</td>
-<td>2.17</td>
+<td>com.github.spullara.mustache.java</td>
+<td>compiler</td>
+<td>0.8.17</td>
 <td>compile</td>
 <td></td>
 <td>jar</td>
@@ -319,18 +322,18 @@
 <td>jar</td>
 <td>false</td></tr>
 <tr class="a">
-<td>org.glassfish.jersey.test-framework</td>
-<td>jersey-test-framework-core</td>
-<td>2.18</td>
-<td>test</td>
-<td></td>
-<td>jar</td>
-<td>false</td></tr>
-<tr class="b">
 <td>javax.servlet</td>
 <td>servlet-api</td>
 <td>2.4</td>
 <td>compile</td>
+<td></td>
+<td>jar</td>
+<td>false</td></tr>
+<tr class="b">
+<td>org.glassfish.jersey.test-framework</td>
+<td>jersey-test-framework-core</td>
+<td>2.21</td>
+<td>test</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr></table><hr /></div>
@@ -356,8 +359,16 @@
 <tr class="a">
 <td>org.glassfish.jersey.test-framework.providers</td>
 <td>jersey-test-framework-provider-grizzly2</td>
-<td>2.18</td>
+<td>2.21</td>
 <td>test</td>
+<td></td>
+<td>jar</td>
+<td>false</td></tr>
+<tr class="b">
+<td>org.glassfish.jersey.media</td>
+<td>jersey-media-moxy</td>
+<td>2.21</td>
+<td>compile</td>
 <td></td>
 <td>jar</td>
 <td>false</td></tr></table><hr /></div></div>

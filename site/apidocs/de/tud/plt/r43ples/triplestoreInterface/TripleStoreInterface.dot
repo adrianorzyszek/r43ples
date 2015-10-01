@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface
-	c1813 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
+	c5893 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./VirtuosoInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> VirtuosoInterface </td></tr>
 		</table></td></tr>
@@ -30,7 +30,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./VirtuosoInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton
-	c1814 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
+	c5894 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./TripleStoreInterfaceSingleton.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TripleStoreInterfaceSingleton </td></tr>
 		</table></td></tr>
@@ -44,7 +44,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterfaceSingleton.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1815 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterface.html">
+	c5895 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./TripleStoreInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> TripleStoreInterface </font></td></tr>
 		</table></td></tr>
@@ -69,7 +69,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./TripleStoreInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface
-	c1816 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
+	c5896 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./JenaTDBInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> JenaTDBInterface </td></tr>
 		</table></td></tr>
@@ -89,7 +89,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./JenaTDBInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface
-	c1817 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
+	c5897 [label=<<table title="de.tud.plt.r43ples.triplestoreInterface.HttpInterface" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HttpInterface.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> HttpInterface </td></tr>
 		</table></td></tr>
@@ -109,31 +109,31 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="./HttpInterface.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1815:p -> c1813:p [dir=back,arrowtail=empty];
+	c5895:p -> c5893:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton NAVASSOC de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1814:p -> c1815:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	c5894:p -> c5895:p [taillabel="1", label="", headlabel="1", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	//de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1815:p -> c1816:p [dir=back,arrowtail=empty];
+	c5895:p -> c5896:p [dir=back,arrowtail=empty];
 	//de.tud.plt.r43ples.triplestoreInterface.HttpInterface extends de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface
-	c1815:p -> c1817:p [dir=back,arrowtail=empty];
-	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c1813:p -> c1842:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5895:p -> c5897:p [dir=back,arrowtail=empty];
 	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c1813:p -> c1843:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c1815:p -> c1842:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5893:p -> c5923:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.VirtuosoInterface DEPEND com.hp.hpl.jena.rdf.model.Model
+	c5893:p -> c5924:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c1815:p -> c1843:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c1816:p -> c1842:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5895:p -> c5923:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterface DEPEND com.hp.hpl.jena.rdf.model.Model
+	c5895:p -> c5924:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c1816:p -> c1843:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface DEPEND com.hp.hpl.jena.rdf.model.Model
-	c1817:p -> c1842:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5896:p -> c5923:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.JenaTDBInterface DEPEND com.hp.hpl.jena.rdf.model.Model
+	c5896:p -> c5924:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface DEPEND com.hp.hpl.jena.query.ResultSet
-	c1817:p -> c1843:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	c5897:p -> c5923:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.triplestoreInterface.HttpInterface DEPEND com.hp.hpl.jena.rdf.model.Model
+	c5897:p -> c5924:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.rdf.model.Model
-	c1842 [label=<<table title="com.hp.hpl.jena.rdf.model.Model" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html">
+	c5924 [label=<<table title="com.hp.hpl.jena.rdf.model.Model" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> Model </td></tr>
@@ -235,7 +235,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/rdf/model/Model.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.query.ResultSet
-	c1843 [label=<<table title="com.hp.hpl.jena.query.ResultSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html">
+	c5923 [label=<<table title="com.hp.hpl.jena.query.ResultSet" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/query/ResultSet.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> ResultSet </td></tr>

@@ -10,23 +10,36 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// de.tud.plt.r43ples.webservice.Endpoint
-	c733 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Endpoint.html">
+	c2060 [label=<<table title="de.tud.plt.r43ples.webservice.Endpoint" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Endpoint.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Endpoint </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="left" balign="left">  </td></tr>
+<tr><td align="left" balign="left"> # clientMap : HashMap&lt;String, HashMap&lt;String, MergingControl&gt;&gt; </td></tr>
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Endpoint() </td></tr>
-<tr><td align="left" balign="left"> + createSampleDataset(graph : String) : List&lt;String&gt; </td></tr>
+<tr><td align="left" balign="left"> + createSampleDataset(graph : String) : Map&lt;String, Object&gt; </td></tr>
 <tr><td align="left" balign="left"> + getRevisionGraph(format_header : String, format_query : String, graph : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + getRevisedGraphs(format_header : String, format_query : String) : String </td></tr>
 <tr><td align="left" balign="left"> + sparqlPOST(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparqlGET(formatHeader : String, formatQuery : String, sparqlQuery : String, join_option : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + debug(sparqlQuery : String) : String </td></tr>
-<tr><td align="left" balign="left"> + getLandingPage() : Response </td></tr>
-<tr><td align="left" balign="left"> + getMerging() : Response </td></tr>
+<tr><td align="left" balign="left"> + getLandingPage() : Map&lt;String, Object&gt; </td></tr>
+<tr><td align="left" balign="left"> + getMerging(format_header : String, graph : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + mergingPOST(formatHeader : String, model : String, graphName : String, sddName : String, strategie : String, branch1 : String, branch2 : String, user : String, message : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + fastForwardGET(formatHeader : String, graph : String, format : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + forceRebaseProcessGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + manualRebaseProcessGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + approvePOST(formatHeader : String, isChecked : String, id : String, graph : String, user : String) </td></tr>
+<tr><td align="left" balign="left"> + approveHighLevelPOST(formatHeader : String, isChecked : String, id : String, graph : String, user : String) </td></tr>
+<tr><td align="left" balign="left"> + reportGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + pushReportGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + rebasePushReportGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + individualGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + tripleViewGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + highLevelGET(graph : String, user : String) : Response </td></tr>
+<tr><td align="left" balign="left"> + individualFilterPOST(formatHeader : String, individualA : String, individualB : String, graph : String, user : String) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String, join_option : boolean) : Response </td></tr>
 <tr><td align="left" balign="left"> + sparql(format : String, sparqlQuery : String) : Response </td></tr>
 		</table></td></tr>
