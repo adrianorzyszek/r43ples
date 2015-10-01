@@ -151,10 +151,10 @@ digraph G {
 	c4042:p -> c4067:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.control.MergingControl NAVASSOC de.tud.plt.r43ples.merging.control.RebaseControl
 	c4042:p -> c4041:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.control.RebaseControl DEPEND de.tud.plt.r43ples.merging.model.structure.CommitModel
-	c4041:p -> c4067:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.control.RebaseControl DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
 	c4041:p -> c4064:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.control.RebaseControl DEPEND de.tud.plt.r43ples.merging.model.structure.CommitModel
+	c4041:p -> c4067:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.control.MergingControl DEPEND de.tud.plt.r43ples.merging.model.structure.CommitModel
 	c4042:p -> c4067:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
