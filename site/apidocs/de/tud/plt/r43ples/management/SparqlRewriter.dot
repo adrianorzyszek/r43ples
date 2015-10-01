@@ -27,14 +27,14 @@ digraph G {
 	c4888:p -> c4958:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.management.SparqlRewriter NAVASSOC com.hp.hpl.jena.sparql.expr.Expr
 	c4888:p -> c4962:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.syntax.ElementGroup
-	c4888:p -> c4965:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.core.TriplePath
-	c4888:p -> c4968:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.syntax.Element
+	c4888:p -> c4964:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.syntax.ElementGroup
+	c4888:p -> c4966:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.management.SparqlRewriter DEPEND com.hp.hpl.jena.sparql.core.TriplePath
 	c4888:p -> c4969:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.sparql.syntax.ElementGroup
-	c4965 [label=<<table title="com.hp.hpl.jena.sparql.syntax.ElementGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html">
+	c4966 [label=<<table title="com.hp.hpl.jena.sparql.syntax.ElementGroup" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/ElementGroup.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ElementGroup </td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.syntax </td></tr>
@@ -123,7 +123,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/expr/Expr.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.sparql.syntax.Element
-	c4969 [label=<<table title="com.hp.hpl.jena.sparql.syntax.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html">
+	c4964 [label=<<table title="com.hp.hpl.jena.sparql.syntax.Element" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> Element </font></td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.syntax </td></tr>
@@ -141,7 +141,7 @@ digraph G {
 		</table></td></tr>
 		</table>>, URL="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/syntax/Element.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// com.hp.hpl.jena.sparql.core.TriplePath
-	c4968 [label=<<table title="com.hp.hpl.jena.sparql.core.TriplePath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html">
+	c4969 [label=<<table title="com.hp.hpl.jena.sparql.core.TriplePath" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/com/hp/hpl/jena/sparql/core/TriplePath.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> TriplePath </td></tr>
 <tr><td align="center" balign="center"> com.hp.hpl.jena.sparql.core </td></tr>
