@@ -190,10 +190,10 @@ digraph G {
 	c5654:p -> c5651:p [taillabel="", label="", headlabel="*", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.model.structure.Triple
 	c5668:p -> c5651:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
-	c5648:p -> c5668:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.TableModel
 	c5648:p -> c5654:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
+	c5648:p -> c5668:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Triple
 	c5648:p -> c5651:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.model.structure.Triple DEPEND de.tud.plt.r43ples.merging.TripleObjectTypeEnum

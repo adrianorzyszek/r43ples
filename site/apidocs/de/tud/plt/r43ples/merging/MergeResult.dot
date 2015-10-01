@@ -20,7 +20,7 @@ digraph G {
 		</table></td></tr>
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="left" balign="left"> + Interface() </td></tr>
-<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : java.lang.String, format : java.lang.String, query_rewriting : boolean) : java.lang.String </td></tr>
+<tr><td align="left" balign="left"> + sparqlSelectConstructAsk(query : java.lang.String, format : java.lang.String, join_option : boolean) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + sparqlUpdate(query : java.lang.String, user : java.lang.String, commitMessage : java.lang.String) </td></tr>
 <tr><td align="left" balign="left"> + sparqlCreateGraph(query : java.lang.String) : java.lang.String </td></tr>
 <tr><td align="left" balign="left"> + sparqlDropGraph(query : java.lang.String) </td></tr>
