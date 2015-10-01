@@ -202,10 +202,10 @@ digraph G {
 	c1813:p -> c1781:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.ResolutionStateEnum
 	c1813:p -> c1782:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
-	c1793:p -> c1813:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
 	c1793:p -> c1781:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
+	c1793:p -> c1813:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Triple
 	c1793:p -> c1796:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.model.structure.DifferenceGroup DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
