@@ -117,18 +117,18 @@
 <tr>  <td class="numLine">&nbsp;52</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                                                Config.revision_graph, graphName);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;53</td>  <td class="nbHitsCovered">&nbsp;123</td>  <td class="src"><pre class="src">&nbsp;                ResultSet resultsCommits = TripleStoreInterfaceSingleton.get().executeSelectQuery(queryRevisions);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;54</td>  <td class="nbHitsCovered"><a title="Line 54: Conditional coverage 100% (2/2).">&nbsp;838</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 54: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (resultsCommits.hasNext()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;55</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qsCommits = resultsCommits.next();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;56</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        String revision = qsCommits.getResource(<span class="string">"?uri"</span>).toString();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;57</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        String revisionNumber = qsCommits.getLiteral(<span class="string">"?revNumber"</span>).getString();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;58</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        String fullGraph = <span class="string">""</span>;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;59</td>  <td class="nbHitsCovered"><a title="Line 59: Conditional coverage 100% (2/2).">&nbsp;715</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 59: Conditional coverage 100% (2/2).">                        <span class="keyword">if</span> (qsCommits.getResource(<span class="string">"?fullGraph"</span>) != <span class="keyword">null</span>)</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;60</td>  <td class="nbHitsCovered">&nbsp;297</td>  <td class="src"><pre class="src">&nbsp;                                fullGraph = qsCommits.getResource(<span class="string">"?fullGraph"</span>).toString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;54</td>  <td class="nbHitsCovered"><a title="Line 54: Conditional coverage 100% (2/2).">&nbsp;834</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 54: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (resultsCommits.hasNext()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;55</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qsCommits = resultsCommits.next();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;56</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        String revision = qsCommits.getResource(<span class="string">"?uri"</span>).toString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;57</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        String revisionNumber = qsCommits.getLiteral(<span class="string">"?revNumber"</span>).getString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;58</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        String fullGraph = <span class="string">""</span>;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;59</td>  <td class="nbHitsCovered"><a title="Line 59: Conditional coverage 100% (2/2).">&nbsp;711</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 59: Conditional coverage 100% (2/2).">                        <span class="keyword">if</span> (qsCommits.getResource(<span class="string">"?fullGraph"</span>) != <span class="keyword">null</span>)</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;60</td>  <td class="nbHitsCovered">&nbsp;294</td>  <td class="src"><pre class="src">&nbsp;                                fullGraph = qsCommits.getResource(<span class="string">"?fullGraph"</span>).toString();</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;61</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;62</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        logger.debug(<span class="string">"Found revision: "</span> + revision + <span class="string">"."</span>);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;63</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">this</span>.addNode(revisionNumber, revision, fullGraph);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;64</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;62</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        logger.debug(<span class="string">"Found revision: "</span> + revision + <span class="string">"."</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;63</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">this</span>.addNode(revisionNumber, revision, fullGraph);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;64</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;65</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;66</td>  <td class="nbHitsCovered">&nbsp;123</td>  <td class="src"><pre class="src">&nbsp;                String queryRevisionConnection = RevisionManagement.prefixes + String.format(<span class="string">""</span></pre></td></tr>
@@ -149,12 +149,12 @@
 <tr>  <td class="numLine">&nbsp;74</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                                                + <span class="string">" } }"</span>, Config.revision_graph, graphName);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;75</td>  <td class="nbHitsCovered">&nbsp;123</td>  <td class="src"><pre class="src">&nbsp;                ResultSet resultRevConnection = TripleStoreInterfaceSingleton.get().executeSelectQuery(queryRevisionConnection);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;76</td>  <td class="nbHitsCovered"><a title="Line 76: Conditional coverage 100% (2/2).">&nbsp;707</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 76: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (resultRevConnection.hasNext()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;77</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qsCommits = resultRevConnection.next();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;78</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                        String revision = qsCommits.getLiteral(<span class="string">"?revNumber"</span>).toString();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                        String preRevision = qsCommits.getLiteral(<span class="string">"?preRevNumber"</span>).toString();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;80</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">this</span>.addEdge(revision, preRevision);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;81</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;76</td>  <td class="nbHitsCovered"><a title="Line 76: Conditional coverage 100% (2/2).">&nbsp;703</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 76: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (resultRevConnection.hasNext()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;77</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qsCommits = resultRevConnection.next();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;78</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                        String revision = qsCommits.getLiteral(<span class="string">"?revNumber"</span>).toString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                        String preRevision = qsCommits.getLiteral(<span class="string">"?preRevNumber"</span>).toString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;80</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">this</span>.addEdge(revision, preRevision);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;81</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;82</td>  <td class="nbHitsCovered">&nbsp;123</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;83</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
@@ -180,9 +180,9 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;94</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">void</span> addNode(String revisionNumber, String revisionUri, String fullGraph) {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;95</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                Revision node = <span class="keyword">new</span> Revision(revisionNumber, revisionUri, fullGraph);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;96</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;                map.put(revisionNumber, node);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;97</td>  <td class="nbHitsCovered">&nbsp;715</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;95</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                Revision node = <span class="keyword">new</span> Revision(revisionNumber, revisionUri, fullGraph);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;96</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;                map.put(revisionNumber, node);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;97</td>  <td class="nbHitsCovered">&nbsp;711</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;98</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;99</td>  <td class="nbHits">&nbsp;</td>
@@ -199,10 +199,10 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;105</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">void</span> addEdge(String successor, String predecessor) {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;106</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                Revision nodeS = map.get(successor);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;107</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                Revision nodeP = map.get(predecessor);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;108</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;                nodeP.addSuccessor(nodeS);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;109</td>  <td class="nbHitsCovered">&nbsp;584</td>  <td class="src"><pre class="src">&nbsp;        }        </pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;106</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                Revision nodeS = map.get(successor);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;107</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                Revision nodeP = map.get(predecessor);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;108</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;                nodeP.addSuccessor(nodeS);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;109</td>  <td class="nbHitsCovered">&nbsp;580</td>  <td class="src"><pre class="src">&nbsp;        }        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;110</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;111</td>  <td class="nbHits">&nbsp;</td>
@@ -242,6 +242,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 10/1/15 8:14 AM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 10/1/15 8:30 AM.</div>
 </body>
 </html>
