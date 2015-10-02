@@ -61,9 +61,9 @@ digraph G {
 <tr><td align="left" balign="left"> + clear() </td></tr>
 		</table></td></tr>
 		</table>>, URL="../model/structure/DifferenceModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.ReportResult
-	c4261:p -> c4271:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
 	c4261:p -> c4280:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ReportManagement DEPEND de.tud.plt.r43ples.merging.model.structure.ReportResult
+	c4261:p -> c4271:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 }
 

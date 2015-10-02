@@ -224,26 +224,26 @@ digraph G {
 	c3777:p -> c3760:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
 	// de.tud.plt.r43ples.merging.model.structure.Difference NAVASSOC de.tud.plt.r43ples.merging.SDDTripleStateEnum
 	c3777:p -> c3745:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND com.hp.hpl.jena.rdf.model.Model
+	c3757:p -> c3799:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.MergeQueryTypeEnum
+	c3757:p -> c3749:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
+	c3757:p -> c3745:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
+	c3757:p -> c3775:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.IndividualModel
 	c3757:p -> c3770:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Triple
-	c3757:p -> c3760:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.TableModel
+	c3757:p -> c3763:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.HighLevelChangeModel
 	c3757:p -> c3774:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.HighLevelChangeTableModel
 	c3757:p -> c3772:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.MergeQueryTypeEnum
-	c3757:p -> c3749:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.DifferenceModel
-	c3757:p -> c3775:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
+	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Triple
+	c3757:p -> c3760:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.Difference
 	c3757:p -> c3777:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.model.structure.TableModel
-	c3757:p -> c3763:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND com.hp.hpl.jena.rdf.model.Model
-	c3757:p -> c3799:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
-	// de.tud.plt.r43ples.merging.management.ProcessManagement DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
-	c3757:p -> c3745:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// de.tud.plt.r43ples.merging.model.structure.Difference DEPEND de.tud.plt.r43ples.merging.SDDTripleStateEnum
 	c3777:p -> c3745:p [taillabel="", label="", headlabel="", fontname="Helvetica", fontcolor="black", fontsize=10.0, color="black", arrowhead=open, style=dashed];
 	// com.hp.hpl.jena.rdf.model.Model
