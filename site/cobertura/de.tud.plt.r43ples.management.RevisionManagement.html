@@ -800,7 +800,7 @@
 <tr>  <td class="numLine">&nbsp;440</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="comment">// Remove data from temporary graph (no opposite of SPARQL ADD available)</span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;441</td>  <td class="nbHitsCovered"><a title="Line 441: Conditional coverage 100% (2/2).">&nbsp;62</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 441: Conditional coverage 100% (2/2).">                        <span class="keyword">if</span> (RevisionManagement.checkGraphExistence(graph_added))</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;442</td>  <td class="nbHitsCovered">&nbsp;55</td>  <td class="src"><pre class="src">&nbsp;                                TripleStoreInterfaceSingleton.get().executeUpdateQuery(  <span class="string">"DELETE { GRAPH &lt;"</span> + tempGraphName+ <span class="string">"&gt; { ?s ?p ?o.} }"</span></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;442</td>  <td class="nbHitsCovered">&nbsp;53</td>  <td class="src"><pre class="src">&nbsp;                                TripleStoreInterfaceSingleton.get().executeUpdateQuery(  <span class="string">"DELETE { GRAPH &lt;"</span> + tempGraphName+ <span class="string">"&gt; { ?s ?p ?o.} }"</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;443</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                                                                                                                + <span class="string">"WHERE  { GRAPH &lt;"</span> + graph_added        + <span class="string">"&gt; { ?s ?p ?o.} }"</span>);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;444</td>  <td class="nbHitsCovered">&nbsp;62</td>  <td class="src"><pre class="src">&nbsp;                        Revision first = list.pollFirst();</pre></td></tr>
@@ -1299,10 +1299,10 @@
 <tr>  <td class="numLineCover">&nbsp;728</td>  <td class="nbHitsCovered">&nbsp;230</td>  <td class="src"><pre class="src">&nbsp;                StringBuilder insert = <span class="keyword">new</span> StringBuilder();</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;729</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;730</td>  <td class="nbHitsCovered"><a title="Line 730: Conditional coverage 100% (2/2).">&nbsp;895</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 730: Conditional coverage 100% (2/2).">                <span class="keyword">for</span> (<span class="keyword">int</span> i=0; i &lt; lines.length; i++) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;731</td>  <td class="nbHitsCovered">&nbsp;665</td>  <td class="src"><pre class="src">&nbsp;                        insert.append(lines[i]);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;732</td>  <td class="nbHitsCovered">&nbsp;665</td>  <td class="src"><pre class="src">&nbsp;                        counter++;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;733</td>  <td class="nbHitsUncovered"><a title="Line 733: Conditional coverage 50% (1/2).">&nbsp;665</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 733: Conditional coverage 50% (1/2).">                        <span class="keyword">if</span> (counter == MAX_STATEMENTS-1) {</a></span></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;730</td>  <td class="nbHitsCovered"><a title="Line 730: Conditional coverage 100% (2/2).">&nbsp;927</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 730: Conditional coverage 100% (2/2).">                <span class="keyword">for</span> (<span class="keyword">int</span> i=0; i &lt; lines.length; i++) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;731</td>  <td class="nbHitsCovered">&nbsp;697</td>  <td class="src"><pre class="src">&nbsp;                        insert.append(lines[i]);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;732</td>  <td class="nbHitsCovered">&nbsp;697</td>  <td class="src"><pre class="src">&nbsp;                        counter++;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;733</td>  <td class="nbHitsUncovered"><a title="Line 733: Conditional coverage 50% (1/2).">&nbsp;697</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 733: Conditional coverage 50% (1/2).">                        <span class="keyword">if</span> (counter == MAX_STATEMENTS-1) {</a></span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;734</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                                TripleStoreInterfaceSingleton.get().executeUpdateQuery(String.format(template, graphName, insert));</span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;735</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                                counter = 0;</span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;736</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                                insert = <span class="keyword">new</span> StringBuilder();</span></pre></td></tr>
@@ -1468,10 +1468,10 @@
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">public</span> <span class="keyword">static</span> ArrayList&lt;String&gt; getRevisedGraphs() {</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;822</td>  <td class="nbHitsCovered">&nbsp;1</td>  <td class="src"><pre class="src">&nbsp;                ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;823</td>  <td class="nbHitsCovered">&nbsp;1</td>  <td class="src"><pre class="src">&nbsp;                ResultSet results = getRevisedGraphsSparql();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;824</td>  <td class="nbHitsCovered"><a title="Line 824: Conditional coverage 100% (2/2).">&nbsp;9</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 824: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (results.hasNext()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;825</td>  <td class="nbHitsCovered">&nbsp;8</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qs = results.next();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;826</td>  <td class="nbHitsCovered">&nbsp;8</td>  <td class="src"><pre class="src">&nbsp;                        list.add(qs.getResource(<span class="string">"graph"</span>).toString());</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;827</td>  <td class="nbHitsCovered">&nbsp;8</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;824</td>  <td class="nbHitsCovered"><a title="Line 824: Conditional coverage 100% (2/2).">&nbsp;7</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 824: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (results.hasNext()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;825</td>  <td class="nbHitsCovered">&nbsp;6</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qs = results.next();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;826</td>  <td class="nbHitsCovered">&nbsp;6</td>  <td class="src"><pre class="src">&nbsp;                        list.add(qs.getResource(<span class="string">"graph"</span>).toString());</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;827</td>  <td class="nbHitsCovered">&nbsp;6</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;828</td>  <td class="nbHitsCovered">&nbsp;1</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> list;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;829</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
@@ -1520,15 +1520,15 @@
 <tr>  <td class="numLine">&nbsp;852</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                                </pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;853</td>  <td class="nbHitsCovered">&nbsp;23</td>  <td class="src"><pre class="src">&nbsp;                ResultSet results = TripleStoreInterfaceSingleton.get().executeSelectQuery(query);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;854</td>  <td class="nbHitsCovered"><a title="Line 854: Conditional coverage 100% (2/2).">&nbsp;481</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 854: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (results.hasNext()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;855</td>  <td class="nbHitsCovered">&nbsp;458</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qs = results.next();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;856</td>  <td class="nbHitsUncovered"><a title="Line 856: Conditional coverage 50% (1/2).">&nbsp;458</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 856: Conditional coverage 50% (1/2).">                        <span class="keyword">if</span> (qs.contains(<span class="string">"?graph"</span>)) {</a></span></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;857</td>  <td class="nbHitsCovered">&nbsp;458</td>  <td class="src"><pre class="src">&nbsp;                                        String graphName = qs.getResource(<span class="string">"graph"</span>).toString();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;858</td>  <td class="nbHitsCovered">&nbsp;458</td>  <td class="src"><pre class="src">&nbsp;                                        TripleStoreInterfaceSingleton.get().executeUpdateQuery(<span class="string">"DROP SILENT GRAPH &lt;"</span> + graphName + <span class="string">"&gt;"</span>);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;859</td>  <td class="nbHitsCovered">&nbsp;458</td>  <td class="src"><pre class="src">&nbsp;                                        logger.debug(<span class="string">"Graph deleted: "</span> + graphName);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;854</td>  <td class="nbHitsCovered"><a title="Line 854: Conditional coverage 100% (2/2).">&nbsp;371</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 854: Conditional coverage 100% (2/2).">                <span class="keyword">while</span> (results.hasNext()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;855</td>  <td class="nbHitsCovered">&nbsp;348</td>  <td class="src"><pre class="src">&nbsp;                        QuerySolution qs = results.next();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;856</td>  <td class="nbHitsUncovered"><a title="Line 856: Conditional coverage 50% (1/2).">&nbsp;348</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 856: Conditional coverage 50% (1/2).">                        <span class="keyword">if</span> (qs.contains(<span class="string">"?graph"</span>)) {</a></span></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;857</td>  <td class="nbHitsCovered">&nbsp;348</td>  <td class="src"><pre class="src">&nbsp;                                        String graphName = qs.getResource(<span class="string">"graph"</span>).toString();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;858</td>  <td class="nbHitsCovered">&nbsp;348</td>  <td class="src"><pre class="src">&nbsp;                                        TripleStoreInterfaceSingleton.get().executeUpdateQuery(<span class="string">"DROP SILENT GRAPH &lt;"</span> + graphName + <span class="string">"&gt;"</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;859</td>  <td class="nbHitsCovered">&nbsp;348</td>  <td class="src"><pre class="src">&nbsp;                                        logger.debug(<span class="string">"Graph deleted: "</span> + graphName);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;860</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;861</td>  <td class="nbHitsCovered">&nbsp;458</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;861</td>  <td class="nbHitsCovered">&nbsp;348</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;862</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;863</td>  <td class="nbHits">&nbsp;</td>
@@ -1915,6 +1915,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 11/9/15 7:50 AM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 11/9/15 2:04 PM.</div>
 </body>
 </html>
