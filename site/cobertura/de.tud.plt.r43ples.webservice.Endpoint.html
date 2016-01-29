@@ -141,50 +141,50 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment"> */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;62</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;@Path(<span class="string">"/"</span>)</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;63</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;<span class="keyword">public</span> <span class="keyword">class</span> Endpoint {</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;63</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;<span class="keyword">public</span> <span class="keyword">class</span> Endpoint {</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;64</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;65</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">int</span> patternModifier = Pattern.DOTALL + Pattern.MULTILINE + Pattern.CASE_INSENSITIVE;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;65</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">int</span> patternModifier = Pattern.DOTALL + Pattern.MULTILINE + Pattern.CASE_INSENSITIVE;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;66</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;67</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternSelectAskConstructQuery = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;67</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternSelectAskConstructQuery = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;68</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"(?&lt;type&gt;SELECT|ASK|CONSTRUCT).*WHERE\\s*\\{(?&lt;where&gt;.*)\\}"</span>, </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;69</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;70</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternUpdateQuery = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;70</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternUpdateQuery = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;71</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"(?&lt;action&gt;INSERT|DELETE).*&lt;(?&lt;graph&gt;[^&gt;]*)&gt;"</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;72</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;73</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternCreateGraph = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;73</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternCreateGraph = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;74</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"CREATE\\s*(?&lt;silent&gt;SILENT)?\\s*GRAPH\\s*&lt;(?&lt;graph&gt;[^&gt;]*)&gt;"</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;75</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;76</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternDropGraph = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;76</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternDropGraph = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;77</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"DROP\\s*(?&lt;silent&gt;SILENT)?\\s*GRAPH\\s*&lt;(?&lt;graph&gt;[^&gt;]*)&gt;"</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;78</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternBranchOrTagQuery = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;79</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternBranchOrTagQuery = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;80</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"(?&lt;action&gt;TAG|BRANCH)\\s*GRAPH\\s*&lt;(?&lt;graph&gt;[^&gt;]*)&gt;\\s*REVISION\\s*\"(?&lt;revision&gt;[^\"]*)\"\\s*TO\\s*\"(?&lt;name&gt;[^\"]*)\""</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;81</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;82</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternMergeQuery =  Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;82</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternMergeQuery =  Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;83</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"MERGE\\s*(?&lt;action&gt;AUTO|MANUAL)?\\s*GRAPH\\s*&lt;(?&lt;graph&gt;[^&gt;]*?)&gt;\\s*(\\s*(?&lt;sdd&gt;SDD)?\\s*&lt;(?&lt;sddURI&gt;[^&gt;]*?)&gt;)?\\s*BRANCH\\s*\"(?&lt;branchNameA&gt;[^\"]*?)\"\\s*INTO\\s*\"(?&lt;branchNameB&gt;[^\"]*?)\"(\\s*(?&lt;with&gt;WITH)?\\s*\\{(?&lt;triples&gt;.*)\\})?"</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;84</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;85</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;86</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternUser = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;86</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternUser = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;87</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"USER\\s*\"(?&lt;user&gt;[^\"]*)\""</span>,</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;88</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        patternModifier);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;89</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternCommitMessage = Pattern.compile(</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;89</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> <span class="keyword">final</span> Pattern patternCommitMessage = Pattern.compile(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;90</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="string">"MESSAGE\\s*\"(?&lt;message&gt;[^\"]*)\""</span>, </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;91</td>  <td class="nbHits">&nbsp;</td>
@@ -207,11 +207,11 @@
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> Map&lt;String, Object&gt; htmlMap;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;100</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;         {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;101</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;                Map&lt;String, Object&gt; aMap = <span class="keyword">new</span> HashMap&lt;String, Object&gt;();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;102</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;                aMap.put(<span class="string">"version"</span>, Endpoint.<span class="keyword">class</span>.getPackage().getImplementationVersion() );</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;103</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;                aMap.put(<span class="string">"git"</span>, GitRepositoryState.getGitRepositoryState());</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;104</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;                htmlMap= aMap;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;105</td>  <td class="nbHitsCovered">&nbsp;82</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;101</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;                Map&lt;String, Object&gt; aMap = <span class="keyword">new</span> HashMap&lt;String, Object&gt;();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;102</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;                aMap.put(<span class="string">"version"</span>, Endpoint.<span class="keyword">class</span>.getPackage().getImplementationVersion() );</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;103</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;                aMap.put(<span class="string">"git"</span>, GitRepositoryState.getGitRepositoryState());</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;104</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;                htmlMap= aMap;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;105</td>  <td class="nbHitsCovered">&nbsp;84</td>  <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;106</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;107</td>  <td class="nbHits">&nbsp;</td>
@@ -573,7 +573,7 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;317</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">public</span> <span class="keyword">final</span> Response sparql(<span class="keyword">final</span> String format, <span class="keyword">final</span> String sparqlQuery, <span class="keyword">final</span> <span class="keyword">boolean</span> join_option) <span class="keyword">throws</span> InternalErrorException {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;318</td>  <td class="nbHitsCovered"><a title="Line 318: Conditional coverage 100% (2/2).">&nbsp;251</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 318: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (sparqlQuery.equals(<span class="string">""</span>)) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;318</td>  <td class="nbHitsCovered"><a title="Line 318: Conditional coverage 100% (2/2).">&nbsp;253</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 318: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (sparqlQuery.equals(<span class="string">""</span>)) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;319</td>  <td class="nbHitsCovered"><a title="Line 319: Conditional coverage 100% (2/2).">&nbsp;2</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 319: Conditional coverage 100% (2/2).">                        <span class="keyword">if</span> (format.contains(MediaType.TEXT_HTML)) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;320</td>  <td class="nbHitsCovered">&nbsp;1</td>  <td class="src"><pre class="src">&nbsp;                                <span class="keyword">return</span> getHTMLResponse();</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;321</td>  <td class="nbHits">&nbsp;</td>
@@ -583,7 +583,7 @@
   <td class="src"><pre class="src">&nbsp;                        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;324</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                } <span class="keyword">else</span> {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;325</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">return</span> getSparqlResponse(format, sparqlQuery, join_option);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;325</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">return</span> getSparqlResponse(format, sparqlQuery, join_option);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;326</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;327</td>  <td class="nbHits">&nbsp;</td>
@@ -630,7 +630,7 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;350</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">public</span> <span class="keyword">final</span> Response sparql(<span class="keyword">final</span> String format, <span class="keyword">final</span> String sparqlQuery) <span class="keyword">throws</span> InternalErrorException {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;351</td>  <td class="nbHitsCovered">&nbsp;213</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> sparql(format, sparqlQuery, <span class="keyword">false</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;351</td>  <td class="nbHitsCovered">&nbsp;215</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> sparql(format, sparqlQuery, <span class="keyword">false</span>);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;352</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;353</td>  <td class="nbHits">&nbsp;</td>
@@ -758,40 +758,40 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;429</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> Response getSparqlResponse(<span class="keyword">final</span> String format, String sparqlQuery, <span class="keyword">final</span> <span class="keyword">boolean</span> join_option) <span class="keyword">throws</span> InternalErrorException {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;430</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                logger.info(String.format(<span class="string">"SPARQL request (format=%s, join_option=%s) -&gt; %n %s"</span>, format, join_option, sparqlQuery));</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;431</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                String user = <span class="keyword">null</span>;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;432</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                Matcher userMatcher = patternUser.matcher(sparqlQuery);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;433</td>  <td class="nbHitsCovered"><a title="Line 433: Conditional coverage 100% (2/2).">&nbsp;249</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 433: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (userMatcher.find()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;434</td>  <td class="nbHitsCovered">&nbsp;168</td>  <td class="src"><pre class="src">&nbsp;                        user = userMatcher.group(<span class="string">"user"</span>);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;435</td>  <td class="nbHitsCovered">&nbsp;168</td>  <td class="src"><pre class="src">&nbsp;                        sparqlQuery = userMatcher.replaceAll(<span class="string">""</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;430</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                logger.info(String.format(<span class="string">"SPARQL request (format=%s, join_option=%s) -&gt; %n %s"</span>, format, join_option, sparqlQuery));</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;431</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                String user = <span class="keyword">null</span>;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;432</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                Matcher userMatcher = patternUser.matcher(sparqlQuery);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;433</td>  <td class="nbHitsCovered"><a title="Line 433: Conditional coverage 100% (2/2).">&nbsp;251</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 433: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (userMatcher.find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;434</td>  <td class="nbHitsCovered">&nbsp;171</td>  <td class="src"><pre class="src">&nbsp;                        user = userMatcher.group(<span class="string">"user"</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;435</td>  <td class="nbHitsCovered">&nbsp;171</td>  <td class="src"><pre class="src">&nbsp;                        sparqlQuery = userMatcher.replaceAll(<span class="string">""</span>);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;436</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;437</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                String message = <span class="keyword">null</span>;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;438</td>  <td class="nbHitsCovered">&nbsp;249</td>  <td class="src"><pre class="src">&nbsp;                Matcher messageMatcher = patternCommitMessage.matcher(sparqlQuery);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;439</td>  <td class="nbHitsCovered"><a title="Line 439: Conditional coverage 100% (2/2).">&nbsp;249</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 439: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (messageMatcher.find()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;440</td>  <td class="nbHitsCovered">&nbsp;168</td>  <td class="src"><pre class="src">&nbsp;                        message = messageMatcher.group(<span class="string">"message"</span>);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;441</td>  <td class="nbHitsCovered">&nbsp;168</td>  <td class="src"><pre class="src">&nbsp;                        sparqlQuery = messageMatcher.replaceAll(<span class="string">""</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;437</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                String message = <span class="keyword">null</span>;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;438</td>  <td class="nbHitsCovered">&nbsp;251</td>  <td class="src"><pre class="src">&nbsp;                Matcher messageMatcher = patternCommitMessage.matcher(sparqlQuery);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;439</td>  <td class="nbHitsCovered"><a title="Line 439: Conditional coverage 100% (2/2).">&nbsp;251</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 439: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (messageMatcher.find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;440</td>  <td class="nbHitsCovered">&nbsp;171</td>  <td class="src"><pre class="src">&nbsp;                        message = messageMatcher.group(<span class="string">"message"</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;441</td>  <td class="nbHitsCovered">&nbsp;171</td>  <td class="src"><pre class="src">&nbsp;                        sparqlQuery = messageMatcher.replaceAll(<span class="string">""</span>);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;442</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;443</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;444</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                String result;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;445</td>  <td class="nbHitsCovered"><a title="Line 445: Conditional coverage 100% (2/2).">&nbsp;249</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 445: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (patternSelectAskConstructQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;446</td>  <td class="nbHitsCovered">&nbsp;55</td>  <td class="src"><pre class="src">&nbsp;                        result = Interface.sparqlSelectConstructAsk(sparqlQuery, format, join_option);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;445</td>  <td class="nbHitsCovered"><a title="Line 445: Conditional coverage 100% (2/2).">&nbsp;251</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 445: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (patternSelectAskConstructQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;446</td>  <td class="nbHitsCovered">&nbsp;54</td>  <td class="src"><pre class="src">&nbsp;                        result = Interface.sparqlSelectConstructAsk(sparqlQuery, format, join_option);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;447</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;448</td>  <td class="nbHitsCovered"><a title="Line 448: Conditional coverage 100% (2/2).">&nbsp;194</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 448: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternUpdateQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;448</td>  <td class="nbHitsCovered"><a title="Line 448: Conditional coverage 100% (2/2).">&nbsp;197</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 448: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternUpdateQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;449</td>  <td class="nbHitsCovered">&nbsp;119</td>  <td class="src"><pre class="src">&nbsp;                        Interface.sparqlUpdate(sparqlQuery, user, message);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;450</td>  <td class="nbHitsCovered">&nbsp;119</td>  <td class="src"><pre class="src">&nbsp;                        result = <span class="string">"Query executed"</span>;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;451</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;452</td>  <td class="nbHitsCovered"><a title="Line 452: Conditional coverage 100% (2/2).">&nbsp;75</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 452: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternCreateGraph.matcher(sparqlQuery).find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;452</td>  <td class="nbHitsCovered"><a title="Line 452: Conditional coverage 100% (2/2).">&nbsp;78</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 452: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternCreateGraph.matcher(sparqlQuery).find()) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;453</td>  <td class="nbHitsCovered">&nbsp;13</td>  <td class="src"><pre class="src">&nbsp;                        String graphName = Interface.sparqlCreateGraph(sparqlQuery);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;454</td>  <td class="nbHitsCovered">&nbsp;13</td>  <td class="src"><pre class="src">&nbsp;                        result = <span class="string">"Graph &lt;"</span>+graphName+<span class="string">"&gt; successfully created"</span>;</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;455</td>  <td class="nbHitsCovered">&nbsp;13</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;456</td>  <td class="nbHitsCovered"><a title="Line 456: Conditional coverage 100% (2/2).">&nbsp;62</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 456: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternMergeQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;457</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">return</span> getMergeResponse(sparqlQuery, user, message, format);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;456</td>  <td class="nbHitsCovered"><a title="Line 456: Conditional coverage 100% (2/2).">&nbsp;65</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 456: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternMergeQuery.matcher(sparqlQuery).find()) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;457</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                        <span class="keyword">return</span> getMergeResponse(sparqlQuery, user, message, format);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;458</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;459</td>  <td class="nbHitsCovered"><a title="Line 459: Conditional coverage 100% (2/2).">&nbsp;51</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 459: Conditional coverage 100% (2/2).">                <span class="keyword">else</span> <span class="keyword">if</span> (patternDropGraph.matcher(sparqlQuery).find()) {</a></pre></td></tr>
@@ -809,17 +809,17 @@
 <tr>  <td class="numLineCover">&nbsp;468</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                        <span class="keyword">throw</span> <span class="keyword">new</span> QueryErrorException(<span class="string">"No R43ples query detected"</span>);</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;469</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;470</td>  <td class="nbHitsCovered">&nbsp;238</td>  <td class="src"><pre class="src">&nbsp;                ResponseBuilder responseBuilder = Response.ok();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;471</td>  <td class="nbHitsCovered"><a title="Line 471: Conditional coverage 100% (2/2).">&nbsp;238</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 471: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (format.equals(<span class="string">"text/html"</span>)){</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;470</td>  <td class="nbHitsCovered">&nbsp;237</td>  <td class="src"><pre class="src">&nbsp;                ResponseBuilder responseBuilder = Response.ok();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;471</td>  <td class="nbHitsCovered"><a title="Line 471: Conditional coverage 100% (2/2).">&nbsp;237</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 471: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (format.equals(<span class="string">"text/html"</span>)){</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;472</td>  <td class="nbHitsCovered">&nbsp;178</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.entity(getHTMLResult(result, sparqlQuery));</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;473</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                } <span class="keyword">else</span> {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;474</td>  <td class="nbHitsCovered">&nbsp;60</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.entity(result);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;474</td>  <td class="nbHitsCovered">&nbsp;59</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.entity(result);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;475</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;476</td>  <td class="nbHitsCovered">&nbsp;238</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.type(format);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;477</td>  <td class="nbHitsCovered">&nbsp;238</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(<span class="string">"r43ples-revisiongraph"</span>, RevisionManagement.getResponseHeaderFromQuery(sparqlQuery));                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;478</td>  <td class="nbHitsCovered">&nbsp;238</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> responseBuilder.build();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;476</td>  <td class="nbHitsCovered">&nbsp;237</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.type(format);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;477</td>  <td class="nbHitsCovered">&nbsp;237</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(<span class="string">"r43ples-revisiongraph"</span>, RevisionManagement.getResponseHeaderFromQuery(sparqlQuery));                </pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;478</td>  <td class="nbHitsCovered">&nbsp;237</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> responseBuilder.build();</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;479</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;480</td>  <td class="nbHits">&nbsp;</td>
@@ -935,14 +935,14 @@
   <td class="src"><pre class="src">&nbsp;<span class="comment">         */</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;543</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> Response getMergeResponse(<span class="keyword">final</span> String sparqlQuery, <span class="keyword">final</span> String user, <span class="keyword">final</span> String commitMessage, <span class="keyword">final</span> String format) <span class="keyword">throws</span> InternalErrorException {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;544</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                ResponseBuilder responseBuilder = Response.created(URI.create(<span class="string">""</span>));</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;545</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                logger.info(<span class="string">"Merge creation detected"</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;544</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                ResponseBuilder responseBuilder = Response.created(URI.create(<span class="string">""</span>));</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;545</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                logger.info(<span class="string">"Merge creation detected"</span>);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;546</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;547</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                MergeResult mresult = Interface.sparqlMerge(sparqlQuery, user, commitMessage, format);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;547</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                MergeResult mresult = Interface.sparqlMerge(sparqlQuery, user, commitMessage, format);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;548</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;549</td>  <td class="nbHitsCovered"><a title="Line 549: Conditional coverage 100% (2/2).">&nbsp;11</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 549: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (mresult.hasConflict) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;549</td>  <td class="nbHitsCovered"><a title="Line 549: Conditional coverage 100% (2/2).">&nbsp;14</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 549: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (mresult.hasConflict) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;550</td>  <td class="nbHitsCovered">&nbsp;2</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder = Response.status(Response.Status.CONFLICT);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;551</td>  <td class="nbHitsCovered">&nbsp;2</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.entity(mresult.conflictModel);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;552</td>  <td class="nbHits">&nbsp;</td>
@@ -951,30 +951,30 @@
   <td class="src"><pre class="src">&nbsp;                String graphNameHeader;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;554</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                <span class="keyword">try</span> {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;555</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                        graphNameHeader = URLEncoder.encode(mresult.graph, <span class="string">"UTF-8"</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;555</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                        graphNameHeader = URLEncoder.encode(mresult.graph, <span class="string">"UTF-8"</span>);</pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;556</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                } <span class="keyword">catch</span> (UnsupportedEncodingException e) {</span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;557</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                        e.printStackTrace();</span></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;558</td>  <td class="nbHitsUncovered">&nbsp;0</td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;                        graphNameHeader = mresult.graph;</span></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;559</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;559</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;560</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;561</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                <span class="comment">// Return the revision number which were used (convert tag or branch identifier to revision number)</span></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;562</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-branch-A"</span>, RevisionManagement.getRevisionNumber(mresult.graph, mresult.branchA));</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;563</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-branch-B"</span>, RevisionManagement.getRevisionNumber(mresult.graph, mresult.branchB));                        </pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;562</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-branch-A"</span>, RevisionManagement.getRevisionNumber(mresult.graph, mresult.branchA));</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;563</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-branch-B"</span>, RevisionManagement.getRevisionNumber(mresult.graph, mresult.branchB));                        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;564</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                </pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;565</td>  <td class="nbHitsCovered"><a title="Line 565: Conditional coverage 100% (2/2).">&nbsp;11</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 565: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (mresult.newRevisionNumber != <span class="keyword">null</span>) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;565</td>  <td class="nbHitsCovered"><a title="Line 565: Conditional coverage 100% (2/2).">&nbsp;14</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 565: Conditional coverage 100% (2/2).">                <span class="keyword">if</span> (mresult.newRevisionNumber != <span class="keyword">null</span>) {</a></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;566</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        <span class="comment">// Respond with next revision number</span></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;567</td>  <td class="nbHitsCovered">&nbsp;9</td>  <td class="src"><pre class="src">&nbsp;                    responseBuilder.header(graphNameHeader + <span class="string">"-revision-number"</span>, mresult.newRevisionNumber);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;568</td>  <td class="nbHitsCovered">&nbsp;9</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-MASTER"</span>, RevisionManagement.getMasterRevisionNumber(mresult.graph));</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;569</td>  <td class="nbHitsCovered">&nbsp;9</td>  <td class="src"><pre class="src">&nbsp;                        logger.debug(<span class="string">"Respond with new revision number "</span> + mresult.newRevisionNumber + <span class="string">"."</span>);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;567</td>  <td class="nbHitsCovered">&nbsp;12</td>  <td class="src"><pre class="src">&nbsp;                    responseBuilder.header(graphNameHeader + <span class="string">"-revision-number"</span>, mresult.newRevisionNumber);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;568</td>  <td class="nbHitsCovered">&nbsp;12</td>  <td class="src"><pre class="src">&nbsp;                        responseBuilder.header(graphNameHeader + <span class="string">"-revision-number-of-MASTER"</span>, RevisionManagement.getMasterRevisionNumber(mresult.graph));</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;569</td>  <td class="nbHitsCovered">&nbsp;12</td>  <td class="src"><pre class="src">&nbsp;                        logger.debug(<span class="string">"Respond with new revision number "</span> + mresult.newRevisionNumber + <span class="string">"."</span>);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;570</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;571</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;572</td>  <td class="nbHitsCovered">&nbsp;11</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> responseBuilder.build();        </pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;572</td>  <td class="nbHitsCovered">&nbsp;14</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> responseBuilder.build();        </pre></td></tr>
 <tr>  <td class="numLine">&nbsp;573</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;574</td>  <td class="nbHits">&nbsp;</td>
@@ -985,6 +985,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 1/28/16 9:38 PM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 1/29/16 1:56 PM.</div>
 </body>
 </html>
