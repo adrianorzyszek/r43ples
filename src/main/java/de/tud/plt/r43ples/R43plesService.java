@@ -42,6 +42,7 @@ import de.tud.plt.r43ples.webservice.Misc;
  */
 public class R43plesService {
 
+	//erstellt logger für console mit namen der Klasse der Inputvariablen
 	/** The logger */
 	private static Logger logger = Logger.getLogger(R43plesService.class);
 	/** The HTTP server. **/
@@ -72,7 +73,8 @@ public class R43plesService {
 			System.exit(0);
 		}
 		
-		if (jci.help) {
+		//wenn in jci(Startargumente für R43ples) der boolean help true ist, wird die Hilfe von Jcommander ausgegeben und Programm komplett beendet 
+		if (jci.help) {				
 			jc.usage();
 			System.exit(0);
 		}
@@ -82,8 +84,8 @@ public class R43plesService {
 			public void run() { R43plesService.stop(); }
 		});
 		try {
-			Config.readConfig(jci.config);
-			start();
+			Config.readConfig(jci.config);     //einlesen der config datei
+			start();							//starten des servers
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.exit(1);

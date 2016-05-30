@@ -28,7 +28,7 @@ import de.tud.plt.r43ples.webservice.Endpoint;
  */
 public class TestMultipleGraph {
 
-	private static DataSetGenerationResult ds1;
+	private static DataSetGenerationResult ds1;   // Klasse DataSetGenerationResult hält string graphname und HashMap revisions
 	private static DataSetGenerationResult ds2;
 
 	private final Endpoint ep = new Endpoint();

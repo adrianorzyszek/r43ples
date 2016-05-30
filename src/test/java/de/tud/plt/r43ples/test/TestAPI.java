@@ -21,6 +21,10 @@ import de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton;
 import de.tud.plt.r43ples.webservice.API;
 
 
+
+
+//Wo wird Interface zu triplestore gestartet/angesprochen?
+
 public class TestAPI extends JerseyTest {
 	
 	private static DataSetGenerationResult ds1;
@@ -33,8 +37,8 @@ public class TestAPI extends JerseyTest {
 	@BeforeClass
 	public static void setUpBeforeClass() throws ConfigurationException, InternalErrorException {
 		XMLUnit.setIgnoreWhitespace(true);
-		Config.readConfig("r43ples.test.conf");
-		ds1 = SampleDataSet.createSampleDataset1();
+		Config.readConfig("r43ples.test.conf");		//Einlesen der Test-config mit Hilfe der Klasse Config
+		ds1 = SampleDataSet.createSampleDataset1();		//Erstellen des Testdatensatzes 1 mit Hilfe der Klasse SampleDataSet
 	}
 	
 	@AfterClass

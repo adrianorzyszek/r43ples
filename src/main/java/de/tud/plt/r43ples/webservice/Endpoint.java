@@ -62,8 +62,9 @@ import de.tud.plt.r43ples.triplestoreInterface.TripleStoreInterfaceSingleton;
 @Path("sparql")
 public class Endpoint {
 
-	private final static int patternModifier = Pattern.DOTALL + Pattern.MULTILINE + Pattern.CASE_INSENSITIVE;
+	private final static int patternModifier = Pattern.DOTALL + Pattern.MULTILINE + Pattern.CASE_INSENSITIVE;  //Legt Patterneigschaften fest, die für Pattern.compile als flags dienen
 	
+	//Konstruktor für verschiedene SPARQL-Abfragen, diese werden hier formal angelegt
 	private final static Pattern patternSelectAskConstructQuery = Pattern.compile(
 			"(?<type>SELECT|ASK|CONSTRUCT).*WHERE\\s*\\{(?<where>.*)\\}", 
 			patternModifier);
@@ -99,7 +100,7 @@ public class Endpoint {
 
 	
 	@Context
-	private UriInfo uriInfo;
+	private UriInfo uriInfo;		//??? @Context? ->
 	
 	
 
@@ -136,7 +137,7 @@ public class Endpoint {
 			@FormParam("format") final String formatQuery, 
 			@FormParam("query") @DefaultValue("") final String sparqlQuery,
 			@FormParam("query_rewriting") @DefaultValue("") final String query_rewriting) throws InternalErrorException {
-		String format = (formatQuery != null) ? formatQuery : formatHeader;
+		String format = (formatQuery != null) ? formatQuery : formatHeader;			//Beidngungsoperator
 		logger.debug("SPARQL POST query (format: "+format+", query: "+sparqlQuery +")");
 		return sparql(format, sparqlQuery, query_rewriting);
 	}
@@ -319,6 +320,8 @@ public class Endpoint {
 	}
 
 	
+	
+	//Methode zum Ansprechen des Interfaces des TripleStore
 	/**
 	 * @param format
 	 * 			requested mime type 
